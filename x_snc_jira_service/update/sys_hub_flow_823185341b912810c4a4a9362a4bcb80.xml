@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>jira_sm_test</internal_name>
+        <label_cache>[{"name":"5a967dc6-53f5-4d6e-bddb-4db5cd8ad57e.organization_id","label":"1➛Organization ID","reference_display":"Organization ID","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"dd7ed9a4-dad1-4625-b00a-51529f179c44"}},{"name":"5a967dc6-53f5-4d6e-bddb-4db5cd8ad57e.name","label":"1➛Name","reference_display":"Name","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"31a5974e-8656-49e1-aa65-c597c08e7eab"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Jira SM Test</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2020-12-22 19:19:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>823185341b912810c4a4a9362a4bcb80</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Jira SM Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name>sys_hub_flow_823185341b912810c4a4a9362a4bcb80</sys_update_name>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2020-12-22 19:21:00</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=823185341b912810c4a4a9362a4bcb80"/>
+    <sys_variable_value action="delete_multiple" query="document_key=823185341b912810c4a4a9362a4bcb80"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=823185341b912810c4a4a9362a4bcb80^sys_idNOT INf9818d341b912810c4a4a9362a4bcbe6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Organization">21510d341b912810c4a4a9362a4bcb38</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Jira SM Test">823185341b912810c4a4a9362a4bcb80</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2020-12-22 19:20:59</sys_created_on>
+        <sys_id>f9818d341b912810c4a4a9362a4bcbe6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2020-12-22 19:21:00</sys_updated_on>
+        <ui_id>5a967dc6-53f5-4d6e-bddb-4db5cd8ad57e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f9818d341b912810c4a4a9362a4bcbe6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f9818d341b912810c4a4a9362a4bcbe6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2020-12-22 19:21:00</sys_created_on>
+        <sys_id>31818d341b912810c4a4a9362a4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2020-12-22 19:21:00</sys_updated_on>
+        <value>Test Org 4</value>
+        <variable display_value="">e9510d341b912810c4a4a9362a4bcb3f</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=823185341b912810c4a4a9362a4bcb80^sys_idNOT INf5818d341b912810c4a4a9362a4bcbe2"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Jira SM Test">823185341b912810c4a4a9362a4bcb80</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2020-12-22 19:20:59</sys_created_on>
+        <sys_id>f5818d341b912810c4a4a9362a4bcbe2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2020-12-22 19:20:59</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f5818d341b912810c4a4a9362a4bcbe2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f5818d341b912810c4a4a9362a4bcbe2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2020-12-22 19:20:59</sys_created_on>
+        <sys_id>b5818d341b912810c4a4a9362a4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2020-12-22 19:20:59</sys_updated_on>
+        <value>1970-01-01 01:00:00</value>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=823185341b912810c4a4a9362a4bcb80^sys_idNOT INca3185341b912810c4a4a9362a4bcb82"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>823185341b912810c4a4a9362a4bcb80</id>
+        <name>Jira SM Test</name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2020-12-22 19:19:39</sys_created_on>
+        <sys_id>ca3185341b912810c4a4a9362a4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2020-12-22 19:19:39</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=823185341b912810c4a4a9362a4bcb80^sys_idNOT INf9818d341b912810c4a4a9362a4bcbe6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Organization">21510d341b912810c4a4a9362a4bcb38</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Jira SM Test">823185341b912810c4a4a9362a4bcb80</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2020-12-22 19:20:59</sys_created_on>
+        <sys_id>f9818d341b912810c4a4a9362a4bcbe6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2020-12-22 19:21:00</sys_updated_on>
+        <ui_id>5a967dc6-53f5-4d6e-bddb-4db5cd8ad57e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f9818d341b912810c4a4a9362a4bcbe6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f9818d341b912810c4a4a9362a4bcbe6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2020-12-22 19:21:00</sys_created_on>
+        <sys_id>31818d341b912810c4a4a9362a4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2020-12-22 19:21:00</sys_updated_on>
+        <value>Test Org 4</value>
+        <variable display_value="">e9510d341b912810c4a4a9362a4bcb3f</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1de4cf47705da010085d33d6eb8f702a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>dc9a0a5c1bd1e410c4a4a9362a4bcb64</scope_name>
+        <serialized_content>{"FlowDesigner:FD1de4cf47705da010085d33d6eb8f702a":{"$COCollectionField":[{"Organizations_child0":{"_links":{"self":"String","self.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Self\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"b832a17c-e8a4-4c19-91b4-8a807917f1fc\"}"}},"_links.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Links\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"294032c6-3bb8-4645-84bf-a110e0adff21\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"656ea0fd-06d2-4a25-9d4e-671e7da85aa8\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"53e42f07-ff1d-4ba5-96dd-f0f54ea5dea6\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"65cfcfb2-5b80-4806-8330-d4a96515b97e\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Organizations\",\"mandatory\":\"false\",\"child_name\":\"Organizations_child0\",\"uiUniqueId\":\"8078a7f4-4743-4ef0-9271-fb157dccbf56\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD1de4cf47705da010085d33d6eb8f702a\",\"child_label\":\"Organizations_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"c3a31e7f-187b-430f-9028-7eb38c207f90\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"4000\",\"child_uiUniqueId\":\"e481bdc1-6ff8-4ed5-a8c9-26bc6b7f9ccf\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD1de4cf47705da010085d33d6eb8f702a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"65cfcfb2-5b80-4806-8330-d4a96515b97e\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Organizations\",\"mandatory\":\"false\",\"child_name\":\"Organizations_child0\",\"uiUniqueId\":\"8078a7f4-4743-4ef0-9271-fb157dccbf56\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD1de4cf47705da010085d33d6eb8f702a\",\"child_label\":\"Organizations_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"c3a31e7f-187b-430f-9028-7eb38c207f90\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"4000\",\"child_uiUniqueId\":\"e481bdc1-6ff8-4ed5-a8c9-26bc6b7f9ccf\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2020-12-30 04:41:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dde4cf471b5da010c4a4a9362a4bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD1de4cf47705da010085d33d6eb8f702a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name>sys_complex_object_dde4cf471b5da010c4a4a9362a4bcb2a</sys_update_name>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2020-12-30 04:41:17</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
