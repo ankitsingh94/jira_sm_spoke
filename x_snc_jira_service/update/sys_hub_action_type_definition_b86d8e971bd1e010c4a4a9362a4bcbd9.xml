@@ -10,31 +10,31 @@
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>add_users_to_organization</internal_name>
-        <label_cache>[{"name":"{{action.organizationid}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action.organization_id}}","label":"action➛Organization ID","type":"action","ref":""},{"name":"{{action.account_id}}","label":"action➛Account ID","type":"action","ref":""},{"name":"{{action.Account_IDs}}","label":"action➛Account IDs","type":"action","ref":""},{"name":"{{action.Account_ID}}","label":"action➛Account ID","type":"action","ref":""},{"name":"{{action.account_id.Account}}","label":"action➛Account ID➛Account","type":"action","ref":""},{"name":"{{action.account_id.account}}","label":"action➛Account ID➛Account","type":"action","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].organization_id}}","label":"step➛Script step➛Organization ID","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].account_ids}}","label":"step➛Script step➛Account IDs","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].status}}","label":"step➛Script step➛Status","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].error}}","label":"step➛Script step➛Error","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].account_ids.Account}}","label":"step➛Script step➛Account IDs➛Account","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].payload}}","label":"step➛Script step➛Payload","type":"step","ref":""}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
-        <name>Add Users to Organization </name>
+        <label_cache>[{"name":"{{action.organizationid}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action.organization_id}}","label":"action➛Organization ID","type":"action","ref":""},{"name":"{{action.account_id}}","label":"action➛User Accounts","type":"action","ref":""},{"name":"{{action.Account_IDs}}","label":"action➛Account IDs","type":"action","ref":""},{"name":"{{action.Account_ID}}","label":"action➛Account ID","type":"action","ref":""},{"name":"{{action.account_id.Account}}","label":"action➛User Accounts➛Account","type":"action","ref":""},{"name":"{{action.account_id.account}}","label":"action➛User Accounts➛Account","type":"action","ref":""},{"name":"{{action.account_id.User_Account}}","label":"action➛User Accounts➛User Account","type":"action","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].organization_id}}","label":"step➛Pre Processing➛Organization ID","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].account_ids}}","label":"step➛Pre Processing➛Account IDs","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].status_code}}","label":"step➛Add Users to Organization ➛Status Code","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].error_message}}","label":"step➛Add Users to Organization ➛Error Message","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].response_body}}","label":"step➛Add Users to Organization ➛Response Body","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].variable}}","label":"step➛Handle Errors➛variable","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].status}}","label":"step➛Handle Errors➛Status","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].error}}","label":"step➛Handle Errors➛Error","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].account_ids.Account}}","label":"step➛Pre Processing➛Account IDs➛Account","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>a3a9c6a11b6de410c4a4a9362a4bcb04</latest_snapshot>
+        <master_snapshot>367c99dd1ba1e410c4a4a9362a4bcb41</master_snapshot>
+        <name>Add Users to Organization</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:17:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b86d8e971bd1e010c4a4a9362a4bcbd9</sys_id>
-        <sys_mod_count>22</sys_mod_count>
-        <sys_name>Add Users to Organization </sys_name>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Add Users to Organization</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b86d8e971bd1e010c4a4a9362a4bcbd9</sys_update_name>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 20:00:35</sys_updated_on>
+        <sys_updated_on>2021-01-06 18:47:26</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -81,14 +81,14 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=b86d8e971bd1e010c4a4a9362a4bcbd9^sys_idNOT IN0d2e46d71bd1e010c4a4a9362a4bcb38,0d2e46d71bd1e010c4a4a9362a4bcb40,d92e46d71bd1e010c4a4a9362a4bcb50"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Users to Organization ">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
+        <action display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
         <cid>f62e5d32-6441-4d62-9b3a-afcdb485f139</cid>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
+        <label>Pre Processing</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -96,10 +96,10 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:20:32</sys_created_on>
         <sys_id>0d2e46d71bd1e010c4a4a9362a4bcb38</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 20:00:34</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:09:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0d2e46d71bd1e010c4a4a9362a4bcb38"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -124,16 +124,15 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:20:32</sys_created_on>
         <sys_id>c52e46d71bd1e010c4a4a9362a4bcb3f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 20:00:34</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:09:45</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-outputs.organization_id = inputs.organization_id.trim();
-  var payload= {};
-  payload["accountIds"]= inputs.account_ids.trim();
-outputs.payload = JSON.stringify(payload);
-})(inputs, outputs);
-</value>
+    outputs.organization_id = inputs.organization_id.trim();
+    var payload = {};
+    payload["accountIds"] = inputs.account_ids;
+    outputs.payload = JSON.stringify(payload);
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0d2e46d71bd1e010c4a4a9362a4bcb38"/>
@@ -225,7 +224,7 @@ outputs.payload = JSON.stringify(payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
+        <model display_value="Pre Processing">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
         <model_id>0d2e46d71bd1e010c4a4a9362a4bcb38</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_0d2e46d71bd1e010c4a4a9362a4bcb38</name>
@@ -306,7 +305,7 @@ outputs.payload = JSON.stringify(payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
+        <model display_value="Pre Processing">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
         <model_id>0d2e46d71bd1e010c4a4a9362a4bcb38</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_0d2e46d71bd1e010c4a4a9362a4bcb38</name>
@@ -388,7 +387,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Organization ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
+        <model display_value="Pre Processing">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
         <model_id>0d2e46d71bd1e010c4a4a9362a4bcb38</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_0d2e46d71bd1e010c4a4a9362a4bcb38</name>
@@ -469,7 +468,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Payload</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
+        <model display_value="Pre Processing">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
         <model_id>0d2e46d71bd1e010c4a4a9362a4bcb38</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_0d2e46d71bd1e010c4a4a9362a4bcb38</name>
@@ -512,14 +511,14 @@ outputs.payload = JSON.stringify(payload);
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Users to Organization ">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
+        <action display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
         <cid>6469514e-3542-4fcd-b698-46d16bfeda89</cid>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <inputs/>
-        <label>REST step</label>
+        <label>Add Users to Organization </label>
         <order>2</order>
         <outputs/>
         <section/>
@@ -527,10 +526,10 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:20:32</sys_created_on>
         <sys_id>0d2e46d71bd1e010c4a4a9362a4bcb40</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 09:09:44</sys_updated_on>
+        <sys_updated_on>2021-01-05 20:56:34</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0d2e46d71bd1e010c4a4a9362a4bcb40"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -834,7 +833,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">0d2e46d71bd1e010c4a4a9362a4bcb40</model>
+        <model display_value="Add Users to Organization ">0d2e46d71bd1e010c4a4a9362a4bcb40</model>
         <model_id>0d2e46d71bd1e010c4a4a9362a4bcb40</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_0d2e46d71bd1e010c4a4a9362a4bcb40</name>
@@ -877,14 +876,14 @@ outputs.payload = JSON.stringify(payload);
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Users to Organization ">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
+        <action display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
         <cid>ea19562f-b383-458e-9d42-a812b7aa0a8a</cid>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
+        <label>Handle Errors</label>
         <order>3</order>
         <outputs/>
         <section/>
@@ -892,10 +891,10 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:20:32</sys_created_on>
         <sys_id>d92e46d71bd1e010c4a4a9362a4bcb50</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-30 19:41:58</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:09:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d92e46d71bd1e010c4a4a9362a4bcb50"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -906,26 +905,22 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:20:32</sys_created_on>
         <sys_id>152e46d71bd1e010c4a4a9362a4bcb56</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-30 19:41:58</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:09:45</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-//  gs.info(" response : "+ inputs.response.toString());
- 
-  
-  if(inputs.status == '204'){
-   outputs.status = "Success";
-	
-  }else
-  {
-   // var payload = JSON.parse(inputs.response);
-   // outputs.error = payload.errorMessage;
-   outputs.status = "Error";
-    
-  }
+    if (inputs.status == '204') {
+        outputs.status = "Success";
 
-})(inputs, outputs);
-</value>
+    } else {
+        try {
+            var payload = JSON.parse(inputs.response);
+            outputs.error = payload.errorMessage;
+        } catch (error) {
+        }
+        outputs.status = "Error";
+    }
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1043,7 +1038,7 @@ outputs.payload = JSON.stringify(payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">d92e46d71bd1e010c4a4a9362a4bcb50</model>
+        <model display_value="Handle Errors">d92e46d71bd1e010c4a4a9362a4bcb50</model>
         <model_id>d92e46d71bd1e010c4a4a9362a4bcb50</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_d92e46d71bd1e010c4a4a9362a4bcb50</name>
@@ -1124,7 +1119,7 @@ outputs.payload = JSON.stringify(payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">d92e46d71bd1e010c4a4a9362a4bcb50</model>
+        <model display_value="Handle Errors">d92e46d71bd1e010c4a4a9362a4bcb50</model>
         <model_id>d92e46d71bd1e010c4a4a9362a4bcb50</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_d92e46d71bd1e010c4a4a9362a4bcb50</name>
@@ -1205,7 +1200,7 @@ outputs.payload = JSON.stringify(payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">d92e46d71bd1e010c4a4a9362a4bcb50</model>
+        <model display_value="Handle Errors">d92e46d71bd1e010c4a4a9362a4bcb50</model>
         <model_id>d92e46d71bd1e010c4a4a9362a4bcb50</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_d92e46d71bd1e010c4a4a9362a4bcb50</name>
@@ -1287,7 +1282,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Script step">d92e46d71bd1e010c4a4a9362a4bcb50</model>
+        <model display_value="Handle Errors">d92e46d71bd1e010c4a4a9362a4bcb50</model>
         <model_id>d92e46d71bd1e010c4a4a9362a4bcb50</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_d92e46d71bd1e010c4a4a9362a4bcb50</name>
@@ -1368,7 +1363,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">d92e46d71bd1e010c4a4a9362a4bcb50</model>
+        <model display_value="Handle Errors">d92e46d71bd1e010c4a4a9362a4bcb50</model>
         <model_id>d92e46d71bd1e010c4a4a9362a4bcb50</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_d92e46d71bd1e010c4a4a9362a4bcb50</name>
@@ -1415,7 +1410,7 @@ outputs.payload = JSON.stringify(payload);
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Account,child_name=account,child_type=string,child_type_label=String,child_uiUniqueId=028dd8af-0623-4440-ae1a-9a963452a6b6,co_type_name=FD3e8ec6d7d6d1e010a565d33ed78e2ebb,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=8335f922-29ff-49e4-8163-5df056a21f4a</attributes>
+        <attributes>child_label=User Account,child_name=User_Account,child_type=string,child_type_label=String,child_uiUniqueId=e5b65797-2e12-46f9-81d7-c85181c836e7,co_type_name=FD3e8ec6d7d6d1e010a565d33ed78e2ebb,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=8335f922-29ff-49e4-8163-5df056a21f4a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1447,10 +1442,10 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Account ID</label>
-        <mandatory>false</mandatory>
+        <label>User Accounts</label>
+        <mandatory>true</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Add Users to Organization ">b86d8e971bd1e010c4a4a9362a4bcbd9</model>
+        <model display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</model>
         <model_id>b86d8e971bd1e010c4a4a9362a4bcbd9</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_b86d8e971bd1e010c4a4a9362a4bcbd9</name>
@@ -1473,14 +1468,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:22:17</sys_created_on>
         <sys_id>3a8e0ad71bd1e010c4a4a9362a4bcba4</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 20:00:34</sys_updated_on>
+        <sys_updated_on>2021-01-06 18:47:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1529,9 +1524,9 @@ outputs.payload = JSON.stringify(payload);
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Organization ID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Add Users to Organization ">b86d8e971bd1e010c4a4a9362a4bcbd9</model>
+        <model display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</model>
         <model_id>b86d8e971bd1e010c4a4a9362a4bcbd9</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_b86d8e971bd1e010c4a4a9362a4bcbd9</name>
@@ -1554,14 +1549,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:22:17</sys_created_on>
         <sys_id>fe8e0ad71bd1e010c4a4a9362a4bcb9d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-30 19:22:17</sys_updated_on>
+        <sys_updated_on>2021-01-05 20:56:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1615,7 +1610,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Error</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Add Users to Organization ">b86d8e971bd1e010c4a4a9362a4bcbd9</model>
+        <model display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</model>
         <model_id>b86d8e971bd1e010c4a4a9362a4bcbd9</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_b86d8e971bd1e010c4a4a9362a4bcbd9</name>
@@ -1698,7 +1693,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Add Users to Organization ">b86d8e971bd1e010c4a4a9362a4bcbd9</model>
+        <model display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</model>
         <model_id>b86d8e971bd1e010c4a4a9362a4bcbd9</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_b86d8e971bd1e010c4a4a9362a4bcbd9</name>
@@ -1742,14 +1737,14 @@ outputs.payload = JSON.stringify(payload);
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=b86d8e971bd1e010c4a4a9362a4bcbd9^sys_idNOT IN0d2e46d71bd1e010c4a4a9362a4bcb38,0d2e46d71bd1e010c4a4a9362a4bcb40,d92e46d71bd1e010c4a4a9362a4bcb50"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Users to Organization ">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
+        <action display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
         <cid>f62e5d32-6441-4d62-9b3a-afcdb485f139</cid>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
+        <label>Pre Processing</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -1757,10 +1752,10 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:20:32</sys_created_on>
         <sys_id>0d2e46d71bd1e010c4a4a9362a4bcb38</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 20:00:34</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:09:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0d2e46d71bd1e010c4a4a9362a4bcb38"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1785,16 +1780,15 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:20:32</sys_created_on>
         <sys_id>c52e46d71bd1e010c4a4a9362a4bcb3f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 20:00:34</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:09:45</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-outputs.organization_id = inputs.organization_id.trim();
-  var payload= {};
-  payload["accountIds"]= inputs.account_ids.trim();
-outputs.payload = JSON.stringify(payload);
-})(inputs, outputs);
-</value>
+    outputs.organization_id = inputs.organization_id.trim();
+    var payload = {};
+    payload["accountIds"] = inputs.account_ids;
+    outputs.payload = JSON.stringify(payload);
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0d2e46d71bd1e010c4a4a9362a4bcb38"/>
@@ -1886,7 +1880,7 @@ outputs.payload = JSON.stringify(payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
+        <model display_value="Pre Processing">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
         <model_id>0d2e46d71bd1e010c4a4a9362a4bcb38</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_0d2e46d71bd1e010c4a4a9362a4bcb38</name>
@@ -1967,7 +1961,7 @@ outputs.payload = JSON.stringify(payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
+        <model display_value="Pre Processing">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
         <model_id>0d2e46d71bd1e010c4a4a9362a4bcb38</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_0d2e46d71bd1e010c4a4a9362a4bcb38</name>
@@ -2049,7 +2043,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Organization ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
+        <model display_value="Pre Processing">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
         <model_id>0d2e46d71bd1e010c4a4a9362a4bcb38</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_0d2e46d71bd1e010c4a4a9362a4bcb38</name>
@@ -2130,7 +2124,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Payload</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
+        <model display_value="Pre Processing">0d2e46d71bd1e010c4a4a9362a4bcb38</model>
         <model_id>0d2e46d71bd1e010c4a4a9362a4bcb38</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_0d2e46d71bd1e010c4a4a9362a4bcb38</name>
@@ -2173,14 +2167,14 @@ outputs.payload = JSON.stringify(payload);
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Users to Organization ">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
+        <action display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
         <cid>6469514e-3542-4fcd-b698-46d16bfeda89</cid>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <inputs/>
-        <label>REST step</label>
+        <label>Add Users to Organization </label>
         <order>2</order>
         <outputs/>
         <section/>
@@ -2188,10 +2182,10 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:20:32</sys_created_on>
         <sys_id>0d2e46d71bd1e010c4a4a9362a4bcb40</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 09:09:44</sys_updated_on>
+        <sys_updated_on>2021-01-05 20:56:34</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0d2e46d71bd1e010c4a4a9362a4bcb40"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2495,7 +2489,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">0d2e46d71bd1e010c4a4a9362a4bcb40</model>
+        <model display_value="Add Users to Organization ">0d2e46d71bd1e010c4a4a9362a4bcb40</model>
         <model_id>0d2e46d71bd1e010c4a4a9362a4bcb40</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_0d2e46d71bd1e010c4a4a9362a4bcb40</name>
@@ -2538,14 +2532,14 @@ outputs.payload = JSON.stringify(payload);
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Users to Organization ">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
+        <action display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</action>
         <cid>ea19562f-b383-458e-9d42-a812b7aa0a8a</cid>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
+        <label>Handle Errors</label>
         <order>3</order>
         <outputs/>
         <section/>
@@ -2553,10 +2547,10 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:20:32</sys_created_on>
         <sys_id>d92e46d71bd1e010c4a4a9362a4bcb50</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-30 19:41:58</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:09:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d92e46d71bd1e010c4a4a9362a4bcb50"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2567,26 +2561,22 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:20:32</sys_created_on>
         <sys_id>152e46d71bd1e010c4a4a9362a4bcb56</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-30 19:41:58</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:09:45</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-//  gs.info(" response : "+ inputs.response.toString());
- 
-  
-  if(inputs.status == '204'){
-   outputs.status = "Success";
-	
-  }else
-  {
-   // var payload = JSON.parse(inputs.response);
-   // outputs.error = payload.errorMessage;
-   outputs.status = "Error";
-    
-  }
+    if (inputs.status == '204') {
+        outputs.status = "Success";
 
-})(inputs, outputs);
-</value>
+    } else {
+        try {
+            var payload = JSON.parse(inputs.response);
+            outputs.error = payload.errorMessage;
+        } catch (error) {
+        }
+        outputs.status = "Error";
+    }
+})(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2704,7 +2694,7 @@ outputs.payload = JSON.stringify(payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">d92e46d71bd1e010c4a4a9362a4bcb50</model>
+        <model display_value="Handle Errors">d92e46d71bd1e010c4a4a9362a4bcb50</model>
         <model_id>d92e46d71bd1e010c4a4a9362a4bcb50</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_d92e46d71bd1e010c4a4a9362a4bcb50</name>
@@ -2785,7 +2775,7 @@ outputs.payload = JSON.stringify(payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">d92e46d71bd1e010c4a4a9362a4bcb50</model>
+        <model display_value="Handle Errors">d92e46d71bd1e010c4a4a9362a4bcb50</model>
         <model_id>d92e46d71bd1e010c4a4a9362a4bcb50</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_d92e46d71bd1e010c4a4a9362a4bcb50</name>
@@ -2866,7 +2856,7 @@ outputs.payload = JSON.stringify(payload);
         <label/>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">d92e46d71bd1e010c4a4a9362a4bcb50</model>
+        <model display_value="Handle Errors">d92e46d71bd1e010c4a4a9362a4bcb50</model>
         <model_id>d92e46d71bd1e010c4a4a9362a4bcb50</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_d92e46d71bd1e010c4a4a9362a4bcb50</name>
@@ -2948,7 +2938,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Script step">d92e46d71bd1e010c4a4a9362a4bcb50</model>
+        <model display_value="Handle Errors">d92e46d71bd1e010c4a4a9362a4bcb50</model>
         <model_id>d92e46d71bd1e010c4a4a9362a4bcb50</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_d92e46d71bd1e010c4a4a9362a4bcb50</name>
@@ -3029,7 +3019,7 @@ outputs.payload = JSON.stringify(payload);
         <label>Error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">d92e46d71bd1e010c4a4a9362a4bcb50</model>
+        <model display_value="Handle Errors">d92e46d71bd1e010c4a4a9362a4bcb50</model>
         <model_id>d92e46d71bd1e010c4a4a9362a4bcb50</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_d92e46d71bd1e010c4a4a9362a4bcb50</name>
@@ -3099,7 +3089,7 @@ outputs.payload = JSON.stringify(payload);
         <element>account_id</element>
         <help/>
         <hint/>
-        <label>Account ID</label>
+        <label>User Accounts</label>
         <language>en</language>
         <name>var__m_sys_hub_action_input_b86d8e971bd1e010c4a4a9362a4bcbd9</name>
         <plural/>
@@ -3107,14 +3097,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:22:17</sys_created_on>
         <sys_id>b68e0ad71bd1e010c4a4a9362a4bcba9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-30 19:22:17</sys_updated_on>
+        <sys_updated_on>2021-01-06 18:47:18</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -3203,6 +3193,3160 @@ outputs.payload = JSON.stringify(payload);
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>ankit.singh@snc</sys_updated_by>
             <sys_updated_on>2020-12-30 19:41:58</sys_updated_on>
+            <value>Failure</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=b86d8e971bd1e010c4a4a9362a4bcbd9^sys_idNOT IN988cd9dd1ba1e410c4a4a9362a4bcb77"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"988cd9dd1ba1e410c4a4a9362a4bcb77","name":"plan"}}</plan>
+        <snapshot>a3a9c6a11b6de410c4a4a9362a4bcb04</snapshot>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>988cd9dd1ba1e410c4a4a9362a4bcb77</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-06 18:47:30</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Organization Management">26a5fc7c1b512810c4a4a9362a4bcb86</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>add_users_to_organization</internal_name>
+        <label_cache>[{"name":"{{action.organizationid}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action.organization_id}}","label":"action➛Organization ID","type":"action","ref":""},{"name":"{{action.account_id}}","label":"action➛User Accounts","type":"action","ref":""},{"name":"{{action.Account_IDs}}","label":"action➛Account IDs","type":"action","ref":""},{"name":"{{action.Account_ID}}","label":"action➛Account ID","type":"action","ref":""},{"name":"{{action.account_id.Account}}","label":"action➛User Accounts➛Account","type":"action","ref":""},{"name":"{{action.account_id.account}}","label":"action➛User Accounts➛Account","type":"action","ref":""},{"name":"{{action.account_id.User_Account}}","label":"action➛User Accounts➛User Account","type":"action","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].organization_id}}","label":"step➛Pre Processing➛Organization ID","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].account_ids}}","label":"step➛Pre Processing➛Account IDs","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].status_code}}","label":"step➛Add Users to Organization ➛Status Code","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].error_message}}","label":"step➛Add Users to Organization ➛Error Message","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].response_body}}","label":"step➛Add Users to Organization ➛Response Body","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].variable}}","label":"step➛Handle Errors➛variable","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].status}}","label":"step➛Handle Errors➛Status","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].error}}","label":"step➛Handle Errors➛Error","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].account_ids.Account}}","label":"step➛Pre Processing➛Account IDs➛Account","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Add Users to Organization</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Add Users to Organization">b86d8e971bd1e010c4a4a9362a4bcbd9</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>367c99dd1ba1e410c4a4a9362a4bcb41</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-06 18:47:25</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=367c99dd1ba1e410c4a4a9362a4bcb41"/>
+    <sys_variable_value action="delete_multiple" query="document_key=367c99dd1ba1e410c4a4a9362a4bcb41"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>367c99dd1ba1e410c4a4a9362a4bcb41</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:27</sys_created_on>
+        <sys_id>eb7c99dd1ba1e410c4a4a9362a4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:27</sys_updated_on>
+        <value/>
+        <variable display_value="">1b7c99dd1ba1e410c4a4a9362a4bcbbb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=367c99dd1ba1e410c4a4a9362a4bcb41"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>367c99dd1ba1e410c4a4a9362a4bcb41</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:27</sys_created_on>
+        <sys_id>a77c99dd1ba1e410c4a4a9362a4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_367c99dd1ba1e410c4a4a9362a4bcb41</table>
+        <value>{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].error}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>367c99dd1ba1e410c4a4a9362a4bcb41</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:27</sys_created_on>
+        <sys_id>6b7c99dd1ba1e410c4a4a9362a4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_367c99dd1ba1e410c4a4a9362a4bcb41</table>
+        <value>{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].status}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=367c99dd1ba1e410c4a4a9362a4bcb41^sys_idNOT IN477c99dd1ba1e410c4a4a9362a4bcb8d,ba7c99dd1ba1e410c4a4a9362a4bcb52,cf7c99dd1ba1e410c4a4a9362a4bcb74"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</action>
+        <cid>ea19562f-b383-458e-9d42-a812b7aa0a8a</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Handle Errors</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>477c99dd1ba1e410c4a4a9362a4bcb8d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 21:09:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=477c99dd1ba1e410c4a4a9362a4bcb8d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>477c99dd1ba1e410c4a4a9362a4bcb8d</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>5b7c99dd1ba1e410c4a4a9362a4bcbb7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 21:09:53</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    if (inputs.status == '204') {
+        outputs.status = "Success";
+
+    } else {
+        try {
+            var payload = JSON.parse(inputs.response);
+            outputs.error = payload.errorMessage;
+        } catch (error) {
+        }
+        outputs.status = "Error";
+    }
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>477c99dd1ba1e410c4a4a9362a4bcb8d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>977c99dd1ba1e410c4a4a9362a4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=477c99dd1ba1e410c4a4a9362a4bcb8d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>477c99dd1ba1e410c4a4a9362a4bcb8d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>537c99dd1ba1e410c4a4a9362a4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>477c99dd1ba1e410c4a4a9362a4bcb8d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>d37c99dd1ba1e410c4a4a9362a4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</table>
+        <value>{{step[6469514e-3542-4fcd-b698-46d16bfeda89].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>477c99dd1ba1e410c4a4a9362a4bcb8d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>977c99dd1ba1e410c4a4a9362a4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</table>
+        <value>{{step[6469514e-3542-4fcd-b698-46d16bfeda89].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>477c99dd1ba1e410c4a4a9362a4bcb8d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>177c99dd1ba1e410c4a4a9362a4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>477c99dd1ba1e410c4a4a9362a4bcb8d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>5b7c99dd1ba1e410c4a4a9362a4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</table>
+        <value>{{step[6469514e-3542-4fcd-b698-46d16bfeda89].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=477c99dd1ba1e410c4a4a9362a4bcb8d^sys_idNOT IN037c99dd1ba1e410c4a4a9362a4bcb90,877c99dd1ba1e410c4a4a9362a4bcb96,d37c99dd1ba1e410c4a4a9362a4bcb9c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>status</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Errors">477c99dd1ba1e410c4a4a9362a4bcb8d</model>
+        <model_id>477c99dd1ba1e410c4a4a9362a4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>037c99dd1ba1e410c4a4a9362a4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Errors">477c99dd1ba1e410c4a4a9362a4bcb8d</model>
+        <model_id>477c99dd1ba1e410c4a4a9362a4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>877c99dd1ba1e410c4a4a9362a4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Errors">477c99dd1ba1e410c4a4a9362a4bcb8d</model>
+        <model_id>477c99dd1ba1e410c4a4a9362a4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>d37c99dd1ba1e410c4a4a9362a4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=477c99dd1ba1e410c4a4a9362a4bcb8d^sys_idNOT IN1b7c99dd1ba1e410c4a4a9362a4bcba2,9b7c99dd1ba1e410c4a4a9362a4bcbae"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=d1595960-28b1-4d3e-b319-585fe64c6726</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Success</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Status</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Handle Errors">477c99dd1ba1e410c4a4a9362a4bcb8d</model>
+        <model_id>477c99dd1ba1e410c4a4a9362a4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_477c99dd1ba1e410c4a4a9362a4bcb8d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>1b7c99dd1ba1e410c4a4a9362a4bcba2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ba28a7e5-dafc-4584-9910-4a83afe49d94</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Errors">477c99dd1ba1e410c4a4a9362a4bcb8d</model>
+        <model_id>477c99dd1ba1e410c4a4a9362a4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_477c99dd1ba1e410c4a4a9362a4bcb8d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>9b7c99dd1ba1e410c4a4a9362a4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</action>
+        <cid>f62e5d32-6441-4d62-9b3a-afcdb485f139</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Pre Processing</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:24</sys_created_on>
+        <sys_id>ba7c99dd1ba1e410c4a4a9362a4bcb52</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 21:09:52</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ba7c99dd1ba1e410c4a4a9362a4bcb52"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ba7c99dd1ba1e410c4a4a9362a4bcb52</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>0b7c99dd1ba1e410c4a4a9362a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ba7c99dd1ba1e410c4a4a9362a4bcb52</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>cb7c99dd1ba1e410c4a4a9362a4bcb71</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 21:09:52</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    outputs.organization_id = inputs.organization_id.trim();
+    var payload = {};
+    payload["accountIds"] = inputs.account_ids;
+    outputs.payload = JSON.stringify(payload);
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ba7c99dd1ba1e410c4a4a9362a4bcb52"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>account_ids</field>
+        <id>ba7c99dd1ba1e410c4a4a9362a4bcb52</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>477c99dd1ba1e410c4a4a9362a4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ba7c99dd1ba1e410c4a4a9362a4bcb52</table>
+        <value>{{action.account_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ba7c99dd1ba1e410c4a4a9362a4bcb52</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>c37c99dd1ba1e410c4a4a9362a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>organization_id</field>
+        <id>ba7c99dd1ba1e410c4a4a9362a4bcb52</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>0b7c99dd1ba1e410c4a4a9362a4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ba7c99dd1ba1e410c4a4a9362a4bcb52</table>
+        <value>{{action.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>ba7c99dd1ba1e410c4a4a9362a4bcb52</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>877c99dd1ba1e410c4a4a9362a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ba7c99dd1ba1e410c4a4a9362a4bcb52^sys_idNOT IN7e7c99dd1ba1e410c4a4a9362a4bcb5b,f67c99dd1ba1e410c4a4a9362a4bcb55"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>account_ids</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>account_ids</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">ba7c99dd1ba1e410c4a4a9362a4bcb52</model>
+        <model_id>ba7c99dd1ba1e410c4a4a9362a4bcb52</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ba7c99dd1ba1e410c4a4a9362a4bcb52</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>7e7c99dd1ba1e410c4a4a9362a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>organization_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>organization_id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">ba7c99dd1ba1e410c4a4a9362a4bcb52</model>
+        <model_id>ba7c99dd1ba1e410c4a4a9362a4bcb52</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ba7c99dd1ba1e410c4a4a9362a4bcb52</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:24</sys_created_on>
+        <sys_id>f67c99dd1ba1e410c4a4a9362a4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ba7c99dd1ba1e410c4a4a9362a4bcb52^sys_idNOT IN4b7c99dd1ba1e410c4a4a9362a4bcb68,b27c99dd1ba1e410c4a4a9362a4bcb62"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Account,child_name=Account,child_type=string,child_type_label=String,child_uiUniqueId=194fb95c-4931-442d-b2cd-7025fcde8cb5,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=58c3d271-e835-4080-8e31-f7fc45d88a1a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>payload</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Payload</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">ba7c99dd1ba1e410c4a4a9362a4bcb52</model>
+        <model_id>ba7c99dd1ba1e410c4a4a9362a4bcb52</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ba7c99dd1ba1e410c4a4a9362a4bcb52</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>4b7c99dd1ba1e410c4a4a9362a4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6eac81e2-06e0-425e-a6c1-fe8b2ecf9eb3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>organization_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Organization ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">ba7c99dd1ba1e410c4a4a9362a4bcb52</model>
+        <model_id>ba7c99dd1ba1e410c4a4a9362a4bcb52</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ba7c99dd1ba1e410c4a4a9362a4bcb52</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>b27c99dd1ba1e410c4a4a9362a4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</action>
+        <cid>6469514e-3542-4fcd-b698-46d16bfeda89</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Add Users to Organization </label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>cf7c99dd1ba1e410c4a4a9362a4bcb74</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 21:09:52</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cf7c99dd1ba1e410c4a4a9362a4bcb74"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>077c99dd1ba1e410c4a4a9362a4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>0b7c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>d3b336301b952810c4a4a9362a4bcb96</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>437c99dd1ba1e410c4a4a9362a4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>https://ihubtest023.atlassian.net/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>477c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>837c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>8f7c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>c77c99dd1ba1e410c4a4a9362a4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>cb7c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cf7c99dd1ba1e410c4a4a9362a4bcb74"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>4f7c99dd1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>8b7c99dd1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>0b7c99dd1ba1e410c4a4a9362a4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].payload}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>c77c99dd1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>8f7c99dd1ba1e410c4a4a9362a4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>077c99dd1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>cb7c99dd1ba1e410c4a4a9362a4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>037c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>437c99dd1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/rest/servicedeskapi/organization/{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].organization_id}}/user</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>477c99dd1ba1e410c4a4a9362a4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=cf7c99dd1ba1e410c4a4a9362a4bcb74^sys_idNOT IN437c99dd1ba1e410c4a4a9362a4bcb7b"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=3171c297-e5c5-4df7-81fc-a66ae1944550</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Add Users to Organization ">cf7c99dd1ba1e410c4a4a9362a4bcb74</model>
+        <model_id>cf7c99dd1ba1e410c4a4a9362a4bcb74</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_cf7c99dd1ba1e410c4a4a9362a4bcb74</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>437c99dd1ba1e410c4a4a9362a4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=367c99dd1ba1e410c4a4a9362a4bcb41^sys_idNOT INb67c99dd1ba1e410c4a4a9362a4bcb44,fe7c99dd1ba1e410c4a4a9362a4bcb4a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=38c0f452-103b-44ae-b333-a028c46f9fa7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>organization_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Organization ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</model>
+        <model_id>367c99dd1ba1e410c4a4a9362a4bcb41</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:24</sys_created_on>
+        <sys_id>b67c99dd1ba1e410c4a4a9362a4bcb44</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 21:09:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=User Account,child_name=User_Account,child_type=string,child_type_label=String,child_uiUniqueId=e5b65797-2e12-46f9-81d7-c85181c836e7,co_type_name=FDd0b9c6a1df6de41041dd772d90e9ae96,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=8335f922-29ff-49e4-8163-5df056a21f4a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>account_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>User Accounts</label>
+        <mandatory>true</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</model>
+        <model_id>367c99dd1ba1e410c4a4a9362a4bcb41</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:24</sys_created_on>
+        <sys_id>fe7c99dd1ba1e410c4a4a9362a4bcb4a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-06 18:47:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=367c99dd1ba1e410c4a4a9362a4bcb41^sys_idNOT IN1b7c99dd1ba1e410c4a4a9362a4bcbbb,9b7c99dd1ba1e410c4a4a9362a4bcbc7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=af34bb05-012d-4ca9-b5b4-6d7f3a2af6b1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Success</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Status</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</model>
+        <model_id>367c99dd1ba1e410c4a4a9362a4bcb41</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_367c99dd1ba1e410c4a4a9362a4bcb41</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>1b7c99dd1ba1e410c4a4a9362a4bcbbb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=04c494cb-0961-47f2-8c6a-2951adfbe804</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</model>
+        <model_id>367c99dd1ba1e410c4a4a9362a4bcb41</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_367c99dd1ba1e410c4a4a9362a4bcb41</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:27</sys_created_on>
+        <sys_id>9b7c99dd1ba1e410c4a4a9362a4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=367c99dd1ba1e410c4a4a9362a4bcb41^sys_idNOT IN477c99dd1ba1e410c4a4a9362a4bcb8d,ba7c99dd1ba1e410c4a4a9362a4bcb52,cf7c99dd1ba1e410c4a4a9362a4bcb74"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</action>
+        <cid>ea19562f-b383-458e-9d42-a812b7aa0a8a</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Handle Errors</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>477c99dd1ba1e410c4a4a9362a4bcb8d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 21:09:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=477c99dd1ba1e410c4a4a9362a4bcb8d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>477c99dd1ba1e410c4a4a9362a4bcb8d</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>5b7c99dd1ba1e410c4a4a9362a4bcbb7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 21:09:53</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    if (inputs.status == '204') {
+        outputs.status = "Success";
+
+    } else {
+        try {
+            var payload = JSON.parse(inputs.response);
+            outputs.error = payload.errorMessage;
+        } catch (error) {
+        }
+        outputs.status = "Error";
+    }
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>477c99dd1ba1e410c4a4a9362a4bcb8d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>977c99dd1ba1e410c4a4a9362a4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=477c99dd1ba1e410c4a4a9362a4bcb8d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>477c99dd1ba1e410c4a4a9362a4bcb8d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>537c99dd1ba1e410c4a4a9362a4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>477c99dd1ba1e410c4a4a9362a4bcb8d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>d37c99dd1ba1e410c4a4a9362a4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</table>
+        <value>{{step[6469514e-3542-4fcd-b698-46d16bfeda89].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>477c99dd1ba1e410c4a4a9362a4bcb8d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>977c99dd1ba1e410c4a4a9362a4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</table>
+        <value>{{step[6469514e-3542-4fcd-b698-46d16bfeda89].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>477c99dd1ba1e410c4a4a9362a4bcb8d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>177c99dd1ba1e410c4a4a9362a4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>477c99dd1ba1e410c4a4a9362a4bcb8d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>5b7c99dd1ba1e410c4a4a9362a4bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</table>
+        <value>{{step[6469514e-3542-4fcd-b698-46d16bfeda89].status_code}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=477c99dd1ba1e410c4a4a9362a4bcb8d^sys_idNOT IN037c99dd1ba1e410c4a4a9362a4bcb90,877c99dd1ba1e410c4a4a9362a4bcb96,d37c99dd1ba1e410c4a4a9362a4bcb9c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>status</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Errors">477c99dd1ba1e410c4a4a9362a4bcb8d</model>
+        <model_id>477c99dd1ba1e410c4a4a9362a4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>037c99dd1ba1e410c4a4a9362a4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>error</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Errors">477c99dd1ba1e410c4a4a9362a4bcb8d</model>
+        <model_id>477c99dd1ba1e410c4a4a9362a4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>877c99dd1ba1e410c4a4a9362a4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Errors">477c99dd1ba1e410c4a4a9362a4bcb8d</model>
+        <model_id>477c99dd1ba1e410c4a4a9362a4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_477c99dd1ba1e410c4a4a9362a4bcb8d</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>d37c99dd1ba1e410c4a4a9362a4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=477c99dd1ba1e410c4a4a9362a4bcb8d^sys_idNOT IN1b7c99dd1ba1e410c4a4a9362a4bcba2,9b7c99dd1ba1e410c4a4a9362a4bcbae"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=d1595960-28b1-4d3e-b319-585fe64c6726</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Success</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Status</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Handle Errors">477c99dd1ba1e410c4a4a9362a4bcb8d</model>
+        <model_id>477c99dd1ba1e410c4a4a9362a4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_477c99dd1ba1e410c4a4a9362a4bcb8d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>1b7c99dd1ba1e410c4a4a9362a4bcba2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ba28a7e5-dafc-4584-9910-4a83afe49d94</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>error</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Error</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Handle Errors">477c99dd1ba1e410c4a4a9362a4bcb8d</model>
+        <model_id>477c99dd1ba1e410c4a4a9362a4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_477c99dd1ba1e410c4a4a9362a4bcb8d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:26</sys_created_on>
+        <sys_id>9b7c99dd1ba1e410c4a4a9362a4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</action>
+        <cid>f62e5d32-6441-4d62-9b3a-afcdb485f139</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Pre Processing</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:24</sys_created_on>
+        <sys_id>ba7c99dd1ba1e410c4a4a9362a4bcb52</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 21:09:52</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ba7c99dd1ba1e410c4a4a9362a4bcb52"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ba7c99dd1ba1e410c4a4a9362a4bcb52</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>0b7c99dd1ba1e410c4a4a9362a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ba7c99dd1ba1e410c4a4a9362a4bcb52</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>cb7c99dd1ba1e410c4a4a9362a4bcb71</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 21:09:52</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+    outputs.organization_id = inputs.organization_id.trim();
+    var payload = {};
+    payload["accountIds"] = inputs.account_ids;
+    outputs.payload = JSON.stringify(payload);
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ba7c99dd1ba1e410c4a4a9362a4bcb52"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>account_ids</field>
+        <id>ba7c99dd1ba1e410c4a4a9362a4bcb52</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>477c99dd1ba1e410c4a4a9362a4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ba7c99dd1ba1e410c4a4a9362a4bcb52</table>
+        <value>{{action.account_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>ba7c99dd1ba1e410c4a4a9362a4bcb52</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>c37c99dd1ba1e410c4a4a9362a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>organization_id</field>
+        <id>ba7c99dd1ba1e410c4a4a9362a4bcb52</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>0b7c99dd1ba1e410c4a4a9362a4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_ba7c99dd1ba1e410c4a4a9362a4bcb52</table>
+        <value>{{action.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>ba7c99dd1ba1e410c4a4a9362a4bcb52</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>877c99dd1ba1e410c4a4a9362a4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=ba7c99dd1ba1e410c4a4a9362a4bcb52^sys_idNOT IN7e7c99dd1ba1e410c4a4a9362a4bcb5b,f67c99dd1ba1e410c4a4a9362a4bcb55"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>account_ids</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>account_ids</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">ba7c99dd1ba1e410c4a4a9362a4bcb52</model>
+        <model_id>ba7c99dd1ba1e410c4a4a9362a4bcb52</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ba7c99dd1ba1e410c4a4a9362a4bcb52</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>7e7c99dd1ba1e410c4a4a9362a4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>organization_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>organization_id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">ba7c99dd1ba1e410c4a4a9362a4bcb52</model>
+        <model_id>ba7c99dd1ba1e410c4a4a9362a4bcb52</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_ba7c99dd1ba1e410c4a4a9362a4bcb52</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:24</sys_created_on>
+        <sys_id>f67c99dd1ba1e410c4a4a9362a4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ba7c99dd1ba1e410c4a4a9362a4bcb52^sys_idNOT IN4b7c99dd1ba1e410c4a4a9362a4bcb68,b27c99dd1ba1e410c4a4a9362a4bcb62"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Account,child_name=Account,child_type=string,child_type_label=String,child_uiUniqueId=194fb95c-4931-442d-b2cd-7025fcde8cb5,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=58c3d271-e835-4080-8e31-f7fc45d88a1a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>payload</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Payload</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">ba7c99dd1ba1e410c4a4a9362a4bcb52</model>
+        <model_id>ba7c99dd1ba1e410c4a4a9362a4bcb52</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ba7c99dd1ba1e410c4a4a9362a4bcb52</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>4b7c99dd1ba1e410c4a4a9362a4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6eac81e2-06e0-425e-a6c1-fe8b2ecf9eb3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>organization_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Organization ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Pre Processing">ba7c99dd1ba1e410c4a4a9362a4bcb52</model>
+        <model_id>ba7c99dd1ba1e410c4a4a9362a4bcb52</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ba7c99dd1ba1e410c4a4a9362a4bcb52</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>b27c99dd1ba1e410c4a4a9362a4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</action>
+        <cid>6469514e-3542-4fcd-b698-46d16bfeda89</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Add Users to Organization </label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>cf7c99dd1ba1e410c4a4a9362a4bcb74</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 21:09:52</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cf7c99dd1ba1e410c4a4a9362a4bcb74"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>077c99dd1ba1e410c4a4a9362a4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>0b7c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>d3b336301b952810c4a4a9362a4bcb96</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>437c99dd1ba1e410c4a4a9362a4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>https://ihubtest023.atlassian.net/</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>477c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>837c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>8f7c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>c77c99dd1ba1e410c4a4a9362a4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cf7c99dd1ba1e410c4a4a9362a4bcb74</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>cb7c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cf7c99dd1ba1e410c4a4a9362a4bcb74"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>4f7c99dd1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>8b7c99dd1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>0b7c99dd1ba1e410c4a4a9362a4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].payload}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>c77c99dd1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>8f7c99dd1ba1e410c4a4a9362a4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>077c99dd1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>cb7c99dd1ba1e410c4a4a9362a4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>037c99dd1ba1e410c4a4a9362a4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>437c99dd1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/rest/servicedeskapi/organization/{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].organization_id}}/user</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>cf7c99dd1ba1e410c4a4a9362a4bcb74</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>477c99dd1ba1e410c4a4a9362a4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=cf7c99dd1ba1e410c4a4a9362a4bcb74^sys_idNOT IN437c99dd1ba1e410c4a4a9362a4bcb7b"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=3171c297-e5c5-4df7-81fc-a66ae1944550</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="Add Users to Organization ">cf7c99dd1ba1e410c4a4a9362a4bcb74</model>
+        <model_id>cf7c99dd1ba1e410c4a4a9362a4bcb74</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_cf7c99dd1ba1e410c4a4a9362a4bcb74</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:25</sys_created_on>
+        <sys_id>437c99dd1ba1e410c4a4a9362a4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41^sys_idNOT IN3a7c99dd1ba1e410c4a4a9362a4bcb49,7e7c99dd1ba1e410c4a4a9362a4bcb4f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>organization_id</element>
+        <help/>
+        <hint/>
+        <label>Organization ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:24</sys_created_on>
+        <sys_id>3a7c99dd1ba1e410c4a4a9362a4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>account_id</element>
+        <help/>
+        <hint/>
+        <label>User Accounts</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:24</sys_created_on>
+        <sys_id>7e7c99dd1ba1e410c4a4a9362a4bcb4f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-06 18:47:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_367c99dd1ba1e410c4a4a9362a4bcb41^sys_idNOT INd37c99dd1ba1e410c4a4a9362a4bcbc6,d37c99dd1ba1e410c4a4a9362a4bcbcc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status</element>
+        <help/>
+        <hint/>
+        <label>Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_367c99dd1ba1e410c4a4a9362a4bcb41</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:27</sys_created_on>
+        <sys_id>d37c99dd1ba1e410c4a4a9362a4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>error</element>
+        <help/>
+        <hint/>
+        <label>Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_367c99dd1ba1e410c4a4a9362a4bcb41</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:51:27</sys_created_on>
+        <sys_id>d37c99dd1ba1e410c4a4a9362a4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:51:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_367c99dd1ba1e410c4a4a9362a4bcb41^sys_idNOT IN177c99dd1ba1e410c4a4a9362a4bcbbf,177c99dd1ba1e410c4a4a9362a4bcbc1"/>
+    <sys_choice field="status" table="var__m_sys_hub_action_output_367c99dd1ba1e410c4a4a9362a4bcb41">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_367c99dd1ba1e410c4a4a9362a4bcb41</name>
+            <sequence>0</sequence>
+            <sys_created_by>ankit.singh@snc</sys_created_by>
+            <sys_created_on>2021-01-05 20:51:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>177c99dd1ba1e410c4a4a9362a4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ankit.singh@snc</sys_updated_by>
+            <sys_updated_on>2021-01-05 20:51:27</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failure</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_367c99dd1ba1e410c4a4a9362a4bcb41</name>
+            <sequence>1</sequence>
+            <sys_created_by>ankit.singh@snc</sys_created_by>
+            <sys_created_on>2021-01-05 20:51:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>177c99dd1ba1e410c4a4a9362a4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ankit.singh@snc</sys_updated_by>
+            <sys_updated_on>2021-01-05 20:51:27</sys_updated_on>
             <value>Failure</value>
         </sys_choice>
     </sys_choice>

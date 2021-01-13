@@ -6,27 +6,27 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Organization Management">26a5fc7c1b512810c4a4a9362a4bcb86</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>add_organization</internal_name>
         <label_cache>[{"name":"{{action.service_desk_id}}","label":"action➛Service Desk ID","type":"action","ref":""},{"name":"{{action.organization_id}}","label":"action➛Organization ID","type":"action","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].organization_id}}","label":"step➛Pre Processing➛Organization ID","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].service_desk_id}}","label":"step➛Pre Processing➛Service Desk ID","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].status_code}}","label":"step➛Add Organization to Service Desk➛Status Code","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].error_message}}","label":"step➛Add Organization to Service Desk➛Error Message","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].response_body}}","label":"step➛Add Organization to Service Desk➛Response Body","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].status}}","label":"step➛Handle Errors➛status","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].error}}","label":"step➛Handle Errors➛Error","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].error1}}","label":"step➛Handle Errors➛Error","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].status2}}","label":"step➛Handle Errors➛Status","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>e8724cfa1bdd6010c4a4a9362a4bcb82</latest_snapshot>
+        <latest_snapshot>983225551be1e410c4a4a9362a4bcb9d</latest_snapshot>
         <master_snapshot>49728cfa1bdd6010c4a4a9362a4bcb27</master_snapshot>
         <name>Add Organization to Service Desk</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 15:59:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>66fc836e1b5d6010c4a4a9362a4bcb6a</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>Add Organization to Service Desk</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_66fc836e1b5d6010c4a4a9362a4bcb6a</sys_update_name>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 19:45:41</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:16:25</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -96,10 +96,10 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 16:00:06</sys_created_on>
         <sys_id>2d1d0b6e1b5d6010c4a4a9362a4bcb01</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 19:45:08</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:06:11</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2d1d0b6e1b5d6010c4a4a9362a4bcb01"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -110,18 +110,20 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 16:00:06</sys_created_on>
         <sys_id>651d0b6e1b5d6010c4a4a9362a4bcb07</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 19:45:08</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:06:11</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-   if(inputs.status == '204'){
-   outputs.status = "Success";
-  }else
-  {
-    var payload = JSON.parse(inputs.response);
-    outputs.error = payload.errorMessage;
-   outputs.status = "Error";   
-  }
+    if (inputs.status == '204') {
+        outputs.status = "Success";
+    } else {
+        try {
+            var payload = JSON.parse(inputs.response);
+            outputs.error = payload.errorMessage;
+        } catch (error) { 
+        }
+        outputs.status = "Error";
+    }
 })(inputs, outputs);
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -1561,9 +1563,9 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 16:44:10</sys_created_on>
         <sys_id>cb2753261b9d6010c4a4a9362a4bcb58</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 19:45:40</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:16:17</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cb2753261b9d6010c4a4a9362a4bcb58"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1764,10 +1766,10 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 16:00:06</sys_created_on>
         <sys_id>2d1d0b6e1b5d6010c4a4a9362a4bcb01</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 19:45:08</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:06:11</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2d1d0b6e1b5d6010c4a4a9362a4bcb01"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1778,18 +1780,20 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 16:00:06</sys_created_on>
         <sys_id>651d0b6e1b5d6010c4a4a9362a4bcb07</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-04 19:45:08</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:06:11</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-   if(inputs.status == '204'){
-   outputs.status = "Success";
-  }else
-  {
-    var payload = JSON.parse(inputs.response);
-    outputs.error = payload.errorMessage;
-   outputs.status = "Error";   
-  }
+    if (inputs.status == '204') {
+        outputs.status = "Success";
+    } else {
+        try {
+            var payload = JSON.parse(inputs.response);
+            outputs.error = payload.errorMessage;
+        } catch (error) { 
+        }
+        outputs.status = "Error";
+    }
 })(inputs, outputs);
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -3216,17 +3220,17 @@ outputs.organization_id = inputs.organization_id.trim();
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Add Organization to Service Desk">66fc836e1b5d6010c4a4a9362a4bcb6a</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9e72ccfa1bdd6010c4a4a9362a4bcb82","name":"plan"}}</plan>
-        <snapshot>e8724cfa1bdd6010c4a4a9362a4bcb82</snapshot>
+        <snapshot>983225551be1e410c4a4a9362a4bcb9d</snapshot>
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9e72ccfa1bdd6010c4a4a9362a4bcb82</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:21</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:16:29</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3234,14 +3238,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category/>
+        <category display_value="Organization Management">26a5fc7c1b512810c4a4a9362a4bcb86</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>add_organization</internal_name>
-        <label_cache>[{"name":"{{action.service_desk_id}}","label":"action➛Service Desk ID","type":"action","ref":""},{"name":"{{action.organization_id}}","label":"action➛Organization ID","type":"action","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].variable1}}","label":"step➛Script step➛variable1","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].organization_id}}","label":"step➛Script step➛Organization ID","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].service_desk_id}}","label":"step➛Script step➛Service Desk ID","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].status}}","label":"step➛Script step➛status","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].error}}","label":"step➛Script step➛Error","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].error1}}","label":"step➛Script step➛Error","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].status2}}","label":"step➛Script step➛Status","type":"step","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.service_desk_id}}","label":"action➛Service Desk ID","type":"action","ref":""},{"name":"{{action.organization_id}}","label":"action➛Organization ID","type":"action","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].organization_id}}","label":"step➛Pre Processing➛Organization ID","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].service_desk_id}}","label":"step➛Pre Processing➛Service Desk ID","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].status_code}}","label":"step➛Add Organization to Service Desk➛Status Code","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].error_message}}","label":"step➛Add Organization to Service Desk➛Error Message","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].response_body}}","label":"step➛Add Organization to Service Desk➛Response Body","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].status}}","label":"step➛Handle Errors➛status","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].error}}","label":"step➛Handle Errors➛Error","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].error1}}","label":"step➛Handle Errors➛Error","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].status2}}","label":"step➛Handle Errors➛Status","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Add Organization</name>
+        <name>Add Organization to Service Desk</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -3252,7 +3256,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>49728cfa1bdd6010c4a4a9362a4bcb27</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3260,12 +3264,26 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:15</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:16:24</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=49728cfa1bdd6010c4a4a9362a4bcb27"/>
     <sys_variable_value action="delete_multiple" query="document_key=49728cfa1bdd6010c4a4a9362a4bcb27"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>49728cfa1bdd6010c4a4a9362a4bcb27</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 08:41:11</sys_created_on>
+        <sys_id>9a55b6491b2da410c4a4a9362a4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 08:41:11</sys_updated_on>
+        <value/>
+        <variable display_value="">5a55b6491b2da410c4a4a9362a4bcb3a</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=49728cfa1bdd6010c4a4a9362a4bcb27"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>error_message</field>
@@ -3293,14 +3311,14 @@ outputs.organization_id = inputs.organization_id.trim();
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=49728cfa1bdd6010c4a4a9362a4bcb27^sys_idNOT IN55728cfa1bdd6010c4a4a9362a4bcb75,cd728cfa1bdd6010c4a4a9362a4bcb3a,dd728cfa1bdd6010c4a4a9362a4bcb5c"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Organization">49728cfa1bdd6010c4a4a9362a4bcb27</action>
+        <action display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</action>
         <cid>9c27dfe5-51dc-46cb-86dd-6eb463793d3c</cid>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
+        <label>Handle Errors</label>
         <order>3</order>
         <outputs/>
         <section/>
@@ -3308,10 +3326,10 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:17</sys_created_on>
         <sys_id>55728cfa1bdd6010c4a4a9362a4bcb75</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:17</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:06:18</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=55728cfa1bdd6010c4a4a9362a4bcb75"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3322,24 +3340,20 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:17</sys_created_on>
         <sys_id>69728cfa1bdd6010c4a4a9362a4bcb9f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:17</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:06:18</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-//  gs.info(" response : "+ inputs.response.toString());
- 
-  
-  if(inputs.status == '204'){
-   outputs.status = "Success";
-	
-  }else
-  {
-    var payload = JSON.parse(inputs.response);
-    outputs.error = payload.errorMessage;
-   outputs.status = "Error";
-    
-  }
-
+    if (inputs.status == '204') {
+        outputs.status = "Success";
+    } else {
+        try {
+            var payload = JSON.parse(inputs.response);
+            outputs.error = payload.errorMessage;
+        } catch (error) { 
+        }
+        outputs.status = "Error";
+    }
 })(inputs, outputs);
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -3459,7 +3473,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <label>status</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">55728cfa1bdd6010c4a4a9362a4bcb75</model>
+        <model display_value="Handle Errors">55728cfa1bdd6010c4a4a9362a4bcb75</model>
         <model_id>55728cfa1bdd6010c4a4a9362a4bcb75</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_55728cfa1bdd6010c4a4a9362a4bcb75</name>
@@ -3540,7 +3554,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <label>error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">55728cfa1bdd6010c4a4a9362a4bcb75</model>
+        <model display_value="Handle Errors">55728cfa1bdd6010c4a4a9362a4bcb75</model>
         <model_id>55728cfa1bdd6010c4a4a9362a4bcb75</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_55728cfa1bdd6010c4a4a9362a4bcb75</name>
@@ -3621,7 +3635,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <label>response</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">55728cfa1bdd6010c4a4a9362a4bcb75</model>
+        <model display_value="Handle Errors">55728cfa1bdd6010c4a4a9362a4bcb75</model>
         <model_id>55728cfa1bdd6010c4a4a9362a4bcb75</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_55728cfa1bdd6010c4a4a9362a4bcb75</name>
@@ -3703,7 +3717,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <label>Status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Script step">55728cfa1bdd6010c4a4a9362a4bcb75</model>
+        <model display_value="Handle Errors">55728cfa1bdd6010c4a4a9362a4bcb75</model>
         <model_id>55728cfa1bdd6010c4a4a9362a4bcb75</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_55728cfa1bdd6010c4a4a9362a4bcb75</name>
@@ -3784,7 +3798,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <label>Error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">55728cfa1bdd6010c4a4a9362a4bcb75</model>
+        <model display_value="Handle Errors">55728cfa1bdd6010c4a4a9362a4bcb75</model>
         <model_id>55728cfa1bdd6010c4a4a9362a4bcb75</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_55728cfa1bdd6010c4a4a9362a4bcb75</name>
@@ -3827,14 +3841,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Organization">49728cfa1bdd6010c4a4a9362a4bcb27</action>
+        <action display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</action>
         <cid>16e6eb83-8ef5-4d36-a6c3-bfe438d358ff</cid>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
+        <label>Pre Processing</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -3842,10 +3856,10 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:16</sys_created_on>
         <sys_id>cd728cfa1bdd6010c4a4a9362a4bcb3a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:16</sys_updated_on>
+        <sys_updated_on>2021-01-05 08:41:10</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cd728cfa1bdd6010c4a4a9362a4bcb3a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3856,12 +3870,12 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:16</sys_created_on>
         <sys_id>99728cfa1bdd6010c4a4a9362a4bcb59</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:16</sys_updated_on>
+        <sys_updated_on>2021-01-05 08:41:10</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-outputs.service_desk_id = inputs.service_desk_id;
-outputs.organization_id = inputs.organization_id;
+outputs.service_desk_id = inputs.service_desk_id.trim();
+outputs.organization_id = inputs.organization_id.trim();
 })(inputs, outputs);
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -3969,7 +3983,7 @@ outputs.organization_id = inputs.organization_id;
         <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
+        <model display_value="Pre Processing">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
         <model_id>cd728cfa1bdd6010c4a4a9362a4bcb3a</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_cd728cfa1bdd6010c4a4a9362a4bcb3a</name>
@@ -4050,7 +4064,7 @@ outputs.organization_id = inputs.organization_id;
         <label>organization_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
+        <model display_value="Pre Processing">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
         <model_id>cd728cfa1bdd6010c4a4a9362a4bcb3a</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_cd728cfa1bdd6010c4a4a9362a4bcb3a</name>
@@ -4132,7 +4146,7 @@ outputs.organization_id = inputs.organization_id;
         <label>Service Desk ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
+        <model display_value="Pre Processing">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
         <model_id>cd728cfa1bdd6010c4a4a9362a4bcb3a</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_cd728cfa1bdd6010c4a4a9362a4bcb3a</name>
@@ -4213,7 +4227,7 @@ outputs.organization_id = inputs.organization_id;
         <label>Organization ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
+        <model display_value="Pre Processing">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
         <model_id>cd728cfa1bdd6010c4a4a9362a4bcb3a</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_cd728cfa1bdd6010c4a4a9362a4bcb3a</name>
@@ -4256,14 +4270,14 @@ outputs.organization_id = inputs.organization_id;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Organization">49728cfa1bdd6010c4a4a9362a4bcb27</action>
+        <action display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</action>
         <cid>883e7b69-fe31-4d83-b1f1-9350282a1954</cid>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <inputs/>
-        <label>REST step</label>
+        <label>Add Organization to Service Desk</label>
         <order>2</order>
         <outputs/>
         <section/>
@@ -4271,10 +4285,10 @@ outputs.organization_id = inputs.organization_id;
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:16</sys_created_on>
         <sys_id>dd728cfa1bdd6010c4a4a9362a4bcb5c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:16</sys_updated_on>
+        <sys_updated_on>2021-01-05 08:41:10</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dd728cfa1bdd6010c4a4a9362a4bcb5c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4552,7 +4566,7 @@ outputs.organization_id = inputs.organization_id;
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">dd728cfa1bdd6010c4a4a9362a4bcb5c</model>
+        <model display_value="Add Organization to Service Desk">dd728cfa1bdd6010c4a4a9362a4bcb5c</model>
         <model_id>dd728cfa1bdd6010c4a4a9362a4bcb5c</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_dd728cfa1bdd6010c4a4a9362a4bcb5c</name>
@@ -4634,7 +4648,7 @@ outputs.organization_id = inputs.organization_id;
         <label>Service Desk ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Add Organization">49728cfa1bdd6010c4a4a9362a4bcb27</model>
+        <model display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</model>
         <model_id>49728cfa1bdd6010c4a4a9362a4bcb27</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_49728cfa1bdd6010c4a4a9362a4bcb27</name>
@@ -4684,9 +4698,9 @@ outputs.organization_id = inputs.organization_id;
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:15</sys_created_on>
         <sys_id>41728cfa1bdd6010c4a4a9362a4bcb2f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:15</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:16:24</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=41728cfa1bdd6010c4a4a9362a4bcb2f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4742,7 +4756,7 @@ outputs.organization_id = inputs.organization_id;
         <label>Organization ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Add Organization">49728cfa1bdd6010c4a4a9362a4bcb27</model>
+        <model display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</model>
         <model_id>49728cfa1bdd6010c4a4a9362a4bcb27</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_49728cfa1bdd6010c4a4a9362a4bcb27</name>
@@ -4784,7 +4798,7 @@ outputs.organization_id = inputs.organization_id;
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_output action="delete_multiple" query="model=49728cfa1bdd6010c4a4a9362a4bcb27^sys_idNOT IN21728cfa1bdd6010c4a4a9362a4bcbaa,29728cfa1bdd6010c4a4a9362a4bcba3"/>
+    <sys_hub_action_output action="delete_multiple" query="model=49728cfa1bdd6010c4a4a9362a4bcb27^sys_idNOT IN21728cfa1bdd6010c4a4a9362a4bcbaa,5a55b6491b2da410c4a4a9362a4bcb3a"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -4826,7 +4840,7 @@ outputs.organization_id = inputs.organization_id;
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Add Organization">49728cfa1bdd6010c4a4a9362a4bcb27</model>
+        <model display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</model>
         <model_id>49728cfa1bdd6010c4a4a9362a4bcb27</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_49728cfa1bdd6010c4a4a9362a4bcb27</name>
@@ -4872,7 +4886,7 @@ outputs.organization_id = inputs.organization_id;
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=f19825af-f5a6-4dac-9a79-a867252a05b4</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=choice,uiTypeLabel=Choice,uiUniqueId=f19825af-f5a6-4dac-9a79-a867252a05b4</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4880,13 +4894,13 @@ outputs.organization_id = inputs.organization_id;
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>Success</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -4905,11 +4919,11 @@ outputs.organization_id = inputs.organization_id;
         <help/>
         <hint/>
         <internal_link/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Add Organization">49728cfa1bdd6010c4a4a9362a4bcb27</model>
+        <model display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</model>
         <model_id>49728cfa1bdd6010c4a4a9362a4bcb27</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_49728cfa1bdd6010c4a4a9362a4bcb27</name>
@@ -4930,16 +4944,16 @@ outputs.organization_id = inputs.organization_id;
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>ankit.singh@snc</sys_created_by>
-        <sys_created_on>2020-12-28 19:53:17</sys_created_on>
-        <sys_id>29728cfa1bdd6010c4a4a9362a4bcba3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2021-01-05 08:41:11</sys_created_on>
+        <sys_id>5a55b6491b2da410c4a4a9362a4bcb3a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:17</sys_updated_on>
+        <sys_updated_on>2021-01-05 08:41:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4953,14 +4967,14 @@ outputs.organization_id = inputs.organization_id;
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=49728cfa1bdd6010c4a4a9362a4bcb27^sys_idNOT IN55728cfa1bdd6010c4a4a9362a4bcb75,cd728cfa1bdd6010c4a4a9362a4bcb3a,dd728cfa1bdd6010c4a4a9362a4bcb5c"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Organization">49728cfa1bdd6010c4a4a9362a4bcb27</action>
+        <action display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</action>
         <cid>9c27dfe5-51dc-46cb-86dd-6eb463793d3c</cid>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
+        <label>Handle Errors</label>
         <order>3</order>
         <outputs/>
         <section/>
@@ -4968,10 +4982,10 @@ outputs.organization_id = inputs.organization_id;
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:17</sys_created_on>
         <sys_id>55728cfa1bdd6010c4a4a9362a4bcb75</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:17</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:06:18</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=55728cfa1bdd6010c4a4a9362a4bcb75"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4982,24 +4996,20 @@ outputs.organization_id = inputs.organization_id;
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:17</sys_created_on>
         <sys_id>69728cfa1bdd6010c4a4a9362a4bcb9f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:17</sys_updated_on>
+        <sys_updated_on>2021-01-05 21:06:18</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-//  gs.info(" response : "+ inputs.response.toString());
- 
-  
-  if(inputs.status == '204'){
-   outputs.status = "Success";
-	
-  }else
-  {
-    var payload = JSON.parse(inputs.response);
-    outputs.error = payload.errorMessage;
-   outputs.status = "Error";
-    
-  }
-
+    if (inputs.status == '204') {
+        outputs.status = "Success";
+    } else {
+        try {
+            var payload = JSON.parse(inputs.response);
+            outputs.error = payload.errorMessage;
+        } catch (error) { 
+        }
+        outputs.status = "Error";
+    }
 })(inputs, outputs);
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -5119,7 +5129,7 @@ outputs.organization_id = inputs.organization_id;
         <label>status</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">55728cfa1bdd6010c4a4a9362a4bcb75</model>
+        <model display_value="Handle Errors">55728cfa1bdd6010c4a4a9362a4bcb75</model>
         <model_id>55728cfa1bdd6010c4a4a9362a4bcb75</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_55728cfa1bdd6010c4a4a9362a4bcb75</name>
@@ -5200,7 +5210,7 @@ outputs.organization_id = inputs.organization_id;
         <label>error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">55728cfa1bdd6010c4a4a9362a4bcb75</model>
+        <model display_value="Handle Errors">55728cfa1bdd6010c4a4a9362a4bcb75</model>
         <model_id>55728cfa1bdd6010c4a4a9362a4bcb75</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_55728cfa1bdd6010c4a4a9362a4bcb75</name>
@@ -5281,7 +5291,7 @@ outputs.organization_id = inputs.organization_id;
         <label>response</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">55728cfa1bdd6010c4a4a9362a4bcb75</model>
+        <model display_value="Handle Errors">55728cfa1bdd6010c4a4a9362a4bcb75</model>
         <model_id>55728cfa1bdd6010c4a4a9362a4bcb75</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_55728cfa1bdd6010c4a4a9362a4bcb75</name>
@@ -5363,7 +5373,7 @@ outputs.organization_id = inputs.organization_id;
         <label>Status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Script step">55728cfa1bdd6010c4a4a9362a4bcb75</model>
+        <model display_value="Handle Errors">55728cfa1bdd6010c4a4a9362a4bcb75</model>
         <model_id>55728cfa1bdd6010c4a4a9362a4bcb75</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_55728cfa1bdd6010c4a4a9362a4bcb75</name>
@@ -5444,7 +5454,7 @@ outputs.organization_id = inputs.organization_id;
         <label>Error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">55728cfa1bdd6010c4a4a9362a4bcb75</model>
+        <model display_value="Handle Errors">55728cfa1bdd6010c4a4a9362a4bcb75</model>
         <model_id>55728cfa1bdd6010c4a4a9362a4bcb75</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_55728cfa1bdd6010c4a4a9362a4bcb75</name>
@@ -5487,14 +5497,14 @@ outputs.organization_id = inputs.organization_id;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Organization">49728cfa1bdd6010c4a4a9362a4bcb27</action>
+        <action display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</action>
         <cid>16e6eb83-8ef5-4d36-a6c3-bfe438d358ff</cid>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <label>Script step</label>
+        <label>Pre Processing</label>
         <order>1</order>
         <outputs/>
         <section/>
@@ -5502,10 +5512,10 @@ outputs.organization_id = inputs.organization_id;
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:16</sys_created_on>
         <sys_id>cd728cfa1bdd6010c4a4a9362a4bcb3a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:16</sys_updated_on>
+        <sys_updated_on>2021-01-05 08:41:10</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cd728cfa1bdd6010c4a4a9362a4bcb3a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5516,12 +5526,12 @@ outputs.organization_id = inputs.organization_id;
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:16</sys_created_on>
         <sys_id>99728cfa1bdd6010c4a4a9362a4bcb59</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:16</sys_updated_on>
+        <sys_updated_on>2021-01-05 08:41:10</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-outputs.service_desk_id = inputs.service_desk_id;
-outputs.organization_id = inputs.organization_id;
+outputs.service_desk_id = inputs.service_desk_id.trim();
+outputs.organization_id = inputs.organization_id.trim();
 })(inputs, outputs);
 </value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -5629,7 +5639,7 @@ outputs.organization_id = inputs.organization_id;
         <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
+        <model display_value="Pre Processing">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
         <model_id>cd728cfa1bdd6010c4a4a9362a4bcb3a</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_cd728cfa1bdd6010c4a4a9362a4bcb3a</name>
@@ -5710,7 +5720,7 @@ outputs.organization_id = inputs.organization_id;
         <label>organization_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
+        <model display_value="Pre Processing">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
         <model_id>cd728cfa1bdd6010c4a4a9362a4bcb3a</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_input_cd728cfa1bdd6010c4a4a9362a4bcb3a</name>
@@ -5792,7 +5802,7 @@ outputs.organization_id = inputs.organization_id;
         <label>Service Desk ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
+        <model display_value="Pre Processing">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
         <model_id>cd728cfa1bdd6010c4a4a9362a4bcb3a</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_cd728cfa1bdd6010c4a4a9362a4bcb3a</name>
@@ -5873,7 +5883,7 @@ outputs.organization_id = inputs.organization_id;
         <label>Organization ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Script step">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
+        <model display_value="Pre Processing">cd728cfa1bdd6010c4a4a9362a4bcb3a</model>
         <model_id>cd728cfa1bdd6010c4a4a9362a4bcb3a</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_cd728cfa1bdd6010c4a4a9362a4bcb3a</name>
@@ -5916,14 +5926,14 @@ outputs.organization_id = inputs.organization_id;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Add Organization">49728cfa1bdd6010c4a4a9362a4bcb27</action>
+        <action display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</action>
         <cid>883e7b69-fe31-4d83-b1f1-9350282a1954</cid>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
         <inputs/>
         <inputs/>
-        <label>REST step</label>
+        <label>Add Organization to Service Desk</label>
         <order>2</order>
         <outputs/>
         <section/>
@@ -5931,10 +5941,10 @@ outputs.organization_id = inputs.organization_id;
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:53:16</sys_created_on>
         <sys_id>dd728cfa1bdd6010c4a4a9362a4bcb5c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:16</sys_updated_on>
+        <sys_updated_on>2021-01-05 08:41:10</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dd728cfa1bdd6010c4a4a9362a4bcb5c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6212,7 +6222,7 @@ outputs.organization_id = inputs.organization_id;
         <label>Credential Value</label>
         <mandatory>false</mandatory>
         <max_length>255</max_length>
-        <model display_value="REST step">dd728cfa1bdd6010c4a4a9362a4bcb5c</model>
+        <model display_value="Add Organization to Service Desk">dd728cfa1bdd6010c4a4a9362a4bcb5c</model>
         <model_id>dd728cfa1bdd6010c4a4a9362a4bcb5c</model_id>
         <model_table>sys_hub_step_instance</model_table>
         <name>var__m_sys_hub_step_ext_output_dd728cfa1bdd6010c4a4a9362a4bcb5c</name>
@@ -6301,7 +6311,7 @@ outputs.organization_id = inputs.organization_id;
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_49728cfa1bdd6010c4a4a9362a4bcb27^sys_idNOT IN69728cfa1bdd6010c4a4a9362a4bcba8,69728cfa1bdd6010c4a4a9362a4bcbae"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_49728cfa1bdd6010c4a4a9362a4bcb27^sys_idNOT IN5655b6491b2da410c4a4a9362a4bcb46,69728cfa1bdd6010c4a4a9362a4bcbae"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>status</element>
         <help/>
@@ -6312,8 +6322,8 @@ outputs.organization_id = inputs.organization_id;
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>ankit.singh@snc</sys_created_by>
-        <sys_created_on>2020-12-28 19:53:17</sys_created_on>
-        <sys_id>69728cfa1bdd6010c4a4a9362a4bcba8</sys_id>
+        <sys_created_on>2021-01-05 08:41:11</sys_created_on>
+        <sys_id>5655b6491b2da410c4a4a9362a4bcb46</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
@@ -6321,7 +6331,7 @@ outputs.organization_id = inputs.organization_id;
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:53:17</sys_updated_on>
+        <sys_updated_on>2021-01-05 08:41:11</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -6348,4 +6358,64 @@ outputs.organization_id = inputs.organization_id;
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_49728cfa1bdd6010c4a4a9362a4bcb27^sys_idNOT IN9655b6491b2da410c4a4a9362a4bcb3e,9655b6491b2da410c4a4a9362a4bcb40,5655b6491b2da410c4a4a9362a4bcb41"/>
+    <sys_choice field="status" table="var__m_sys_hub_action_output_49728cfa1bdd6010c4a4a9362a4bcb27">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_49728cfa1bdd6010c4a4a9362a4bcb27</name>
+            <sequence>0</sequence>
+            <sys_created_by>ankit.singh@snc</sys_created_by>
+            <sys_created_on>2021-01-05 08:41:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9655b6491b2da410c4a4a9362a4bcb3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ankit.singh@snc</sys_updated_by>
+            <sys_updated_on>2021-01-05 08:41:11</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Success</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_49728cfa1bdd6010c4a4a9362a4bcb27</name>
+            <sequence>1</sequence>
+            <sys_created_by>ankit.singh@snc</sys_created_by>
+            <sys_created_on>2021-01-05 08:41:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9655b6491b2da410c4a4a9362a4bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ankit.singh@snc</sys_updated_by>
+            <sys_updated_on>2021-01-05 08:41:11</sys_updated_on>
+            <value>Success</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_49728cfa1bdd6010c4a4a9362a4bcb27</name>
+            <sequence>2</sequence>
+            <sys_created_by>ankit.singh@snc</sys_created_by>
+            <sys_created_on>2021-01-05 08:41:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5655b6491b2da410c4a4a9362a4bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ankit.singh@snc</sys_updated_by>
+            <sys_updated_on>2021-01-05 08:41:11</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+    </sys_choice>
 </record_update>

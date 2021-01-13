@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa9bde59d60e1e41004bbf6cfa66fd74e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>dc9a0a5c1bd1e410c4a4a9362a4bcb64</scope_name>
+        <serialized_content>{"FlowDesigner:FDa9bde59d60e1e41004bbf6cfa66fd74e":{"accountId":"String","accountId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Account ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"emailAddress":"String","emailAddress.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Email Address\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"active":"String","active.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Active\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"self":"String","self.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Self\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"}},"FlowDesigner:FDa9bde59d60e1e41004bbf6cfa66fd74e.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"User\",\"mandatory\":\"false\",\"uiUniqueId\":\"e93470cf-1378-403b-abc9-99a8bbd81a6e\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa9bde59d60e1e41004bbf6cfa66fd74e\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 22:06:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6dbde59d1be1e410c4a4a9362a4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDa9bde59d60e1e41004bbf6cfa66fd74e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name>sys_complex_object_6dbde59d1be1e410c4a4a9362a4bcb4e</sys_update_name>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 22:06:41</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

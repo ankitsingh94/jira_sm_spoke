@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe9c41c91ab21e410976283f6a69ec45d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>dc9a0a5c1bd1e410c4a4a9362a4bcb64</scope_name>
+        <serialized_content>{"FlowDesigner:FDe9c41c91ab21e410976283f6a69ec45d":{"issueTypeId":"String","issueTypeId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Issue Type ID\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"groupIds":["Any"],"groupIds.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Group IDs\",\"mandatory\":\"false\",\"child_name\":\"Group IDs_child0\",\"uiTypeLabel\":\"Any\",\"child_label\":\"Group IDs_child0\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"5\",\"max_length\":\"0\",\"child_uiUniqueId\":\"f0cbe521-c973-479d-9777-7c5b47432dc9\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FDe9c41c91ab21e410976283f6a69ec45d.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe9c41c91ab21e410976283f6a69ec45d\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Customer Request Types\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"7dcfb35b-90b7-4d89-84a3-e76fdc0b3369\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 15:38:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>adc41c911b21e410c4a4a9362a4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe9c41c91ab21e410976283f6a69ec45d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name>sys_complex_object_adc41c911b21e410c4a4a9362a4bcb5d</sys_update_name>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 15:38:07</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

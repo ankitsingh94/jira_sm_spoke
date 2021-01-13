@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="ServiceDesk Management">0a721a901b15e410c4a4a9362a4bcbe7</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>add_customer</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>P : Add Customer</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:42:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>637ad19d1ba1e410c4a4a9362a4bcb29</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>P : Add Customer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_637ad19d1ba1e410c4a4a9362a4bcb29</sys_update_name>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:50:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=637ad19d1ba1e410c4a4a9362a4bcb29"/>
+    <sys_variable_value action="DELETE" query="document_key=637ad19d1ba1e410c4a4a9362a4bcb29"/>
+    <sys_hub_step_instance action="DELETE" query="action=637ad19d1ba1e410c4a4a9362a4bcb29^sys_idNOT IN9c9a559d1ba1e410c4a4a9362a4bcb87,e49a559d1ba1e410c4a4a9362a4bcb91,e49a559d1ba1e410c4a4a9362a4bcba1"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action>
+        <cid>e37d7f58-e5dd-4ae4-8812-aa8c00dd98c0</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>9c9a559d1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:03</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=9c9a559d1ba1e410c4a4a9362a4bcb87"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9c9a559d1ba1e410c4a4a9362a4bcb87</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>ac9a559d1ba1e410c4a4a9362a4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:03</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9c9a559d1ba1e410c4a4a9362a4bcb87</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>e49a559d1ba1e410c4a4a9362a4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:03</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action>
+        <cid>f128bf3e-7704-425f-bfbc-0b06a612066e</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>e49a559d1ba1e410c4a4a9362a4bcb91</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:50:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=e49a559d1ba1e410c4a4a9362a4bcb91"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>289a559d1ba1e410c4a4a9362a4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:03</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:50:31</sys_created_on>
+        <sys_id>394cd5dd1ba1e410c4a4a9362a4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:50:31</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>649a559d1ba1e410c4a4a9362a4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:03</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:50:31</sys_created_on>
+        <sys_id>f94cd5dd1ba1e410c4a4a9362a4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:50:31</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action>
+        <cid>c65dfc32-cb4b-4818-ae1a-a0d8d0eeee98</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>e49a559d1ba1e410c4a4a9362a4bcba1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:04</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=e49a559d1ba1e410c4a4a9362a4bcba1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcba1</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:04</sys_created_on>
+        <sys_id>609a559d1ba1e410c4a4a9362a4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:04</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcba1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:04</sys_created_on>
+        <sys_id>ac9a559d1ba1e410c4a4a9362a4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:04</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="DELETE" query="action=637ad19d1ba1e410c4a4a9362a4bcb29^sys_idNOT IN9c9a559d1ba1e410c4a4a9362a4bcb87,e49a559d1ba1e410c4a4a9362a4bcb91,e49a559d1ba1e410c4a4a9362a4bcba1"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action>
+        <cid>e37d7f58-e5dd-4ae4-8812-aa8c00dd98c0</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>9c9a559d1ba1e410c4a4a9362a4bcb87</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:03</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=9c9a559d1ba1e410c4a4a9362a4bcb87"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9c9a559d1ba1e410c4a4a9362a4bcb87</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>ac9a559d1ba1e410c4a4a9362a4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:03</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9c9a559d1ba1e410c4a4a9362a4bcb87</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>e49a559d1ba1e410c4a4a9362a4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:03</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action>
+        <cid>f128bf3e-7704-425f-bfbc-0b06a612066e</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>e49a559d1ba1e410c4a4a9362a4bcb91</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:50:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=e49a559d1ba1e410c4a4a9362a4bcb91"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>289a559d1ba1e410c4a4a9362a4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:03</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:50:31</sys_created_on>
+        <sys_id>394cd5dd1ba1e410c4a4a9362a4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:50:31</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>649a559d1ba1e410c4a4a9362a4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:03</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:50:31</sys_created_on>
+        <sys_id>f94cd5dd1ba1e410c4a4a9362a4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:50:31</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action>
+        <cid>c65dfc32-cb4b-4818-ae1a-a0d8d0eeee98</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:03</sys_created_on>
+        <sys_id>e49a559d1ba1e410c4a4a9362a4bcba1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:04</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=e49a559d1ba1e410c4a4a9362a4bcba1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcba1</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:04</sys_created_on>
+        <sys_id>609a559d1ba1e410c4a4a9362a4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:04</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e49a559d1ba1e410c4a4a9362a4bcba1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:43:04</sys_created_on>
+        <sys_id>ac9a559d1ba1e410c4a4a9362a4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:43:04</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</application>
+        <file_path/>
+        <instance_id>a0b3731fdbb45014a667cac505961924</instance_id>
+        <instance_name>empankits</instance_name>
+        <name>sys_hub_action_type_definition_637ad19d1ba1e410c4a4a9362a4bcb29</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category display_value="ServiceDesk Management">0a721a901b15e410c4a4a9362a4bcbe7</category><copied_from/><copied_from_name/><description/><ih_action>false</ih_action><internal_name>add_customer</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>P : Add Customer</name><natlang/><outputs/><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:42:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>637ad19d1ba1e410c4a4a9362a4bcb29</sys_id><sys_mod_count>4</sys_mod_count><sys_name>P : Add Customer</sys_name><sys_overrides/><sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package><sys_policy/><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_update_name>sys_hub_action_type_definition_637ad19d1ba1e410c4a4a9362a4bcb29</sys_update_name><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:50:31</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=637ad19d1ba1e410c4a4a9362a4bcb29"/><sys_variable_value action="delete_multiple" query="document_key=637ad19d1ba1e410c4a4a9362a4bcb29"/><sys_hub_step_instance action="delete_multiple" query="action=637ad19d1ba1e410c4a4a9362a4bcb29^sys_idNOT IN9c9a559d1ba1e410c4a4a9362a4bcb87,e49a559d1ba1e410c4a4a9362a4bcb91,e49a559d1ba1e410c4a4a9362a4bcba1"/><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action><cid>e37d7f58-e5dd-4ae4-8812-aa8c00dd98c0</cid><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>1</order><outputs/><section/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>9c9a559d1ba1e410c4a4a9362a4bcb87</sys_id><sys_mod_count>1</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:03</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=9c9a559d1ba1e410c4a4a9362a4bcb87"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>9c9a559d1ba1e410c4a4a9362a4bcb87</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>ac9a559d1ba1e410c4a4a9362a4bcb8f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:03</sys_updated_on><value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+})(inputs, outputs);&#13;
+</value><variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>9c9a559d1ba1e410c4a4a9362a4bcb87</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>e49a559d1ba1e410c4a4a9362a4bcb8f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:03</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable></sys_variable_value><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action><cid>f128bf3e-7704-425f-bfbc-0b06a612066e</cid><extended_inputs/><extended_outputs/><icon/><inputs/><label>REST step</label><order>2</order><outputs/><section/><step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>e49a559d1ba1e410c4a4a9362a4bcb91</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:50:31</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=e49a559d1ba1e410c4a4a9362a4bcb91"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key><order>12</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>289a559d1ba1e410c4a4a9362a4bcb9e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:03</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f11ebf865f101300a09a2abd7f466652</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key><order>30</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:50:31</sys_created_on><sys_id>394cd5dd1ba1e410c4a4a9362a4bcb17</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:50:31</sys_updated_on><value>{"type":"ADV_NV","value":[]}</value><variable display_value="">371837f1c71003007b237f48cb9763b0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key><order>13</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>649a559d1ba1e410c4a4a9362a4bcb9e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:03</sys_updated_on><value>18409d8007482000dada43c0d1021e8f</value><variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key><order>25</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:50:31</sys_created_on><sys_id>f94cd5dd1ba1e410c4a4a9362a4bcb17</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:50:31</sys_updated_on><value>{"type":"ADV_NV","value":[]}</value><variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable></sys_variable_value><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action><cid>c65dfc32-cb4b-4818-ae1a-a0d8d0eeee98</cid><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>3</order><outputs/><section/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>e49a559d1ba1e410c4a4a9362a4bcba1</sys_id><sys_mod_count>1</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:04</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=e49a559d1ba1e410c4a4a9362a4bcba1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcba1</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:04</sys_created_on><sys_id>609a559d1ba1e410c4a4a9362a4bcba7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:04</sys_updated_on><value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+})(inputs, outputs);&#13;
+</value><variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcba1</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:04</sys_created_on><sys_id>ac9a559d1ba1e410c4a4a9362a4bcba6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:04</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable></sys_variable_value><sys_hub_step_instance action="delete_multiple" query="action=637ad19d1ba1e410c4a4a9362a4bcb29^sys_idNOT IN9c9a559d1ba1e410c4a4a9362a4bcb87,e49a559d1ba1e410c4a4a9362a4bcb91,e49a559d1ba1e410c4a4a9362a4bcba1"/><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action><cid>e37d7f58-e5dd-4ae4-8812-aa8c00dd98c0</cid><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>1</order><outputs/><section/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>9c9a559d1ba1e410c4a4a9362a4bcb87</sys_id><sys_mod_count>1</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:03</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=9c9a559d1ba1e410c4a4a9362a4bcb87"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>9c9a559d1ba1e410c4a4a9362a4bcb87</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>ac9a559d1ba1e410c4a4a9362a4bcb8f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:03</sys_updated_on><value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+})(inputs, outputs);&#13;
+</value><variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>9c9a559d1ba1e410c4a4a9362a4bcb87</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>e49a559d1ba1e410c4a4a9362a4bcb8f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:03</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable></sys_variable_value><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action><cid>f128bf3e-7704-425f-bfbc-0b06a612066e</cid><extended_inputs/><extended_outputs/><icon/><inputs/><label>REST step</label><order>2</order><outputs/><section/><step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>e49a559d1ba1e410c4a4a9362a4bcb91</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:50:31</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=e49a559d1ba1e410c4a4a9362a4bcb91"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key><order>12</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>289a559d1ba1e410c4a4a9362a4bcb9e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:03</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f11ebf865f101300a09a2abd7f466652</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key><order>30</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:50:31</sys_created_on><sys_id>394cd5dd1ba1e410c4a4a9362a4bcb17</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:50:31</sys_updated_on><value>{"type":"ADV_NV","value":[]}</value><variable display_value="">371837f1c71003007b237f48cb9763b0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key><order>13</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>649a559d1ba1e410c4a4a9362a4bcb9e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:03</sys_updated_on><value>18409d8007482000dada43c0d1021e8f</value><variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcb91</document_key><order>25</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:50:31</sys_created_on><sys_id>f94cd5dd1ba1e410c4a4a9362a4bcb17</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:50:31</sys_updated_on><value>{"type":"ADV_NV","value":[]}</value><variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable></sys_variable_value><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="P : Add Customer">637ad19d1ba1e410c4a4a9362a4bcb29</action><cid>c65dfc32-cb4b-4818-ae1a-a0d8d0eeee98</cid><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>3</order><outputs/><section/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:03</sys_created_on><sys_id>e49a559d1ba1e410c4a4a9362a4bcba1</sys_id><sys_mod_count>1</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:04</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=e49a559d1ba1e410c4a4a9362a4bcba1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcba1</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:04</sys_created_on><sys_id>609a559d1ba1e410c4a4a9362a4bcba7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:04</sys_updated_on><value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+})(inputs, outputs);&#13;
+</value><variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>e49a559d1ba1e410c4a4a9362a4bcba1</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-05 20:43:04</sys_created_on><sys_id>ac9a559d1ba1e410c4a4a9362a4bcba6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-05 20:43:04</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1396574058</payload_hash>
+        <record_name>P : Add Customer</record_name>
+        <reverted_from/>
+        <source>2df971091ba9a410c4a4a9362a4bcb8f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:50:32</sys_created_on>
+        <sys_id>024cd5dd1ba1e410c4a4a9362a4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176d450c89e0000001</sys_recorded_at>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:50:32</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>0a4cd5dd37a1e410307c78cd68aafc6c</update_guid>
+        <update_guid_history>0a4cd5dd37a1e410307c78cd68aafc6c:1396574058,389a559dc3a1e41007974f268ebf75f3:1242543204,e37ad19dd5a1e41068c4dd357de0ac2c:-1263131271</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-12 18:38:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>7938ee7e82474582893faac754e247a4</sys_id>
+        <sys_metadata>637ad19d1ba1e410c4a4a9362a4bcb29</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>P : Add Customer</sys_name>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_scope_delete display_value="">8ec2ef24e9b5422f80331e97936011d1</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_637ad19d1ba1e410c4a4a9362a4bcb29</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_637ad19d1ba1e410c4a4a9362a4bcb29">024cd5dd1ba1e410c4a4a9362a4bcb6d</sys_update_version>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-12 18:38:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

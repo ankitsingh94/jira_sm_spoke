@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDffbbdd9df6a1e410a5a9902fc2609b20</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>dc9a0a5c1bd1e410c4a4a9362a4bcb64</scope_name>
+        <serialized_content>{"FlowDesigner:FDffbbdd9df6a1e410a5a9902fc2609b20":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDffbbdd9df6a1e410a5a9902fc2609b20.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Account ID\",\"mandatory\":\"false\",\"child_name\":\"account\",\"uiUniqueId\":\"8335f922-29ff-49e4-8163-5df056a21f4a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDffbbdd9df6a1e410a5a9902fc2609b20\",\"child_label\":\"Account\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"6b04a755-785c-42c7-916b-9f026bd8eba4\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-05 20:48:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b3bbdd9d1ba1e410c4a4a9362a4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDffbbdd9df6a1e410a5a9902fc2609b20</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name>sys_complex_object_b3bbdd9d1ba1e410c4a4a9362a4bcb21</sys_update_name>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-05 20:48:12</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
