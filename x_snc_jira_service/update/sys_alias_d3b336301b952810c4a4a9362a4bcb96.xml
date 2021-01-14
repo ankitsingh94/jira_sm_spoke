@@ -5,7 +5,6 @@
         <id>x_snc_jira_service.Jira_SM</id>
         <multiple_connections>false</multiple_connections>
         <name>Jira_SM</name>
-        <parent/>
         <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
         <sys_class_name>sys_alias</sys_class_name>
         <sys_created_by>ankit.singh@snc</sys_created_by>

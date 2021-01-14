@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>remove_organization</internal_name>
         <label_cache>[{"name":"{{action.service_desk_id}}","label":"action➛Service Desk ID","type":"action","ref":""},{"name":"{{action.organization_id}}","label":"action➛Organization ID","type":"action","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].organization_id}}","label":"step➛Pre Processing➛Organization ID","type":"step","ref":""},{"name":"{{step[16e6eb83-8ef5-4d36-a6c3-bfe438d358ff].service_desk_id}}","label":"step➛Pre Processing➛Service Desk ID","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].status_code}}","label":"step➛Remove Organization from Service Desk➛Status Code","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].error_message}}","label":"step➛Remove Organization from Service Desk➛Error Message","type":"step","ref":""},{"name":"{{step[883e7b69-fe31-4d83-b1f1-9350282a1954].response_body}}","label":"step➛Remove Organization from Service Desk➛Response Body","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].status}}","label":"step➛Handle Errors➛status","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].error}}","label":"step➛Handle Errors➛Error","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].error1}}","label":"step➛Handle Errors➛Error","type":"step","ref":""},{"name":"{{step[9c27dfe5-51dc-46cb-86dd-6eb463793d3c].status2}}","label":"step➛Handle Errors➛Status","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>802261551be1e410c4a4a9362a4bcb7c</latest_snapshot>
+        <latest_snapshot>3be99b481bb56c10c4a4a9362a4bcb66</latest_snapshot>
         <master_snapshot>94734c3e1bdd6010c4a4a9362a4bcb3e</master_snapshot>
         <name>Remove Organization from Service Desk</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>09c2403e1bdd6010c4a4a9362a4bcbc4</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Remove Organization from Service Desk</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_09c2403e1bdd6010c4a4a9362a4bcbc4</sys_update_name>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:16:08</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -52,7 +52,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-04 19:53:13</sys_updated_on>
         <value/>
-        <variable display_value="Status">e8950c4d1ba5a410c4a4a9362a4bcbbf</variable>
+        <variable display_value="">e8950c4d1ba5a410c4a4a9362a4bcbbf</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=09c2403e1bdd6010c4a4a9362a4bcbc4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -96,10 +96,10 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:39</sys_created_on>
         <sys_id>2dc2803e1bdd6010c4a4a9362a4bcb15</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:08:17</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2dc2803e1bdd6010c4a4a9362a4bcb15"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -110,11 +110,12 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:40</sys_created_on>
         <sys_id>21c2803e1bdd6010c4a4a9362a4bcb40</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:08:17</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:45</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     if (inputs.status == '204') {
+      
         outputs.status = "Success";
     } else {
         try {
@@ -125,7 +126,7 @@
         outputs.status = "Error";
     }
 })(inputs, outputs);    </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -139,7 +140,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:40</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=2dc2803e1bdd6010c4a4a9362a4bcb15"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -483,7 +484,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error</label>
+        <label>error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">2dc2803e1bdd6010c4a4a9362a4bcb15</model>
@@ -509,14 +510,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:40</sys_created_on>
         <sys_id>61c2803e1bdd6010c4a4a9362a4bcb37</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:54:40</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -564,7 +565,7 @@
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Handle Errors">2dc2803e1bdd6010c4a4a9362a4bcb15</model>
@@ -590,14 +591,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:39</sys_created_on>
         <sys_id>edc2803e1bdd6010c4a4a9362a4bcb2a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:54:40</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -647,7 +648,7 @@ outputs.service_desk_id = inputs.service_desk_id.trim();
 outputs.organization_id = inputs.organization_id.trim();
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -661,7 +662,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=55c2403e1bdd6010c4a4a9362a4bcbdb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -912,7 +913,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">55c2403e1bdd6010c4a4a9362a4bcbdb</model>
@@ -938,14 +939,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:39</sys_created_on>
         <sys_id>15c2403e1bdd6010c4a4a9362a4bcbf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -993,7 +994,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Organization ID</label>
+        <label>organization_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">55c2403e1bdd6010c4a4a9362a4bcbdb</model>
@@ -1019,14 +1020,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:38</sys_created_on>
         <sys_id>5dc2403e1bdd6010c4a4a9362a4bcbea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:54:38</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1072,7 +1073,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1086,7 +1087,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:55:26</sys_updated_on>
         <value>delete</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1100,7 +1101,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1114,7 +1115,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1128,7 +1129,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1142,7 +1143,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1156,7 +1157,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1170,7 +1171,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=95c2403e1bdd6010c4a4a9362a4bcbfd"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1461,15 +1462,15 @@ outputs.organization_id = inputs.organization_id.trim();
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8dc2403e1bdd6010c4a4a9362a4bcbc8^sys_idNOT IN95c2403e1bdd6010c4a4a9362a4bcbcf"/>
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
-        <action_input display_value="Service Desk ID">8dc2403e1bdd6010c4a4a9362a4bcbc8</action_input>
+        <action_input display_value="">8dc2403e1bdd6010c4a4a9362a4bcbc8</action_input>
         <action_inputs/>
-        <action_type display_value="">1cd8bd7687711010aec3819b88cb0b00</action_type>
+        <action_type display_value="Look up Slot Types">1cd8bd7687711010aec3819b88cb0b00</action_type>
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:38</sys_created_on>
         <sys_id>95c2403e1bdd6010c4a4a9362a4bcbcf</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:16:00</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=95c2403e1bdd6010c4a4a9362a4bcbcf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1751,10 +1752,10 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:39</sys_created_on>
         <sys_id>2dc2803e1bdd6010c4a4a9362a4bcb15</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:08:17</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:45</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2dc2803e1bdd6010c4a4a9362a4bcb15"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1765,11 +1766,12 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:40</sys_created_on>
         <sys_id>21c2803e1bdd6010c4a4a9362a4bcb40</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:08:17</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:45</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     if (inputs.status == '204') {
+      
         outputs.status = "Success";
     } else {
         try {
@@ -1780,7 +1782,7 @@ outputs.organization_id = inputs.organization_id.trim();
         outputs.status = "Error";
     }
 })(inputs, outputs);    </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1794,7 +1796,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:40</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=2dc2803e1bdd6010c4a4a9362a4bcb15"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2138,7 +2140,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error</label>
+        <label>error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">2dc2803e1bdd6010c4a4a9362a4bcb15</model>
@@ -2164,14 +2166,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:40</sys_created_on>
         <sys_id>61c2803e1bdd6010c4a4a9362a4bcb37</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:54:40</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2219,7 +2221,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Handle Errors">2dc2803e1bdd6010c4a4a9362a4bcb15</model>
@@ -2245,14 +2247,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:39</sys_created_on>
         <sys_id>edc2803e1bdd6010c4a4a9362a4bcb2a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:54:40</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2302,7 +2304,7 @@ outputs.service_desk_id = inputs.service_desk_id.trim();
 outputs.organization_id = inputs.organization_id.trim();
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2316,7 +2318,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=55c2403e1bdd6010c4a4a9362a4bcbdb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2567,7 +2569,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">55c2403e1bdd6010c4a4a9362a4bcbdb</model>
@@ -2593,14 +2595,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:39</sys_created_on>
         <sys_id>15c2403e1bdd6010c4a4a9362a4bcbf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2648,7 +2650,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Organization ID</label>
+        <label>organization_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">55c2403e1bdd6010c4a4a9362a4bcbdb</model>
@@ -2674,14 +2676,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:54:38</sys_created_on>
         <sys_id>5dc2403e1bdd6010c4a4a9362a4bcbea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:54:38</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2727,7 +2729,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2741,7 +2743,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:55:26</sys_updated_on>
         <value>delete</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2755,7 +2757,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2769,7 +2771,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2783,7 +2785,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2797,7 +2799,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2811,7 +2813,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2825,7 +2827,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:39</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=95c2403e1bdd6010c4a4a9362a4bcbfd"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3046,11 +3048,11 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_on>2020-12-28 19:54:38</sys_created_on>
         <sys_id>11c2403e1bdd6010c4a4a9362a4bcbce</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Desk ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_09c2403e1bdd6010c4a4a9362a4bcbc4_service_desk_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:38</sys_updated_on>
         <url/>
@@ -3069,11 +3071,11 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_on>2020-12-28 19:54:38</sys_created_on>
         <sys_id>d1c2403e1bdd6010c4a4a9362a4bcbd5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Organization ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_09c2403e1bdd6010c4a4a9362a4bcbc4_organization_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:38</sys_updated_on>
         <url/>
@@ -3093,11 +3095,11 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_on>2021-01-04 19:53:13</sys_created_on>
         <sys_id>28950c4d1ba5a410c4a4a9362a4bcbca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_09c2403e1bdd6010c4a4a9362a4bcbc4_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-04 19:53:13</sys_updated_on>
         <url/>
@@ -3116,11 +3118,11 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_on>2020-12-28 19:54:40</sys_created_on>
         <sys_id>31c2803e1bdd6010c4a4a9362a4bcb4f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_09c2403e1bdd6010c4a4a9362a4bcbc4_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:54:40</sys_updated_on>
         <url/>
@@ -3137,7 +3139,6 @@ outputs.organization_id = inputs.organization_id.trim();
             <language>en</language>
             <name>var__m_sys_hub_action_output_09c2403e1bdd6010c4a4a9362a4bcbc4</name>
             <sequence>0</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-04 19:53:13</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3157,7 +3158,6 @@ outputs.organization_id = inputs.organization_id.trim();
             <language>en</language>
             <name>var__m_sys_hub_action_output_09c2403e1bdd6010c4a4a9362a4bcbc4</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-04 19:53:13</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3173,17 +3173,17 @@ outputs.organization_id = inputs.organization_id.trim();
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Remove Organization from Service Desk">09c2403e1bdd6010c4a4a9362a4bcbc4</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a1738c3e1bdd6010c4a4a9362a4bcb8d","name":"plan"}}</plan>
-        <snapshot>802261551be1e410c4a4a9362a4bcb7c</snapshot>
+        <snapshot>3be99b481bb56c10c4a4a9362a4bcb66</snapshot>
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a1738c3e1bdd6010c4a4a9362a4bcb8d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:16:12</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:56</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3235,7 +3235,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 08:41:46</sys_updated_on>
         <value/>
-        <variable display_value="Status">3275ba491b2da410c4a4a9362a4bcb30</variable>
+        <variable display_value="">3275ba491b2da410c4a4a9362a4bcb30</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=94734c3e1bdd6010c4a4a9362a4bcb3e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3301,7 +3301,7 @@ outputs.service_desk_id = inputs.service_desk_id.trim();
 outputs.organization_id = inputs.organization_id.trim();
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3315,7 +3315,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6c734c3e1bdd6010c4a4a9362a4bcb51"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3566,7 +3566,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">6c734c3e1bdd6010c4a4a9362a4bcb51</model>
@@ -3592,14 +3592,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:35</sys_created_on>
         <sys_id>2c734c3e1bdd6010c4a4a9362a4bcb67</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:57:35</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3647,7 +3647,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Organization ID</label>
+        <label>organization_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">6c734c3e1bdd6010c4a4a9362a4bcb51</model>
@@ -3673,14 +3673,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:35</sys_created_on>
         <sys_id>64734c3e1bdd6010c4a4a9362a4bcb61</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:57:35</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3708,10 +3708,10 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:36</sys_created_on>
         <sys_id>a0734c3e1bdd6010c4a4a9362a4bcba5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:08:24</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a0734c3e1bdd6010c4a4a9362a4bcba5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3726,7 +3726,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:37</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3736,11 +3736,12 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:37</sys_created_on>
         <sys_id>f4734c3e1bdd6010c4a4a9362a4bcbcf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:08:24</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:53</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     if (inputs.status == '204') {
+      
         outputs.status = "Success";
     } else {
         try {
@@ -3751,7 +3752,7 @@ outputs.organization_id = inputs.organization_id.trim();
         outputs.status = "Error";
     }
 })(inputs, outputs);    </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a0734c3e1bdd6010c4a4a9362a4bcba5"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4095,7 +4096,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Handle Errors">a0734c3e1bdd6010c4a4a9362a4bcba5</model>
@@ -4121,14 +4122,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:36</sys_created_on>
         <sys_id>74734c3e1bdd6010c4a4a9362a4bcbba</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4176,7 +4177,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error</label>
+        <label>error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">a0734c3e1bdd6010c4a4a9362a4bcba5</model>
@@ -4202,14 +4203,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:37</sys_created_on>
         <sys_id>f4734c3e1bdd6010c4a4a9362a4bcbc6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:57:37</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4255,7 +4256,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4269,7 +4270,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4283,7 +4284,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4297,7 +4298,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4311,7 +4312,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>delete</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4325,7 +4326,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4339,7 +4340,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4353,7 +4354,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ac734c3e1bdd6010c4a4a9362a4bcb73"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4644,15 +4645,15 @@ outputs.organization_id = inputs.organization_id.trim();
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=94734c3e1bdd6010c4a4a9362a4bcb3f^sys_idNOT IN9c734c3e1bdd6010c4a4a9362a4bcb45"/>
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
-        <action_input display_value="Service Desk ID">94734c3e1bdd6010c4a4a9362a4bcb3f</action_input>
+        <action_input display_value="">94734c3e1bdd6010c4a4a9362a4bcb3f</action_input>
         <action_inputs/>
-        <action_type display_value="">1cd8bd7687711010aec3819b88cb0b00</action_type>
+        <action_type display_value="Look up Slot Types">1cd8bd7687711010aec3819b88cb0b00</action_type>
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:35</sys_created_on>
         <sys_id>9c734c3e1bdd6010c4a4a9362a4bcb45</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:16:07</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:51</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9c734c3e1bdd6010c4a4a9362a4bcb45"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4956,7 +4957,7 @@ outputs.service_desk_id = inputs.service_desk_id.trim();
 outputs.organization_id = inputs.organization_id.trim();
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4970,7 +4971,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6c734c3e1bdd6010c4a4a9362a4bcb51"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5221,7 +5222,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">6c734c3e1bdd6010c4a4a9362a4bcb51</model>
@@ -5247,14 +5248,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:35</sys_created_on>
         <sys_id>2c734c3e1bdd6010c4a4a9362a4bcb67</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:57:35</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5302,7 +5303,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Organization ID</label>
+        <label>organization_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">6c734c3e1bdd6010c4a4a9362a4bcb51</model>
@@ -5328,14 +5329,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:35</sys_created_on>
         <sys_id>64734c3e1bdd6010c4a4a9362a4bcb61</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:57:35</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5363,10 +5364,10 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:36</sys_created_on>
         <sys_id>a0734c3e1bdd6010c4a4a9362a4bcba5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:08:24</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:53</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a0734c3e1bdd6010c4a4a9362a4bcba5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5381,7 +5382,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:37</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5391,11 +5392,12 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:37</sys_created_on>
         <sys_id>f4734c3e1bdd6010c4a4a9362a4bcbcf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 21:08:24</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:53</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     if (inputs.status == '204') {
+      
         outputs.status = "Success";
     } else {
         try {
@@ -5406,7 +5408,7 @@ outputs.organization_id = inputs.organization_id.trim();
         outputs.status = "Error";
     }
 })(inputs, outputs);    </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a0734c3e1bdd6010c4a4a9362a4bcba5"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5750,7 +5752,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Handle Errors">a0734c3e1bdd6010c4a4a9362a4bcba5</model>
@@ -5776,14 +5778,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:36</sys_created_on>
         <sys_id>74734c3e1bdd6010c4a4a9362a4bcbba</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5831,7 +5833,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error</label>
+        <label>error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">a0734c3e1bdd6010c4a4a9362a4bcba5</model>
@@ -5857,14 +5859,14 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-28 19:57:37</sys_created_on>
         <sys_id>f4734c3e1bdd6010c4a4a9362a4bcbc6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-28 19:57:37</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:02:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5910,7 +5912,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5924,7 +5926,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5938,7 +5940,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5952,7 +5954,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5966,7 +5968,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>delete</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5980,7 +5982,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5994,7 +5996,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6008,7 +6010,7 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:36</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ac734c3e1bdd6010c4a4a9362a4bcb73"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -6229,11 +6231,11 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_on>2020-12-28 19:57:35</sys_created_on>
         <sys_id>18734c3e1bdd6010c4a4a9362a4bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Desk ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_94734c3e1bdd6010c4a4a9362a4bcb3e_service_desk_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:35</sys_updated_on>
         <url/>
@@ -6252,11 +6254,11 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_on>2020-12-28 19:57:35</sys_created_on>
         <sys_id>d8734c3e1bdd6010c4a4a9362a4bcb4b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Organization ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_94734c3e1bdd6010c4a4a9362a4bcb3e_organization_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:35</sys_updated_on>
         <url/>
@@ -6276,11 +6278,11 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_on>2020-12-28 19:57:37</sys_created_on>
         <sys_id>38734c3e1bdd6010c4a4a9362a4bcbde</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_94734c3e1bdd6010c4a4a9362a4bcb3e_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-28 19:57:37</sys_updated_on>
         <url/>
@@ -6299,11 +6301,11 @@ outputs.organization_id = inputs.organization_id.trim();
         <sys_created_on>2021-01-05 08:41:46</sys_created_on>
         <sys_id>7e75ba491b2da410c4a4a9362a4bcb3a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_94734c3e1bdd6010c4a4a9362a4bcb3e_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 08:41:46</sys_updated_on>
         <url/>
@@ -6320,7 +6322,6 @@ outputs.organization_id = inputs.organization_id.trim();
             <language>en</language>
             <name>var__m_sys_hub_action_output_94734c3e1bdd6010c4a4a9362a4bcb3e</name>
             <sequence>0</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-05 08:41:46</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -6340,7 +6341,6 @@ outputs.organization_id = inputs.organization_id.trim();
             <language>en</language>
             <name>var__m_sys_hub_action_output_94734c3e1bdd6010c4a4a9362a4bcb3e</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-05 08:41:46</sys_created_on>
             <sys_domain>global</sys_domain>

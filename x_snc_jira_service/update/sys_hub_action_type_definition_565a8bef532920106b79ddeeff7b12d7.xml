@@ -52,7 +52,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:47</sys_updated_on>
         <value/>
-        <variable display_value="Page Count">aa5acbef532920106b79ddeeff7b1268</variable>
+        <variable display_value="">aa5acbef532920106b79ddeeff7b1268</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -66,7 +66,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:47</sys_updated_on>
         <value/>
-        <variable display_value="ds_count">265acbef532920106b79ddeeff7b1274</variable>
+        <variable display_value="">265acbef532920106b79ddeeff7b1274</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -80,7 +80,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value/>
-        <variable display_value="count">e65acbef532920106b79ddeeff7b126e</variable>
+        <variable display_value="">e65acbef532920106b79ddeeff7b126e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -94,7 +94,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:10</sys_updated_on>
         <value>{"complexObject":{"ongoingCycle":{"name$":"ongoingCycle","paused":{"$cv":{"$c":"java.lang.String","$v":""}},"goalDuration":{"name$":"goalDuration","friendly":{"$cv":{"$c":"java.lang.String","$v":""}}},"breached":{"$cv":{"$c":"java.lang.String","$v":""}},"startTime":{"name$":"startTime","friendly":{"$cv":{"$c":"java.lang.String","$v":""}}},"withinCalendarHours":{"$cv":{"$c":"java.lang.String","$v":""}},"elapsedTime":{"name$":"elapsedTime","friendly":{"$cv":{"$c":"java.lang.String","$v":""}}},"remainingTime":{"name$":"remainingTime","friendly":{"$cv":{"$c":"java.lang.String","$v":""}}}},"completedCycles":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD225acbefc6292010107394b7a0bad560":{"ongoingCycle":{"paused":"String","paused.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Paused\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"goalDuration":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"goalDuration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Goal Duration\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"breached":"String","breached.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Breached\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"startTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"startTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Start Time\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"withinCalendarHours":"String","withinCalendarHours.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Within Calendar Hours\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"elapsedTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"elapsedTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Elapsed Time\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"remainingTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"remainingTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Remaining Time\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"}},"ongoingCycle.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Ongoing Cycle\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"completedCycles":[{"completedCycles":{"goalDuration":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"goalDuration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Goal Duration\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"breached":"String","breached.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Breached\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"completed_cycle_child1":"String","completed_cycle_child1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Completed Cycle_child1\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"startTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"startTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Start Time\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"stopTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"stopTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Stop Time\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"elapsedTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"elapsedTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Elapsed Time\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"remainingTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"remainingTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Remaining Time\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"}}}],"completedCycles.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Completed Cycles\",\"mandatory\":\"false\",\"child_name\":\"Completed_Cycle\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Completed Cycle\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"0\",\"child_uiUniqueId\":\"b17d5239-5be5-4b12-93cd-ff57cf8b8a81\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD225acbefc6292010107394b7a0bad560.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"SLA Information\",\"mandatory\":\"false\",\"uiUniqueId\":\"c57323c2-02db-451b-a2f3-7b76a2ec6b5a\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD225acbefc6292010107394b7a0bad560\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","version":"1.0"}</value>
-        <variable display_value="SLA Information">2e5acbef532920106b79ddeeff7b12a2</variable>
+        <variable display_value="">2e5acbef532920106b79ddeeff7b12a2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_definition</document>
@@ -108,7 +108,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value/>
-        <variable display_value="Item Count">a65acbef532920106b79ddeeff7b1262</variable>
+        <variable display_value="">a65acbef532920106b79ddeeff7b1262</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=565a8bef532920106b79ddeeff7b12d7"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -266,7 +266,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>$.values</value>
-        <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
+        <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -280,7 +280,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>JSON</value>
-        <variable display_value="Source Format">56c04e04e713230007a64caac2f6a9e3</variable>
+        <variable display_value="">56c04e04e713230007a64caac2f6a9e3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=2a5acbef532920106b79ddeeff7b1253"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -352,7 +352,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>json_splitter</value>
-        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+        <variable display_value="">d52e2cd677032300efb691572b1061e4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -366,7 +366,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>script_parser</value>
-        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+        <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">565a8bef532920106b79ddeeff7b12d7</action>
@@ -413,7 +413,7 @@
         }
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -427,7 +427,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=925a8bef532920106b79ddeeff7b12f5"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -757,7 +757,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -771,7 +771,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>fc353e3c53d120106b79ddeeff7b12a0</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -785,7 +785,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>https://ihubtest023.atlassian.net</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -799,7 +799,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -813,7 +813,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -827,7 +827,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>1</value>
-        <variable display_value="Is Streaming">f1255aa377322300efb691572b106135</variable>
+        <variable display_value="">f1255aa377322300efb691572b106135</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -841,7 +841,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -855,7 +855,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=925acbef532920106b79ddeeff7b1235"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1081,7 +1081,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <value>rest_step</value>
-        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+        <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1095,7 +1095,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable pagination">88ad28d677032300efb691572b10619b</variable>
+        <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">565a8bef532920106b79ddeeff7b12d7</action>
@@ -1130,7 +1130,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable preprocessing script">2a6c20d677032300efb691572b106183</variable>
+        <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">565a8bef532920106b79ddeeff7b12d7</action>
@@ -1165,7 +1165,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true},{"name":"isLastPage","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$.isLastPage"},{"name":"nextLink","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$._links.next"},{"name":"response","initial_value":"","value_from":"script","extract_using":"","extract_expression":""}]</value>
-        <variable display_value="Pagination Config">344db1c0e713230007a64caac2f6a9af</variable>
+        <variable display_value="">344db1c0e713230007a64caac2f6a9af</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1186,7 +1186,7 @@
         variables.response = (urlStart.split("&amp;"))[0];&#13;
     }&#13;
 })(variables, pageResponse);</value>
-        <variable display_value="Pagination Script">f68d35c0e713230007a64caac2f6a959</variable>
+        <variable display_value="">f68d35c0e713230007a64caac2f6a959</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=de5acbef532920106b79ddeeff7b1216^sys_idNOT IN965acbef532920106b79ddeeff7b122b,9a5acbef532920106b79ddeeff7b1219,9a5acbef532920106b79ddeeff7b1225,9e5acbef532920106b79ddeeff7b121f"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1578,7 +1578,7 @@ var item = JSON.parse(inputs.sourceItem);
 outputs.targetObject = item;
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+        <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ee5acbef532920106b79ddeeff7b1259"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2881,7 +2881,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>$.values</value>
-        <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
+        <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2895,7 +2895,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>JSON</value>
-        <variable display_value="Source Format">56c04e04e713230007a64caac2f6a9e3</variable>
+        <variable display_value="">56c04e04e713230007a64caac2f6a9e3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=2a5acbef532920106b79ddeeff7b1253"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2967,7 +2967,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>json_splitter</value>
-        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+        <variable display_value="">d52e2cd677032300efb691572b1061e4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2981,7 +2981,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>script_parser</value>
-        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+        <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">565a8bef532920106b79ddeeff7b12d7</action>
@@ -3028,7 +3028,7 @@ outputs.targetObject = item;
         }
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3042,7 +3042,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=925a8bef532920106b79ddeeff7b12f5"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3372,7 +3372,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3386,7 +3386,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>fc353e3c53d120106b79ddeeff7b12a0</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3400,7 +3400,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>https://ihubtest023.atlassian.net</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3414,7 +3414,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3428,7 +3428,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3442,7 +3442,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>1</value>
-        <variable display_value="Is Streaming">f1255aa377322300efb691572b106135</variable>
+        <variable display_value="">f1255aa377322300efb691572b106135</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3456,7 +3456,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3470,7 +3470,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=925acbef532920106b79ddeeff7b1235"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3696,7 +3696,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <value>rest_step</value>
-        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+        <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3710,7 +3710,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable pagination">88ad28d677032300efb691572b10619b</variable>
+        <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">565a8bef532920106b79ddeeff7b12d7</action>
@@ -3745,7 +3745,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable preprocessing script">2a6c20d677032300efb691572b106183</variable>
+        <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">565a8bef532920106b79ddeeff7b12d7</action>
@@ -3780,7 +3780,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true},{"name":"isLastPage","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$.isLastPage"},{"name":"nextLink","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$._links.next"},{"name":"response","initial_value":"","value_from":"script","extract_using":"","extract_expression":""}]</value>
-        <variable display_value="Pagination Config">344db1c0e713230007a64caac2f6a9af</variable>
+        <variable display_value="">344db1c0e713230007a64caac2f6a9af</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3801,7 +3801,7 @@ outputs.targetObject = item;
         variables.response = (urlStart.split("&amp;"))[0];&#13;
     }&#13;
 })(variables, pageResponse);</value>
-        <variable display_value="Pagination Script">f68d35c0e713230007a64caac2f6a959</variable>
+        <variable display_value="">f68d35c0e713230007a64caac2f6a959</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=de5acbef532920106b79ddeeff7b1216^sys_idNOT IN965acbef532920106b79ddeeff7b122b,9a5acbef532920106b79ddeeff7b1219,9a5acbef532920106b79ddeeff7b1225,9e5acbef532920106b79ddeeff7b121f"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -4193,7 +4193,7 @@ var item = JSON.parse(inputs.sourceItem);
 outputs.targetObject = item;
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+        <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ee5acbef532920106b79ddeeff7b1259"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4234,11 +4234,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:45</sys_created_on>
         <sys_id>1a5a8bef532920106b79ddeeff7b12ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Limit</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_565a8bef532920106b79ddeeff7b12d7_limit_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <url/>
@@ -4257,11 +4257,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:45</sys_created_on>
         <sys_id>9e5a8bef532920106b79ddeeff7b12e1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Issue Id</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_565a8bef532920106b79ddeeff7b12d7_issue_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <url/>
@@ -4280,11 +4280,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:45</sys_created_on>
         <sys_id>da5a8bef532920106b79ddeeff7b12e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Key</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_565a8bef532920106b79ddeeff7b12d7_key_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:45</sys_updated_on>
         <url/>
@@ -4304,11 +4304,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>265acbef532920106b79ddeeff7b126d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Page Count</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_page_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4327,11 +4327,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>2a5acbef532920106b79ddeeff7b1284</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_output_page_variables</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_ds_output_page_variables_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4350,11 +4350,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>2e5acbef532920106b79ddeeff7b129b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_code</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_error_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4373,11 +4373,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>625acbef532920106b79ddeeff7b1273</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>count</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4396,11 +4396,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>665acbef532920106b79ddeeff7b128a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response_headers</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_response_headers_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4419,11 +4419,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>6a5acbef532920106b79ddeeff7b12a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_parsed_stream</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_ds_parsed_stream_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4442,11 +4442,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>a25acbef532920106b79ddeeff7b1290</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_message</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_error_message_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4465,11 +4465,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>ae5acbef532920106b79ddeeff7b1278</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_count</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_ds_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4488,11 +4488,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>e65acbef532920106b79ddeeff7b1267</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Item Count</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_item_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4511,11 +4511,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>e65acbef532920106b79ddeeff7b12a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>SLA Information</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_sla_information_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4534,11 +4534,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>ea5acbef532920106b79ddeeff7b127e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>item</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_item_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4557,11 +4557,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:37:46</sys_created_on>
         <sys_id>ee5acbef532920106b79ddeeff7b1295</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status_code</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_565a8bef532920106b79ddeeff7b12d7_status_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:37:46</sys_updated_on>
         <url/>
@@ -4633,7 +4633,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <value/>
-        <variable display_value="count">e89e8be3536920106b79ddeeff7b1204</variable>
+        <variable display_value="">e89e8be3536920106b79ddeeff7b1204</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -4647,7 +4647,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <value>{"complexObject":{"ongoingCycle":{"name$":"ongoingCycle","paused":{"$cv":{"$c":"java.lang.String","$v":""}},"goalDuration":{"name$":"goalDuration","friendly":{"$cv":{"$c":"java.lang.String","$v":""}}},"breached":{"$cv":{"$c":"java.lang.String","$v":""}},"startTime":{"name$":"startTime","friendly":{"$cv":{"$c":"java.lang.String","$v":""}}},"withinCalendarHours":{"$cv":{"$c":"java.lang.String","$v":""}},"elapsedTime":{"name$":"elapsedTime","friendly":{"$cv":{"$c":"java.lang.String","$v":""}}},"remainingTime":{"name$":"remainingTime","friendly":{"$cv":{"$c":"java.lang.String","$v":""}}}},"completedCycles":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD989e4be317692010b580d7cab3f7f0f6":{"ongoingCycle":{"paused":"String","paused.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Paused\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"goalDuration":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"goalDuration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Goal Duration\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"breached":"String","breached.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Breached\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"startTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"startTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Start Time\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"withinCalendarHours":"String","withinCalendarHours.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Within Calendar Hours\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"elapsedTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"elapsedTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Elapsed Time\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"remainingTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"remainingTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Remaining Time\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"}},"ongoingCycle.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Ongoing Cycle\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"completedCycles":[{"completedCycles":{"goalDuration":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"goalDuration.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Goal Duration\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"breached":"String","breached.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Breached\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"completed_cycle_child1":"String","completed_cycle_child1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Completed Cycle_child1\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"startTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"startTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Start Time\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"stopTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"stopTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Stop Time\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"elapsedTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"elapsedTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Elapsed Time\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"remainingTime":{"friendly":"String","friendly.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Friendly\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"remainingTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Remaining Time\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"}}}],"completedCycles.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Completed Cycles\",\"mandatory\":\"false\",\"child_name\":\"Completed_Cycle\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Completed Cycle\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"0\",\"child_uiUniqueId\":\"b17d5239-5be5-4b12-93cd-ff57cf8b8a81\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD989e4be317692010b580d7cab3f7f0f6.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD989e4be317692010b580d7cab3f7f0f6\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"SLA Information\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"c57323c2-02db-451b-a2f3-7b76a2ec6b5a\"}"}},"serializationFormat":"JSON","version":"1.0"}</value>
-        <variable display_value="SLA Information">e49e8be3536920106b79ddeeff7b1238</variable>
+        <variable display_value="">e49e8be3536920106b79ddeeff7b1238</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -4661,7 +4661,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <value/>
-        <variable display_value="Item Count">1c9e4be3536920106b79ddeeff7b12f8</variable>
+        <variable display_value="">1c9e4be3536920106b79ddeeff7b12f8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -4675,7 +4675,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <value/>
-        <variable display_value="Page Count">dc9e4be3536920106b79ddeeff7b12fe</variable>
+        <variable display_value="">dc9e4be3536920106b79ddeeff7b12fe</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -4689,7 +4689,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <value/>
-        <variable display_value="ds_count">e49e8be3536920106b79ddeeff7b120a</variable>
+        <variable display_value="">e49e8be3536920106b79ddeeff7b120a</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=809e4be3536920106b79ddeeff7b1272"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4847,7 +4847,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>$.values</value>
-        <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
+        <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4861,7 +4861,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>JSON</value>
-        <variable display_value="Source Format">56c04e04e713230007a64caac2f6a9e3</variable>
+        <variable display_value="">56c04e04e713230007a64caac2f6a9e3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=189e4be3536920106b79ddeeff7b12ea"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4933,7 +4933,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>json_splitter</value>
-        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+        <variable display_value="">d52e2cd677032300efb691572b1061e4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4947,7 +4947,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>script_parser</value>
-        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+        <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">809e4be3536920106b79ddeeff7b1272</action>
@@ -5014,7 +5014,7 @@ var item = JSON.parse(inputs.sourceItem);
 outputs.targetObject = item;
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+        <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1c9e4be3536920106b79ddeeff7b12f0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5074,7 +5074,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable pagination">88ad28d677032300efb691572b10619b</variable>
+        <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5088,7 +5088,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>rest_step</value>
-        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+        <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">809e4be3536920106b79ddeeff7b1272</action>
@@ -5123,7 +5123,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable preprocessing script">2a6c20d677032300efb691572b106183</variable>
+        <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">809e4be3536920106b79ddeeff7b1272</action>
@@ -5159,7 +5159,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5184,7 +5184,7 @@ outputs.targetObject = item;
         }
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5c9e4be3536920106b79ddeeff7b128c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5513,7 +5513,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true},{"name":"isLastPage","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$.isLastPage"},{"name":"nextLink","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$._links.next"},{"name":"response","initial_value":"","value_from":"script","extract_using":"","extract_expression":""}]</value>
-        <variable display_value="Pagination Config">344db1c0e713230007a64caac2f6a9af</variable>
+        <variable display_value="">344db1c0e713230007a64caac2f6a9af</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5534,7 +5534,7 @@ outputs.targetObject = item;
         variables.response = (urlStart.split("&amp;"))[0];&#13;
     }&#13;
 })(variables, pageResponse);</value>
-        <variable display_value="Pagination Script">f68d35c0e713230007a64caac2f6a959</variable>
+        <variable display_value="">f68d35c0e713230007a64caac2f6a959</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=949e4be3536920106b79ddeeff7b12ae^sys_idNOT IN109e4be3536920106b79ddeeff7b12b1,109e4be3536920106b79ddeeff7b12bd,149e4be3536920106b79ddeeff7b12b7,1c9e4be3536920106b79ddeeff7b12c2"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -5895,7 +5895,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>https://ihubtest023.atlassian.net</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5909,7 +5909,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5923,7 +5923,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5937,7 +5937,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>1</value>
-        <variable display_value="Is Streaming">f1255aa377322300efb691572b106135</variable>
+        <variable display_value="">f1255aa377322300efb691572b106135</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5951,7 +5951,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5965,7 +5965,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5979,7 +5979,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5993,7 +5993,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>fc353e3c53d120106b79ddeeff7b12a0</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=949e4be3536920106b79ddeeff7b12cc"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -7462,7 +7462,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>$.values</value>
-        <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
+        <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -7476,7 +7476,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>JSON</value>
-        <variable display_value="Source Format">56c04e04e713230007a64caac2f6a9e3</variable>
+        <variable display_value="">56c04e04e713230007a64caac2f6a9e3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=189e4be3536920106b79ddeeff7b12ea"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -7548,7 +7548,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>json_splitter</value>
-        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+        <variable display_value="">d52e2cd677032300efb691572b1061e4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -7562,7 +7562,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>script_parser</value>
-        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+        <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">809e4be3536920106b79ddeeff7b1272</action>
@@ -7629,7 +7629,7 @@ var item = JSON.parse(inputs.sourceItem);
 outputs.targetObject = item;
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+        <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1c9e4be3536920106b79ddeeff7b12f0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -7689,7 +7689,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable pagination">88ad28d677032300efb691572b10619b</variable>
+        <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -7703,7 +7703,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>rest_step</value>
-        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+        <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">809e4be3536920106b79ddeeff7b1272</action>
@@ -7738,7 +7738,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable preprocessing script">2a6c20d677032300efb691572b106183</variable>
+        <variable display_value="">2a6c20d677032300efb691572b106183</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up SLA Information">809e4be3536920106b79ddeeff7b1272</action>
@@ -7774,7 +7774,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -7799,7 +7799,7 @@ outputs.targetObject = item;
         }
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5c9e4be3536920106b79ddeeff7b128c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -8128,7 +8128,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true},{"name":"isLastPage","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$.isLastPage"},{"name":"nextLink","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$._links.next"},{"name":"response","initial_value":"","value_from":"script","extract_using":"","extract_expression":""}]</value>
-        <variable display_value="Pagination Config">344db1c0e713230007a64caac2f6a9af</variable>
+        <variable display_value="">344db1c0e713230007a64caac2f6a9af</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -8149,7 +8149,7 @@ outputs.targetObject = item;
         variables.response = (urlStart.split("&amp;"))[0];&#13;
     }&#13;
 })(variables, pageResponse);</value>
-        <variable display_value="Pagination Script">f68d35c0e713230007a64caac2f6a959</variable>
+        <variable display_value="">f68d35c0e713230007a64caac2f6a959</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=949e4be3536920106b79ddeeff7b12ae^sys_idNOT IN109e4be3536920106b79ddeeff7b12b1,109e4be3536920106b79ddeeff7b12bd,149e4be3536920106b79ddeeff7b12b7,1c9e4be3536920106b79ddeeff7b12c2"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -8510,7 +8510,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>https://ihubtest023.atlassian.net</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -8524,7 +8524,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -8538,7 +8538,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -8552,7 +8552,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>1</value>
-        <variable display_value="Is Streaming">f1255aa377322300efb691572b106135</variable>
+        <variable display_value="">f1255aa377322300efb691572b106135</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -8566,7 +8566,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Accept","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -8580,7 +8580,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -8594,7 +8594,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -8608,7 +8608,7 @@ outputs.targetObject = item;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <value>fc353e3c53d120106b79ddeeff7b12a0</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=949e4be3536920106b79ddeeff7b12cc"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -8815,11 +8815,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:11</sys_created_on>
         <sys_id>949e4be3536920106b79ddeeff7b1285</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Limit</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_809e4be3536920106b79ddeeff7b1272_limit_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <url/>
@@ -8838,11 +8838,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:11</sys_created_on>
         <sys_id>989e4be3536920106b79ddeeff7b127f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Key</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_809e4be3536920106b79ddeeff7b1272_key_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <url/>
@@ -8861,11 +8861,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:11</sys_created_on>
         <sys_id>9c9e4be3536920106b79ddeeff7b1279</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Issue Id</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_809e4be3536920106b79ddeeff7b1272_issue_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <url/>
@@ -8885,11 +8885,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:11</sys_created_on>
         <sys_id>1c9e4be3536920106b79ddeeff7b12fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Item Count</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_item_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:11</sys_updated_on>
         <url/>
@@ -8908,11 +8908,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:12</sys_created_on>
         <sys_id>209e8be3536920106b79ddeeff7b120f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_count</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_ds_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <url/>
@@ -8931,11 +8931,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:12</sys_created_on>
         <sys_id>209e8be3536920106b79ddeeff7b1226</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_message</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_error_message_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <url/>
@@ -8954,11 +8954,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:12</sys_created_on>
         <sys_id>249e8be3536920106b79ddeeff7b1209</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>count</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <url/>
@@ -8977,11 +8977,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:12</sys_created_on>
         <sys_id>249e8be3536920106b79ddeeff7b1220</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response_headers</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_response_headers_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <url/>
@@ -9000,11 +9000,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:12</sys_created_on>
         <sys_id>249e8be3536920106b79ddeeff7b1237</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_parsed_stream</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_ds_parsed_stream_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <url/>
@@ -9023,11 +9023,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:12</sys_created_on>
         <sys_id>289e8be3536920106b79ddeeff7b1203</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Page Count</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_page_count_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <url/>
@@ -9046,11 +9046,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:12</sys_created_on>
         <sys_id>289e8be3536920106b79ddeeff7b121a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ds_output_page_variables</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_ds_output_page_variables_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <url/>
@@ -9069,11 +9069,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:12</sys_created_on>
         <sys_id>289e8be3536920106b79ddeeff7b1231</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>error_code</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_error_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <url/>
@@ -9092,11 +9092,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:12</sys_created_on>
         <sys_id>2c9e8be3536920106b79ddeeff7b1214</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>item</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_item_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <url/>
@@ -9115,11 +9115,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:12</sys_created_on>
         <sys_id>2c9e8be3536920106b79ddeeff7b122b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status_code</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_status_code_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <url/>
@@ -9138,11 +9138,11 @@ outputs.targetObject = item;
         <sys_created_on>2021-01-13 04:56:12</sys_created_on>
         <sys_id>609e8be3536920106b79ddeeff7b123d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>SLA Information</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_809e4be3536920106b79ddeeff7b1272_sla_information_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:56:12</sys_updated_on>
         <url/>

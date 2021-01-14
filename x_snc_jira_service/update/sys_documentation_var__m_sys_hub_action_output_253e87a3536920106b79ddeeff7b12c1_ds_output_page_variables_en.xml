@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ds_output_page_variables" label="ds_output_page_variables" language="en" table="var__m_sys_hub_action_output_253e87a3536920106b79ddeeff7b12c1">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ds_output_page_variables</element>
+            <help/>
+            <hint/>
+            <label>ds_output_page_variables</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_253e87a3536920106b79ddeeff7b12c1</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-13 04:54:39</sys_created_on>
+            <sys_id>f53ec7a3536920106b79ddeeff7b126b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ds_output_page_variables</sys_name>
+            <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_253e87a3536920106b79ddeeff7b12c1_ds_output_page_variables_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-13 04:54:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

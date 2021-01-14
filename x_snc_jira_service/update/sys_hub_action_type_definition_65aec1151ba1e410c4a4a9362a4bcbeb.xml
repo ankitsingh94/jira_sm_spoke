@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>look_up_request_type_fields_spoke</internal_name>
         <label_cache>[{"name":"{{action.service_desk_id}}","label":"action➛Service Desk ID","type":"action","ref":""},{"name":"{{action.request_type_id}}","label":"action➛Request Type ID","type":"action","ref":""},{"name":"{{step[cb576010-c0e1-4495-b940-efba5209c31d].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cb576010-c0e1-4495-b940-efba5209c31d].request_type_id}}","label":"step➛Pre Processing➛Request Type ID","type":"step","ref":""},{"name":"{{step[cb576010-c0e1-4495-b940-efba5209c31d].service_desk_id}}","label":"step➛Pre Processing➛Service Desk ID","type":"step","ref":""},{"name":"{{step[194eeae7-0762-4033-adef-2aa61982558a].status_code}}","label":"step➛Look up Request Type Fields➛Status Code","type":"step","ref":""},{"name":"{{step[194eeae7-0762-4033-adef-2aa61982558a].error_message}}","label":"step➛Look up Request Type Fields➛Error Message","type":"step","ref":""},{"name":"{{step[194eeae7-0762-4033-adef-2aa61982558a].response_body}}","label":"step➛Look up Request Type Fields➛Response Body","type":"step","ref":""},{"name":"{{step[33337463-8f14-42c5-83c5-7e393ee89276].variable}}","label":"step➛Handle Errors➛variable","type":"step","ref":""},{"name":"{{step[33337463-8f14-42c5-83c5-7e393ee89276].request_type_fields}}","label":"step➛Handle Errors➛Request Type Fields","type":"step","ref":""},{"name":"{{step[33337463-8f14-42c5-83c5-7e393ee89276].error_message}}","label":"step➛Handle Errors➛Error Message","type":"step","ref":""},{"name":"{{step[33337463-8f14-42c5-83c5-7e393ee89276].status}}","label":"step➛Handle Errors➛Status","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>092cfa671b612c10c4a4a9362a4bcbc3</latest_snapshot>
+        <latest_snapshot>641b9f881bb56c10c4a4a9362a4bcb4b</latest_snapshot>
         <master_snapshot>45b35dd51ba1e410c4a4a9362a4bcbd7</master_snapshot>
         <name>Look up Request Type Fields</name>
         <natlang/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>65aec1151ba1e410c4a4a9362a4bcbeb</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Look up Request Type Fields</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_65aec1151ba1e410c4a4a9362a4bcbeb</sys_update_name>
-        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
-        <sys_updated_on>2021-01-13 03:35:44</sys_updated_on>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 19:07:50</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -52,7 +52,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:01:59</sys_updated_on>
         <value/>
-        <variable display_value="Status">7a219d551ba1e410c4a4a9362a4bcb54</variable>
+        <variable display_value="">7a219d551ba1e410c4a4a9362a4bcb54</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=65aec1151ba1e410c4a4a9362a4bcbeb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -126,7 +126,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:57:40</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -140,7 +140,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:57:40</sys_updated_on>
         <value/>
-        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -154,7 +154,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:52:22</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -168,7 +168,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:52:22</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -182,7 +182,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:54:00</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -196,7 +196,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:54:00</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -210,7 +210,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:54:00</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -224,7 +224,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:54:00</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0efe49151ba1e410c4a4a9362a4bcb39"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -439,7 +439,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:52:22</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -457,7 +457,7 @@
   outputs.request_type_id = inputs.request_type_id.trim();
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7dfe49151ba1e410c4a4a9362a4bcb31"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -708,7 +708,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">7dfe49151ba1e410c4a4a9362a4bcb31</model>
@@ -734,14 +734,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 19:56:13</sys_created_on>
         <sys_id>92df41551ba1e410c4a4a9362a4bcb7c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 19:56:13</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -789,7 +789,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Request Type ID</label>
+        <label>request_type_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">7dfe49151ba1e410c4a4a9362a4bcb31</model>
@@ -815,14 +815,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 19:56:13</sys_created_on>
         <sys_id>9adf41551ba1e410c4a4a9362a4bcb75</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 19:56:13</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -850,10 +850,10 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 19:52:22</sys_created_on>
         <sys_id>86fe49151ba1e410c4a4a9362a4bcb49</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:10:39</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=86fe49151ba1e410c4a4a9362a4bcb49"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -864,10 +864,11 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 19:52:22</sys_created_on>
         <sys_id>02fe49151ba1e410c4a4a9362a4bcb4f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:10:39</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:43</sys_updated_on>
         <value>(function execute(inputs, outputs) {
+  
     var responseBody = JSON.parse(inputs.response);
     if (inputs.status_code == "200") {
         outputs.status = "Success";
@@ -893,7 +894,7 @@
         outputs.status = "Error";
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -907,7 +908,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:52:22</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=86fe49151ba1e410c4a4a9362a4bcb49"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1263,7 +1264,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">86fe49151ba1e410c4a4a9362a4bcb49</model>
@@ -1289,14 +1290,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:00:05</sys_created_on>
         <sys_id>76b059551ba1e410c4a4a9362a4bcbe0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:00:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1344,7 +1345,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">86fe49151ba1e410c4a4a9362a4bcb49</model>
@@ -1370,14 +1371,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:00:04</sys_created_on>
         <sys_id>b6b059551ba1e410c4a4a9362a4bcbda</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:00:04</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1425,7 +1426,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Request Type Fields</label>
+        <label>request_type_fields</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Handle Errors">86fe49151ba1e410c4a4a9362a4bcb49</model>
@@ -1451,14 +1452,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:00:04</sys_created_on>
         <sys_id>beb059551ba1e410c4a4a9362a4bcbd3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:00:04</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1918,7 +1919,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:57:40</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1932,7 +1933,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:57:40</sys_updated_on>
         <value/>
-        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1946,7 +1947,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:52:22</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1960,7 +1961,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:52:22</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1974,7 +1975,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:54:00</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1988,7 +1989,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:54:00</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2002,7 +2003,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:54:00</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2016,7 +2017,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:54:00</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=0efe49151ba1e410c4a4a9362a4bcb39"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2231,7 +2232,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:52:22</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2249,7 +2250,7 @@
   outputs.request_type_id = inputs.request_type_id.trim();
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7dfe49151ba1e410c4a4a9362a4bcb31"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2500,7 +2501,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">7dfe49151ba1e410c4a4a9362a4bcb31</model>
@@ -2526,14 +2527,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 19:56:13</sys_created_on>
         <sys_id>92df41551ba1e410c4a4a9362a4bcb7c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 19:56:13</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2581,7 +2582,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Request Type ID</label>
+        <label>request_type_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">7dfe49151ba1e410c4a4a9362a4bcb31</model>
@@ -2607,14 +2608,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 19:56:13</sys_created_on>
         <sys_id>9adf41551ba1e410c4a4a9362a4bcb75</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 19:56:13</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2642,10 +2643,10 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 19:52:22</sys_created_on>
         <sys_id>86fe49151ba1e410c4a4a9362a4bcb49</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:10:39</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=86fe49151ba1e410c4a4a9362a4bcb49"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2656,10 +2657,11 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 19:52:22</sys_created_on>
         <sys_id>02fe49151ba1e410c4a4a9362a4bcb4f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:10:39</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:43</sys_updated_on>
         <value>(function execute(inputs, outputs) {
+  
     var responseBody = JSON.parse(inputs.response);
     if (inputs.status_code == "200") {
         outputs.status = "Success";
@@ -2685,7 +2687,7 @@
         outputs.status = "Error";
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2699,7 +2701,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:52:22</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=86fe49151ba1e410c4a4a9362a4bcb49"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3055,7 +3057,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">86fe49151ba1e410c4a4a9362a4bcb49</model>
@@ -3081,14 +3083,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:00:05</sys_created_on>
         <sys_id>76b059551ba1e410c4a4a9362a4bcbe0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:00:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3136,7 +3138,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">86fe49151ba1e410c4a4a9362a4bcb49</model>
@@ -3162,14 +3164,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:00:04</sys_created_on>
         <sys_id>b6b059551ba1e410c4a4a9362a4bcbda</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:00:04</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3217,7 +3219,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Request Type Fields</label>
+        <label>request_type_fields</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Handle Errors">86fe49151ba1e410c4a4a9362a4bcb49</model>
@@ -3243,14 +3245,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:00:04</sys_created_on>
         <sys_id>beb059551ba1e410c4a4a9362a4bcbd3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:00:04</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3276,11 +3278,11 @@
         <sys_created_on>2021-01-05 19:55:23</sys_created_on>
         <sys_id>82afcd151ba1e410c4a4a9362a4bcb51</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Desk ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_65aec1151ba1e410c4a4a9362a4bcbeb_service_desk_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:55:23</sys_updated_on>
         <url/>
@@ -3299,11 +3301,11 @@
         <sys_created_on>2021-01-05 19:55:23</sys_created_on>
         <sys_id>82afcd151ba1e410c4a4a9362a4bcb57</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request Type ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_65aec1151ba1e410c4a4a9362a4bcbeb_request_type_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 19:55:23</sys_updated_on>
         <url/>
@@ -3323,11 +3325,11 @@
         <sys_created_on>2021-01-05 20:01:59</sys_created_on>
         <sys_id>7a219d551ba1e410c4a4a9362a4bcb5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_65aec1151ba1e410c4a4a9362a4bcbeb_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:01:59</sys_updated_on>
         <url/>
@@ -3346,11 +3348,11 @@
         <sys_created_on>2021-01-05 20:01:59</sys_created_on>
         <sys_id>7a219d551ba1e410c4a4a9362a4bcb63</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_65aec1151ba1e410c4a4a9362a4bcbeb_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:01:59</sys_updated_on>
         <url/>
@@ -3369,11 +3371,11 @@
         <sys_created_on>2021-01-05 20:00:05</sys_created_on>
         <sys_id>8fb059551ba1e410c4a4a9362a4bcbf0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request Type Fields</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_65aec1151ba1e410c4a4a9362a4bcbeb_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:00:05</sys_updated_on>
         <url/>
@@ -3390,7 +3392,6 @@
             <language>en</language>
             <name>var__m_sys_hub_action_output_65aec1151ba1e410c4a4a9362a4bcbeb</name>
             <sequence>0</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-05 20:01:59</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3410,7 +3411,6 @@
             <language>en</language>
             <name>var__m_sys_hub_action_output_65aec1151ba1e410c4a4a9362a4bcbeb</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-05 20:01:59</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3426,17 +3426,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Look up Request Type Fields">65aec1151ba1e410c4a4a9362a4bcbeb</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a6b3ddd51ba1e410c4a4a9362a4bcb36","name":"plan"}}</plan>
-        <snapshot>092cfa671b612c10c4a4a9362a4bcbc3</snapshot>
+        <snapshot>641b9f881bb56c10c4a4a9362a4bcb4b</snapshot>
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a6b3ddd51ba1e410c4a4a9362a4bcb36</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>chakradhar.jn@snc</sys_updated_by>
-        <sys_updated_on>2021-01-13 03:35:47</sys_updated_on>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 19:07:53</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3488,7 +3488,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:06</sys_updated_on>
         <value/>
-        <variable display_value="Status">a5b39dd51ba1e410c4a4a9362a4bcb61</variable>
+        <variable display_value="">a5b39dd51ba1e410c4a4a9362a4bcb61</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=45b35dd51ba1e410c4a4a9362a4bcbd7"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3566,7 +3566,7 @@
   outputs.request_type_id = inputs.request_type_id.trim();
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3580,7 +3580,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=49b35dd51ba1e410c4a4a9362a4bcbf2"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3831,7 +3831,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">49b35dd51ba1e410c4a4a9362a4bcbf2</model>
@@ -3857,14 +3857,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:04</sys_created_on>
         <sys_id>09b39dd51ba1e410c4a4a9362a4bcb08</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3912,7 +3912,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Request Type ID</label>
+        <label>request_type_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">49b35dd51ba1e410c4a4a9362a4bcbf2</model>
@@ -3938,14 +3938,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:04</sys_created_on>
         <sys_id>41b39dd51ba1e410c4a4a9362a4bcb02</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3991,7 +3991,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4005,7 +4005,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4019,7 +4019,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4033,7 +4033,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4047,7 +4047,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4061,7 +4061,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4075,7 +4075,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=99b39dd51ba1e410c4a4a9362a4bcb14"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4272,10 +4272,10 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:04</sys_created_on>
         <sys_id>d5b39dd51ba1e410c4a4a9362a4bcb2c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:50</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d5b39dd51ba1e410c4a4a9362a4bcb2c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4290,7 +4290,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4300,10 +4300,11 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:05</sys_created_on>
         <sys_id>edb39dd51ba1e410c4a4a9362a4bcb56</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:50</sys_updated_on>
         <value>(function execute(inputs, outputs) {
+  
     var responseBody = JSON.parse(inputs.response);
     if (inputs.status_code == "200") {
         outputs.status = "Success";
@@ -4329,7 +4330,7 @@
         outputs.status = "Error";
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d5b39dd51ba1e410c4a4a9362a4bcb2c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4673,7 +4674,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">d5b39dd51ba1e410c4a4a9362a4bcb2c</model>
@@ -4699,14 +4700,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:05</sys_created_on>
         <sys_id>11b39dd51ba1e410c4a4a9362a4bcb4e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4754,7 +4755,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">d5b39dd51ba1e410c4a4a9362a4bcb2c</model>
@@ -4780,14 +4781,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:05</sys_created_on>
         <sys_id>51b39dd51ba1e410c4a4a9362a4bcb48</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4835,7 +4836,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Request Type Fields</label>
+        <label>request_type_fields</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Handle Errors">d5b39dd51ba1e410c4a4a9362a4bcb2c</model>
@@ -4861,14 +4862,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:05</sys_created_on>
         <sys_id>99b39dd51ba1e410c4a4a9362a4bcb41</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5332,7 +5333,7 @@
   outputs.request_type_id = inputs.request_type_id.trim();
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5346,7 +5347,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=49b35dd51ba1e410c4a4a9362a4bcbf2"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5597,7 +5598,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">49b35dd51ba1e410c4a4a9362a4bcbf2</model>
@@ -5623,14 +5624,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:04</sys_created_on>
         <sys_id>09b39dd51ba1e410c4a4a9362a4bcb08</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5678,7 +5679,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Request Type ID</label>
+        <label>request_type_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">49b35dd51ba1e410c4a4a9362a4bcbf2</model>
@@ -5704,14 +5705,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:04</sys_created_on>
         <sys_id>41b39dd51ba1e410c4a4a9362a4bcb02</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5757,7 +5758,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5771,7 +5772,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5785,7 +5786,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5799,7 +5800,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5813,7 +5814,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5827,7 +5828,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5841,7 +5842,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:04</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=99b39dd51ba1e410c4a4a9362a4bcb14"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -6038,10 +6039,10 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:04</sys_created_on>
         <sys_id>d5b39dd51ba1e410c4a4a9362a4bcb2c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:50</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d5b39dd51ba1e410c4a4a9362a4bcb2c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6056,7 +6057,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6066,10 +6067,11 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:05</sys_created_on>
         <sys_id>edb39dd51ba1e410c4a4a9362a4bcb56</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:50</sys_updated_on>
         <value>(function execute(inputs, outputs) {
+  
     var responseBody = JSON.parse(inputs.response);
     if (inputs.status_code == "200") {
         outputs.status = "Success";
@@ -6095,7 +6097,7 @@
         outputs.status = "Error";
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d5b39dd51ba1e410c4a4a9362a4bcb2c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -6439,7 +6441,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">d5b39dd51ba1e410c4a4a9362a4bcb2c</model>
@@ -6465,14 +6467,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:05</sys_created_on>
         <sys_id>11b39dd51ba1e410c4a4a9362a4bcb4e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6520,7 +6522,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">d5b39dd51ba1e410c4a4a9362a4bcb2c</model>
@@ -6546,14 +6548,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:05</sys_created_on>
         <sys_id>51b39dd51ba1e410c4a4a9362a4bcb48</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6601,7 +6603,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Request Type Fields</label>
+        <label>request_type_fields</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Handle Errors">d5b39dd51ba1e410c4a4a9362a4bcb2c</model>
@@ -6627,14 +6629,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:13:05</sys_created_on>
         <sys_id>99b39dd51ba1e410c4a4a9362a4bcb41</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:07:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6660,11 +6662,11 @@
         <sys_created_on>2021-01-05 20:13:03</sys_created_on>
         <sys_id>49b35dd51ba1e410c4a4a9362a4bcbe3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request Type ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_45b35dd51ba1e410c4a4a9362a4bcbd7_request_type_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:03</sys_updated_on>
         <url/>
@@ -6683,11 +6685,11 @@
         <sys_created_on>2021-01-05 20:13:03</sys_created_on>
         <sys_id>89b35dd51ba1e410c4a4a9362a4bcbdd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Desk ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_45b35dd51ba1e410c4a4a9362a4bcbd7_service_desk_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:03</sys_updated_on>
         <url/>
@@ -6707,11 +6709,11 @@
         <sys_created_on>2021-01-05 20:13:05</sys_created_on>
         <sys_id>61b39dd51ba1e410c4a4a9362a4bcb6a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_45b35dd51ba1e410c4a4a9362a4bcbd7_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
         <url/>
@@ -6730,11 +6732,11 @@
         <sys_created_on>2021-01-05 20:13:05</sys_created_on>
         <sys_id>61b39dd51ba1e410c4a4a9362a4bcb70</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_45b35dd51ba1e410c4a4a9362a4bcbd7_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
         <url/>
@@ -6753,11 +6755,11 @@
         <sys_created_on>2021-01-05 20:13:05</sys_created_on>
         <sys_id>edb39dd51ba1e410c4a4a9362a4bcb5f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Request Type Fields</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_45b35dd51ba1e410c4a4a9362a4bcbd7_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:13:05</sys_updated_on>
         <url/>
@@ -6774,7 +6776,6 @@
             <language>en</language>
             <name>var__m_sys_hub_action_output_45b35dd51ba1e410c4a4a9362a4bcbd7</name>
             <sequence>0</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-05 20:13:05</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -6794,7 +6795,6 @@
             <language>en</language>
             <name>var__m_sys_hub_action_output_45b35dd51ba1e410c4a4a9362a4bcbd7</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-05 20:13:05</sys_created_on>
             <sys_domain>global</sys_domain>

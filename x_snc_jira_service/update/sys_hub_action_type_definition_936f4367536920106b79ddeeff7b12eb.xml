@@ -52,7 +52,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:57</sys_updated_on>
         <value/>
-        <variable display_value="Status">a76f8367536920106b79ddeeff7b1259</variable>
+        <variable display_value="">a76f8367536920106b79ddeeff7b1259</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=936f4367536920106b79ddeeff7b12eb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -126,7 +126,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>fc353e3c53d120106b79ddeeff7b12a0</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -140,7 +140,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -154,7 +154,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>https://ihubtest023.atlassian.net</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -168,7 +168,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>post</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -182,7 +182,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -196,7 +196,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -210,7 +210,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-Atlassian-Token","value":"no-check"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-ExperimentalApi","value":"opt-in"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -224,7 +224,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>multi-part</value>
-        <variable display_value="Request Type">bc79234a87d01300dd637d5e27cb0b24</variable>
+        <variable display_value="">bc79234a87d01300dd637d5e27cb0b24</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -238,7 +238,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=136f8367536920106b79ddeeff7b1208"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -488,7 +488,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value/>
-        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+        <variable display_value="">2c226939b3101300176b051a16a8dc83</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -502,7 +502,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value/>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -529,7 +529,7 @@
     outputs.file_name = file_name;*/
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Create Temporary File">936f4367536920106b79ddeeff7b12eb</action>
@@ -565,7 +565,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:57</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -588,7 +588,7 @@
         outputs.error_message = inputs.error_message;
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5f6f8367536920106b79ddeeff7b1220"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1587,7 +1587,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>fc353e3c53d120106b79ddeeff7b12a0</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1601,7 +1601,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1615,7 +1615,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>https://ihubtest023.atlassian.net</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1629,7 +1629,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>post</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1643,7 +1643,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1657,7 +1657,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1671,7 +1671,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-Atlassian-Token","value":"no-check"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-ExperimentalApi","value":"opt-in"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1685,7 +1685,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>multi-part</value>
-        <variable display_value="Request Type">bc79234a87d01300dd637d5e27cb0b24</variable>
+        <variable display_value="">bc79234a87d01300dd637d5e27cb0b24</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1699,7 +1699,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=136f8367536920106b79ddeeff7b1208"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1949,7 +1949,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value/>
-        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+        <variable display_value="">2c226939b3101300176b051a16a8dc83</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1963,7 +1963,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <value/>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1990,7 +1990,7 @@
     outputs.file_name = file_name;*/
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Create Temporary File">936f4367536920106b79ddeeff7b12eb</action>
@@ -2026,7 +2026,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:57</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2049,7 +2049,7 @@
         outputs.error_message = inputs.error_message;
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5f6f8367536920106b79ddeeff7b1220"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2614,11 +2614,11 @@
         <sys_created_on>2021-01-13 04:59:56</sys_created_on>
         <sys_id>176f4367536920106b79ddeeff7b12f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>File</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_936f4367536920106b79ddeeff7b12eb_file_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <url/>
@@ -2637,11 +2637,11 @@
         <sys_created_on>2021-01-13 04:59:56</sys_created_on>
         <sys_id>536f4367536920106b79ddeeff7b12fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service Desk ID</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_936f4367536920106b79ddeeff7b12eb_service_desk_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:56</sys_updated_on>
         <url/>
@@ -2661,11 +2661,11 @@
         <sys_created_on>2021-01-13 04:59:57</sys_created_on>
         <sys_id>236f8367536920106b79ddeeff7b1268</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_936f4367536920106b79ddeeff7b12eb_error_message_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:57</sys_updated_on>
         <url/>
@@ -2684,11 +2684,11 @@
         <sys_created_on>2021-01-13 04:59:57</sys_created_on>
         <sys_id>a36f8367536920106b79ddeeff7b1262</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_936f4367536920106b79ddeeff7b12eb_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:57</sys_updated_on>
         <url/>
@@ -2707,11 +2707,11 @@
         <sys_created_on>2021-01-13 04:59:57</sys_created_on>
         <sys_id>e36f8367536920106b79ddeeff7b1258</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Attachment</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_936f4367536920106b79ddeeff7b12eb_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 04:59:57</sys_updated_on>
         <url/>
@@ -2728,7 +2728,6 @@
             <language>en</language>
             <name>var__m_sys_hub_action_output_936f4367536920106b79ddeeff7b12eb</name>
             <sequence>0</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-01-13 04:59:57</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -2748,7 +2747,6 @@
             <language>en</language>
             <name>var__m_sys_hub_action_output_936f4367536920106b79ddeeff7b12eb</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-01-13 04:59:57</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -2826,7 +2824,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value/>
-        <variable display_value="Status">4d7f4767536920106b79ddeeff7b12c9</variable>
+        <variable display_value="">4d7f4767536920106b79ddeeff7b12c9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b47f4767536920106b79ddeeff7b125e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2912,7 +2910,7 @@
     outputs.file_name = file_name;*/
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2926,7 +2924,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:02</sys_updated_on>
         <value/>
-        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+        <variable display_value="">2c226939b3101300176b051a16a8dc83</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2940,7 +2938,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:02</sys_updated_on>
         <value/>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Create Temporary File">b47f4767536920106b79ddeeff7b125e</action>
@@ -2976,7 +2974,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2999,7 +2997,7 @@
         outputs.error_message = inputs.error_message;
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b47f4767536920106b79ddeeff7b1291"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3584,7 +3582,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>multi-part</value>
-        <variable display_value="Request Type">bc79234a87d01300dd637d5e27cb0b24</variable>
+        <variable display_value="">bc79234a87d01300dd637d5e27cb0b24</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3598,7 +3596,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3612,7 +3610,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-Atlassian-Token","value":"no-check"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-ExperimentalApi","value":"opt-in"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3626,7 +3624,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3640,7 +3638,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>fc353e3c53d120106b79ddeeff7b12a0</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3654,7 +3652,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>https://ihubtest023.atlassian.net</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3668,7 +3666,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>post</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3682,7 +3680,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3696,7 +3694,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b87f4767536920106b79ddeeff7b1278"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4373,7 +4371,7 @@
     outputs.file_name = file_name;*/
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4387,7 +4385,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:02</sys_updated_on>
         <value/>
-        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+        <variable display_value="">2c226939b3101300176b051a16a8dc83</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4401,7 +4399,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:02</sys_updated_on>
         <value/>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Create Temporary File">b47f4767536920106b79ddeeff7b125e</action>
@@ -4437,7 +4435,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4460,7 +4458,7 @@
         outputs.error_message = inputs.error_message;
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b47f4767536920106b79ddeeff7b1291"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5045,7 +5043,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>multi-part</value>
-        <variable display_value="Request Type">bc79234a87d01300dd637d5e27cb0b24</variable>
+        <variable display_value="">bc79234a87d01300dd637d5e27cb0b24</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5059,7 +5057,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5073,7 +5071,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-Atlassian-Token","value":"no-check"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-ExperimentalApi","value":"opt-in"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5087,7 +5085,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5101,7 +5099,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>fc353e3c53d120106b79ddeeff7b12a0</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5115,7 +5113,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>https://ihubtest023.atlassian.net</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5129,7 +5127,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>post</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5143,7 +5141,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5157,7 +5155,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b87f4767536920106b79ddeeff7b1278"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5388,11 +5386,11 @@
         <sys_created_on>2021-01-13 05:00:02</sys_created_on>
         <sys_id>f87f4767536920106b79ddeeff7b126e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service Desk ID</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b47f4767536920106b79ddeeff7b125e_service_desk_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:02</sys_updated_on>
         <url/>
@@ -5411,11 +5409,11 @@
         <sys_created_on>2021-01-13 05:00:02</sys_created_on>
         <sys_id>fc7f4767536920106b79ddeeff7b1268</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>File</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b47f4767536920106b79ddeeff7b125e_file_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:02</sys_updated_on>
         <url/>
@@ -5435,11 +5433,11 @@
         <sys_created_on>2021-01-13 05:00:03</sys_created_on>
         <sys_id>097f4767536920106b79ddeeff7b12d2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b47f4767536920106b79ddeeff7b125e_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <url/>
@@ -5458,11 +5456,11 @@
         <sys_created_on>2021-01-13 05:00:03</sys_created_on>
         <sys_id>457f4767536920106b79ddeeff7b12d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b47f4767536920106b79ddeeff7b125e_error_message_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <url/>
@@ -5481,11 +5479,11 @@
         <sys_created_on>2021-01-13 05:00:03</sys_created_on>
         <sys_id>897f4767536920106b79ddeeff7b12c8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Attachment</sys_name>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_b47f4767536920106b79ddeeff7b125e_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 05:00:03</sys_updated_on>
         <url/>
@@ -5502,7 +5500,6 @@
             <language>en</language>
             <name>var__m_sys_hub_action_output_b47f4767536920106b79ddeeff7b125e</name>
             <sequence>0</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-01-13 05:00:03</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -5522,7 +5519,6 @@
             <language>en</language>
             <name>var__m_sys_hub_action_output_b47f4767536920106b79ddeeff7b125e</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-01-13 05:00:03</sys_created_on>
             <sys_domain>global</sys_domain>

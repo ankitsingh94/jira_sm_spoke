@@ -9,11 +9,13 @@
         <category display_value="ServiceDesk Management">0a721a901b15e410c4a4a9362a4bcbe7</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>Description
+Describe your action
+</description>
         <ih_action>true</ih_action>
         <internal_name>look_up_service_desk_id</internal_name>
         <label_cache>[{"name":"{{action.limit}}","label":"action➛Page Size","type":"action","ref":""},{"name":"{{step[ba58086d-a2d6-4f4f-a268-9b6712d3cc1a].nextLink}}","label":"step➛Pagination Setup step➛nextLink","type":"step","ref":""},{"name":"{{step[9ffab8c0-608c-444d-ae32-6fad49df14a7].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[9ffab8c0-608c-444d-ae32-6fad49df14a7].start}}","label":"step➛Script step➛Start","type":"step","ref":""},{"name":"{{step[ba58086d-a2d6-4f4f-a268-9b6712d3cc1a].response}}","label":"step➛Pagination Setup step➛response","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>a8927efa1be5a810c4a4a9362a4bcb49</latest_snapshot>
+        <latest_snapshot>716c1b4c1bb56c10c4a4a9362a4bcbad</latest_snapshot>
         <master_snapshot>598c49cb1b59a010c4a4a9362a4bcb85</master_snapshot>
         <name>Look up Service Desk</name>
         <natlang/>
@@ -26,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1eb705c71b59a010c4a4a9362a4bcbc4</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_name>Look up Service Desk</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
@@ -34,7 +36,7 @@
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_1eb705c71b59a010c4a4a9362a4bcbc4</sys_update_name>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:32</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:42</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -52,7 +54,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-30 18:08:51</sys_updated_on>
         <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDbccbcd8be659a01099d52c021b1947e3":{"projectKey":"String","projectKey.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Project Key\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Link\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"projectName":"String","projectName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ProjectName\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"projectId":"String","projectId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FDbccbcd8be659a01099d52c021b1947e3.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Service Desks\",\"mandatory\":\"false\",\"uiUniqueId\":\"86fd470c-5d1a-4c69-801f-b2185e51ad35\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDbccbcd8be659a01099d52c021b1947e3\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"12\",\"max_length\":\"65000\"}"}},"complexObject":{"projectKey":{"$cv":{"$c":"java.lang.String","$v":""}},"link":{"$cv":{"$c":"java.lang.String","$v":""}},"projectName":{"$cv":{"$c":"java.lang.String","$v":""}},"projectId":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
-        <variable display_value="Service Desks">89cb01cb1b59a010c4a4a9362a4bcb13</variable>
+        <variable display_value="">89cb01cb1b59a010c4a4a9362a4bcb13</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1eb705c71b59a010c4a4a9362a4bcbc4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -168,7 +170,7 @@
     outputs.targetObject = item;&#13;
     outputs.targetObject["link"] = item["_links"]["self"];&#13;
 })(inputs, outputs);</value>
-        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+        <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=03d7810b1b59a010c4a4a9362a4bcb60"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -236,7 +238,7 @@
     }&#13;
   gs.info("pagination");&#13;
 })(variables, pageResponse);</value>
-        <variable display_value="Pagination Script">f68d35c0e713230007a64caac2f6a959</variable>
+        <variable display_value="">f68d35c0e713230007a64caac2f6a959</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -250,7 +252,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-08 14:00:10</sys_updated_on>
         <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true},{"name":"isLastPage","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$.isLastPage"},{"name":"nextLink","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$._links.next"},{"name":"response","initial_value":"","value_from":"script","extract_using":"","extract_expression":""}]</value>
-        <variable display_value="Pagination Config">344db1c0e713230007a64caac2f6a9af</variable>
+        <variable display_value="">344db1c0e713230007a64caac2f6a9af</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=4bd7810b1b59a010c4a4a9362a4bcb4f^sys_idNOT IN3caa058b1b59a010c4a4a9362a4bcb71,5a68c50b1b59a010c4a4a9362a4bcb58,631b5b0a1b216810c4a4a9362a4bcb06,7e5247c11b6da410c4a4a9362a4bcb69"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -610,7 +612,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:59</sys_updated_on>
         <value>json_splitter</value>
-        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+        <variable display_value="">d52e2cd677032300efb691572b1061e4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -624,7 +626,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:59</sys_updated_on>
         <value>script_parser</value>
-        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+        <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up Service Desk">1eb705c71b59a010c4a4a9362a4bcbc4</action>
@@ -660,7 +662,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:59</sys_updated_on>
         <value>JSON</value>
-        <variable display_value="Source Format">56c04e04e713230007a64caac2f6a9e3</variable>
+        <variable display_value="">56c04e04e713230007a64caac2f6a9e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -674,7 +676,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>$.values</value>
-        <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
+        <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=83d7810b1b59a010c4a4a9362a4bcb5a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -747,7 +749,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>/rest/servicedeskapi/servicedesk</value>
-        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -761,7 +763,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-30 18:18:09</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -775,7 +777,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -789,7 +791,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -803,7 +805,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:33</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -817,7 +819,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -831,7 +833,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -845,7 +847,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -859,7 +861,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>1</value>
-        <variable display_value="Is Streaming">f1255aa377322300efb691572b106135</variable>
+        <variable display_value="">f1255aa377322300efb691572b106135</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=9c1b098b1b59a010c4a4a9362a4bcb90"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1106,7 +1108,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:48:59</sys_updated_on>
         <value>rest_step</value>
-        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+        <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1120,7 +1122,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-10 18:58:17</sys_updated_on>
         <value>0</value>
-        <variable display_value="Run a script before each request">c9cda8d677032300efb691572b10611c</variable>
+        <variable display_value="">c9cda8d677032300efb691572b10611c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1134,7 +1136,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:58</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable pagination">88ad28d677032300efb691572b10619b</variable>
+        <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_hub_action_input action="delete_multiple" query="model=1eb705c71b59a010c4a4a9362a4bcbc4^sys_idNOT INaabdf11f1b91e010c4a4a9362a4bcba2"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -1366,14 +1368,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:35:00</sys_created_on>
         <sys_id>17d7810b1b59a010c4a4a9362a4bcbda</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:21</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1532,14 +1534,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:35:00</sys_created_on>
         <sys_id>57d7810b1b59a010c4a4a9362a4bcba3</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:20</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1947,14 +1949,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:35:00</sys_created_on>
         <sys_id>93d7810b1b59a010c4a4a9362a4bcbe0</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>77</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:21</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2030,14 +2032,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:35:00</sys_created_on>
         <sys_id>97d7810b1b59a010c4a4a9362a4bcbd4</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:20</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2196,14 +2198,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:35:00</sys_created_on>
         <sys_id>d3d7810b1b59a010c4a4a9362a4bcba9</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:20</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2256,7 +2258,7 @@
     outputs.targetObject = item;&#13;
     outputs.targetObject["link"] = item["_links"]["self"];&#13;
 })(inputs, outputs);</value>
-        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+        <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=03d7810b1b59a010c4a4a9362a4bcb60"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2324,7 +2326,7 @@
     }&#13;
   gs.info("pagination");&#13;
 })(variables, pageResponse);</value>
-        <variable display_value="Pagination Script">f68d35c0e713230007a64caac2f6a959</variable>
+        <variable display_value="">f68d35c0e713230007a64caac2f6a959</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2338,7 +2340,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-08 14:00:10</sys_updated_on>
         <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true},{"name":"isLastPage","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$.isLastPage"},{"name":"nextLink","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$._links.next"},{"name":"response","initial_value":"","value_from":"script","extract_using":"","extract_expression":""}]</value>
-        <variable display_value="Pagination Config">344db1c0e713230007a64caac2f6a9af</variable>
+        <variable display_value="">344db1c0e713230007a64caac2f6a9af</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=4bd7810b1b59a010c4a4a9362a4bcb4f^sys_idNOT IN3caa058b1b59a010c4a4a9362a4bcb71,5a68c50b1b59a010c4a4a9362a4bcb58,631b5b0a1b216810c4a4a9362a4bcb06,7e5247c11b6da410c4a4a9362a4bcb69"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2698,7 +2700,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:59</sys_updated_on>
         <value>json_splitter</value>
-        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+        <variable display_value="">d52e2cd677032300efb691572b1061e4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2712,7 +2714,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:59</sys_updated_on>
         <value>script_parser</value>
-        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+        <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up Service Desk">1eb705c71b59a010c4a4a9362a4bcbc4</action>
@@ -2748,7 +2750,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:59</sys_updated_on>
         <value>JSON</value>
-        <variable display_value="Source Format">56c04e04e713230007a64caac2f6a9e3</variable>
+        <variable display_value="">56c04e04e713230007a64caac2f6a9e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2762,7 +2764,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>$.values</value>
-        <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
+        <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=83d7810b1b59a010c4a4a9362a4bcb5a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2835,7 +2837,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>/rest/servicedeskapi/servicedesk</value>
-        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2849,7 +2851,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-30 18:18:09</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2863,7 +2865,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2877,7 +2879,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2891,7 +2893,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:33</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2905,7 +2907,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2919,7 +2921,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2933,7 +2935,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2947,7 +2949,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:49:00</sys_updated_on>
         <value>1</value>
-        <variable display_value="Is Streaming">f1255aa377322300efb691572b106135</variable>
+        <variable display_value="">f1255aa377322300efb691572b106135</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=9c1b098b1b59a010c4a4a9362a4bcb90"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3194,7 +3196,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:48:59</sys_updated_on>
         <value>rest_step</value>
-        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+        <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3208,7 +3210,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-10 18:58:17</sys_updated_on>
         <value>0</value>
-        <variable display_value="Run a script before each request">c9cda8d677032300efb691572b10611c</variable>
+        <variable display_value="">c9cda8d677032300efb691572b10611c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3222,7 +3224,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:58</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable pagination">88ad28d677032300efb691572b10619b</variable>
+        <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1eb705c71b59a010c4a4a9362a4bcbc4^sys_idNOT IN2ebdf11f1b91e010c4a4a9362a4bcba7"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -3238,11 +3240,11 @@
         <sys_created_on>2020-12-30 18:08:49</sys_created_on>
         <sys_id>2ebdf11f1b91e010c4a4a9362a4bcba7</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Page Size</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_1eb705c71b59a010c4a4a9362a4bcbc4_limit_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 09:34:09</sys_updated_on>
         <url/>
@@ -3262,11 +3264,11 @@
         <sys_created_on>2020-12-29 19:34:59</sys_created_on>
         <sys_id>07d7810b1b59a010c4a4a9362a4bcb71</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Page Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_page_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:59</sys_updated_on>
         <url/>
@@ -3285,11 +3287,11 @@
         <sys_created_on>2020-12-29 19:35:00</sys_created_on>
         <sys_id>1fd7810b1b59a010c4a4a9362a4bcba7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>response_headers</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_response_headers_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:35:00</sys_updated_on>
         <url/>
@@ -3308,11 +3310,11 @@
         <sys_created_on>2020-12-29 19:34:59</sys_created_on>
         <sys_id>47d7810b1b59a010c4a4a9362a4bcb6b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Item Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_item_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:59</sys_updated_on>
         <url/>
@@ -3331,11 +3333,11 @@
         <sys_created_on>2020-12-29 19:34:59</sys_created_on>
         <sys_id>53d7810b1b59a010c4a4a9362a4bcb83</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>item</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_item_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:59</sys_updated_on>
         <url/>
@@ -3354,11 +3356,11 @@
         <sys_created_on>2020-12-29 19:35:00</sys_created_on>
         <sys_id>5bd7810b1b59a010c4a4a9362a4bcbe4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_parsed_stream</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_ds_parsed_stream_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:35:00</sys_updated_on>
         <url/>
@@ -3377,11 +3379,11 @@
         <sys_created_on>2020-12-29 19:35:00</sys_created_on>
         <sys_id>5fd7810b1b59a010c4a4a9362a4bcbd8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>status_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_status_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:35:00</sys_updated_on>
         <url/>
@@ -3400,11 +3402,11 @@
         <sys_created_on>2020-12-29 19:34:59</sys_created_on>
         <sys_id>93d7810b1b59a010c4a4a9362a4bcb7d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_count</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_ds_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:59</sys_updated_on>
         <url/>
@@ -3423,11 +3425,11 @@
         <sys_created_on>2020-12-29 19:35:00</sys_created_on>
         <sys_id>9fd7810b1b59a010c4a4a9362a4bcba1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_output_page_variables</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_ds_output_page_variables_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:35:00</sys_updated_on>
         <url/>
@@ -3446,11 +3448,11 @@
         <sys_created_on>2020-12-29 19:52:02</sys_created_on>
         <sys_id>c1cb01cb1b59a010c4a4a9362a4bcb18</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Desks</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:52:02</sys_updated_on>
         <url/>
@@ -3469,11 +3471,11 @@
         <sys_created_on>2020-12-29 19:34:59</sys_created_on>
         <sys_id>c3d7810b1b59a010c4a4a9362a4bcb77</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>count</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:34:59</sys_updated_on>
         <url/>
@@ -3492,11 +3494,11 @@
         <sys_created_on>2020-12-29 19:35:00</sys_created_on>
         <sys_id>dbd7810b1b59a010c4a4a9362a4bcbde</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_error_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:35:00</sys_updated_on>
         <url/>
@@ -3515,11 +3517,11 @@
         <sys_created_on>2020-12-29 19:35:00</sys_created_on>
         <sys_id>dfd7810b1b59a010c4a4a9362a4bcbd2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_message</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_1eb705c71b59a010c4a4a9362a4bcbc4_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:35:00</sys_updated_on>
         <url/>
@@ -3529,17 +3531,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Look up Service Desk">1eb705c71b59a010c4a4a9362a4bcbc4</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"d38cc9cb1b59a010c4a4a9362a4bcb35","name":"plan"}}</plan>
-        <snapshot>a8927efa1be5a810c4a4a9362a4bcb49</snapshot>
+        <snapshot>716c1b4c1bb56c10c4a4a9362a4bcbad</snapshot>
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:55:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d38cc9cb1b59a010c4a4a9362a4bcb35</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:36</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:46</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3550,7 +3552,9 @@
         <category display_value="ServiceDesk Management">0a721a901b15e410c4a4a9362a4bcbe7</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>Description
+Describe your action
+</description>
         <internal_name>new_look_up_service_desk</internal_name>
         <label_cache>[{"name":"{{action.limit}}","label":"action➛Page Size","type":"action","ref":""},{"name":"{{step[ba58086d-a2d6-4f4f-a268-9b6712d3cc1a].nextLink}}","label":"step➛Pagination Setup step➛nextLink","type":"step","ref":""},{"name":"{{step[9ffab8c0-608c-444d-ae32-6fad49df14a7].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[9ffab8c0-608c-444d-ae32-6fad49df14a7].start}}","label":"step➛Script step➛Start","type":"step","ref":""},{"name":"{{step[ba58086d-a2d6-4f4f-a268-9b6712d3cc1a].response}}","label":"step➛Pagination Setup step➛response","type":"step","ref":""}]</label_cache>
         <master>true</master>
@@ -3565,7 +3569,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>598c49cb1b59a010c4a4a9362a4bcb85</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3573,7 +3577,7 @@
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:35:53</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:39</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3591,7 +3595,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:24</sys_updated_on>
         <value/>
-        <variable display_value="count">758c49cb1b59a010c4a4a9362a4bcbeb</variable>
+        <variable display_value="">758c49cb1b59a010c4a4a9362a4bcbeb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -3601,11 +3605,11 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:55:24</sys_created_on>
         <sys_id>428c89cb1b59a010c4a4a9362a4bcb43</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:32</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDb192befafde5a810117f776e5de1cd9a":{"projectKey":"String","projectKey.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Project Key\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Link\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"projectName":"String","projectName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ProjectName\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"projectId":"String","projectId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FDb192befafde5a810117f776e5de1cd9a.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDb192befafde5a810117f776e5de1cd9a\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Service Desks\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"86fd470c-5d1a-4c69-801f-b2185e51ad35\"}"}},"complexObject":{"projectKey":{"$cv":{"$c":"java.lang.String","$v":""}},"link":{"$cv":{"$c":"java.lang.String","$v":""}},"projectName":{"$cv":{"$c":"java.lang.String","$v":""}},"projectId":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
-        <variable display_value="Service Desks">0e8c89cb1b59a010c4a4a9362a4bcb20</variable>
+        <sys_updated_on>2021-01-14 19:13:41</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD3e6c9b4ce0b56c104dff3e780f938d02":{"projectKey":"String","projectKey.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Project Key\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"link":"String","link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Link\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"projectName":"String","projectName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ProjectName\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"projectId":"String","projectId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD3e6c9b4ce0b56c104dff3e780f938d02.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD3e6c9b4ce0b56c104dff3e780f938d02\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Service Desks\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"86fd470c-5d1a-4c69-801f-b2185e51ad35\"}"}},"complexObject":{"projectKey":{"$cv":{"$c":"java.lang.String","$v":""}},"link":{"$cv":{"$c":"java.lang.String","$v":""}},"projectName":{"$cv":{"$c":"java.lang.String","$v":""}},"projectId":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="">0e8c89cb1b59a010c4a4a9362a4bcb20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -3619,7 +3623,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:24</sys_updated_on>
         <value/>
-        <variable display_value="Page Count">b58c49cb1b59a010c4a4a9362a4bcbe5</variable>
+        <variable display_value="">b58c49cb1b59a010c4a4a9362a4bcbe5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -3633,7 +3637,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:24</sys_updated_on>
         <value/>
-        <variable display_value="Item Count">ed8c49cb1b59a010c4a4a9362a4bcbde</variable>
+        <variable display_value="">ed8c49cb1b59a010c4a4a9362a4bcbde</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>
@@ -3647,7 +3651,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:24</sys_updated_on>
         <value/>
-        <variable display_value="ds_count">358c49cb1b59a010c4a4a9362a4bcbf1</variable>
+        <variable display_value="">358c49cb1b59a010c4a4a9362a4bcbf1</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=598c49cb1b59a010c4a4a9362a4bcb85"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3811,7 +3815,7 @@
     outputs.targetObject = item;&#13;
     outputs.targetObject["link"] = item["_links"]["self"];&#13;
 })(inputs, outputs);</value>
-        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+        <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=258c49cb1b59a010c4a4a9362a4bcbcb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3892,7 +3896,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-08 14:01:08</sys_updated_on>
         <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true},{"name":"isLastPage","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$.isLastPage"},{"name":"nextLink","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$._links.next"},{"name":"response","initial_value":"","value_from":"script","extract_using":"","extract_expression":""}]</value>
-        <variable display_value="Pagination Config">344db1c0e713230007a64caac2f6a9af</variable>
+        <variable display_value="">344db1c0e713230007a64caac2f6a9af</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3914,7 +3918,7 @@
     }&#13;
   gs.info("pagination");&#13;
 })(variables, pageResponse);</value>
-        <variable display_value="Pagination Script">f68d35c0e713230007a64caac2f6a959</variable>
+        <variable display_value="">f68d35c0e713230007a64caac2f6a959</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=558c49cb1b59a010c4a4a9362a4bcb90^sys_idNOT IN8e5b134a1b216810c4a4a9362a4bcb5f,a18c49cb1b59a010c4a4a9362a4bcb9f,d98c49cb1b59a010c4a4a9362a4bcb92,f28a43491b6da410c4a4a9362a4bcb92"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -4275,7 +4279,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <value>$.values</value>
-        <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
+        <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4289,7 +4293,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <value>JSON</value>
-        <variable display_value="Source Format">56c04e04e713230007a64caac2f6a9e3</variable>
+        <variable display_value="">56c04e04e713230007a64caac2f6a9e3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6d8c49cb1b59a010c4a4a9362a4bcbc5"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4362,7 +4366,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-30 18:20:00</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4376,7 +4380,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4390,7 +4394,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>1</value>
-        <variable display_value="Is Streaming">f1255aa377322300efb691572b106135</variable>
+        <variable display_value="">f1255aa377322300efb691572b106135</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4404,7 +4408,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>/rest/servicedeskapi/servicedesk</value>
-        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4418,7 +4422,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4432,7 +4436,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4446,7 +4450,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4460,7 +4464,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4474,7 +4478,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a58c49cb1b59a010c4a4a9362a4bcba8"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4700,7 +4704,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <value>script_parser</value>
-        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+        <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4714,7 +4718,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <value>json_splitter</value>
-        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+        <variable display_value="">d52e2cd677032300efb691572b1061e4</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up Service Desk">598c49cb1b59a010c4a4a9362a4bcb85</action>
@@ -4749,7 +4753,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>rest_step</value>
-        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+        <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4763,7 +4767,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable pagination">88ad28d677032300efb691572b10619b</variable>
+        <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4777,7 +4781,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-10 18:58:30</sys_updated_on>
         <value>0</value>
-        <variable display_value="Run a script before each request">c9cda8d677032300efb691572b10611c</variable>
+        <variable display_value="">c9cda8d677032300efb691572b10611c</variable>
     </sys_variable_value>
     <sys_hub_action_input action="delete_multiple" query="model=598c49cb1b59a010c4a4a9362a4bcb85^sys_idNOT IN06408e5f1b91e010c4a4a9362a4bcb8e"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -4866,7 +4870,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDb192befafde5a810117f776e5de1cd9a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=86fd470c-5d1a-4c69-801f-b2185e51ad35</attributes>
+        <attributes>co_type_name=FD3e6c9b4ce0b56c104dff3e780f938d02,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=86fd470c-5d1a-4c69-801f-b2185e51ad35</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4926,14 +4930,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>0e8c89cb1b59a010c4a4a9362a4bcb20</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:31</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5009,14 +5013,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>318c89cb1b59a010c4a4a9362a4bcb09</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:32</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5175,14 +5179,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>4e8c89cb1b59a010c4a4a9362a4bcb1a</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:32</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5258,14 +5262,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>718c89cb1b59a010c4a4a9362a4bcb03</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:32</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5424,14 +5428,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>8e8c89cb1b59a010c4a4a9362a4bcb14</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:32</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5839,14 +5843,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>fd8c89cb1b59a010c4a4a9362a4bcb0e</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-10 18:58:32</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:13:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5899,7 +5903,7 @@
     outputs.targetObject = item;&#13;
     outputs.targetObject["link"] = item["_links"]["self"];&#13;
 })(inputs, outputs);</value>
-        <variable display_value="Script">688bea3e8723230057a8ed4d87cb0b05</variable>
+        <variable display_value="">688bea3e8723230057a8ed4d87cb0b05</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=258c49cb1b59a010c4a4a9362a4bcbcb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5980,7 +5984,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-08 14:01:08</sys_updated_on>
         <value>[{"name":"getNextPage","initial_value":"false","value_from":"script","extract_using":"","extract_expression":"","read_only":true},{"name":"isLastPage","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$.isLastPage"},{"name":"nextLink","initial_value":"","value_from":"response_body","extract_using":"JSON","extract_expression":"$._links.next"},{"name":"response","initial_value":"","value_from":"script","extract_using":"","extract_expression":""}]</value>
-        <variable display_value="Pagination Config">344db1c0e713230007a64caac2f6a9af</variable>
+        <variable display_value="">344db1c0e713230007a64caac2f6a9af</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6002,7 +6006,7 @@
     }&#13;
   gs.info("pagination");&#13;
 })(variables, pageResponse);</value>
-        <variable display_value="Pagination Script">f68d35c0e713230007a64caac2f6a959</variable>
+        <variable display_value="">f68d35c0e713230007a64caac2f6a959</variable>
     </sys_variable_value>
     <sys_hub_step_ext_output action="delete_multiple" query="model=558c49cb1b59a010c4a4a9362a4bcb90^sys_idNOT IN8e5b134a1b216810c4a4a9362a4bcb5f,a18c49cb1b59a010c4a4a9362a4bcb9f,d98c49cb1b59a010c4a4a9362a4bcb92,f28a43491b6da410c4a4a9362a4bcb92"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -6363,7 +6367,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <value>$.values</value>
-        <variable display_value="Item Path">1d614244e713230007a64caac2f6a989</variable>
+        <variable display_value="">1d614244e713230007a64caac2f6a989</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6377,7 +6381,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <value>JSON</value>
-        <variable display_value="Source Format">56c04e04e713230007a64caac2f6a9e3</variable>
+        <variable display_value="">56c04e04e713230007a64caac2f6a9e3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6d8c49cb1b59a010c4a4a9362a4bcbc5"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -6450,7 +6454,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-30 18:20:00</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6464,7 +6468,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6478,7 +6482,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>1</value>
-        <variable display_value="Is Streaming">f1255aa377322300efb691572b106135</variable>
+        <variable display_value="">f1255aa377322300efb691572b106135</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6492,7 +6496,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>/rest/servicedeskapi/servicedesk</value>
-        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6506,7 +6510,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6520,7 +6524,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6534,7 +6538,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6548,7 +6552,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6562,7 +6566,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a58c49cb1b59a010c4a4a9362a4bcba8"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -6788,7 +6792,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <value>script_parser</value>
-        <variable display_value="How will you parse each item into an object">ae4eacd677032300efb691572b106156</variable>
+        <variable display_value="">ae4eacd677032300efb691572b106156</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6802,7 +6806,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <value>json_splitter</value>
-        <variable display_value="How will you identify each record">d52e2cd677032300efb691572b1061e4</variable>
+        <variable display_value="">d52e2cd677032300efb691572b1061e4</variable>
     </sys_variable_value>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Look up Service Desk">598c49cb1b59a010c4a4a9362a4bcb85</action>
@@ -6837,7 +6841,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>rest_step</value>
-        <variable display_value="How will you get data">d61d64d677032300efb691572b10611a</variable>
+        <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6851,7 +6855,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:21</sys_updated_on>
         <value>1</value>
-        <variable display_value="Enable pagination">88ad28d677032300efb691572b10619b</variable>
+        <variable display_value="">88ad28d677032300efb691572b10619b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -6865,7 +6869,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-10 18:58:30</sys_updated_on>
         <value>0</value>
-        <variable display_value="Run a script before each request">c9cda8d677032300efb691572b10611c</variable>
+        <variable display_value="">c9cda8d677032300efb691572b10611c</variable>
     </sys_variable_value>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_598c49cb1b59a010c4a4a9362a4bcb85^sys_idNOT IN86408e5f1b91e010c4a4a9362a4bcb93"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -6881,11 +6885,11 @@
         <sys_created_on>2020-12-30 18:19:59</sys_created_on>
         <sys_id>86408e5f1b91e010c4a4a9362a4bcb93</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Page Size</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_598c49cb1b59a010c4a4a9362a4bcb85_limit_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 10:13:47</sys_updated_on>
         <url/>
@@ -6905,11 +6909,11 @@
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>398c89cb1b59a010c4a4a9362a4bcb0d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_message</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:23</sys_updated_on>
         <url/>
@@ -6928,11 +6932,11 @@
         <sys_created_on>2020-12-29 19:55:22</sys_created_on>
         <sys_id>3d8c49cb1b59a010c4a4a9362a4bcbf5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_count</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_ds_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <url/>
@@ -6951,11 +6955,11 @@
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>468c89cb1b59a010c4a4a9362a4bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_parsed_stream</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_ds_parsed_stream_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:23</sys_updated_on>
         <url/>
@@ -6974,11 +6978,11 @@
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>468c89cb1b59a010c4a4a9362a4bcb25</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Desks</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:23</sys_updated_on>
         <url/>
@@ -6997,11 +7001,11 @@
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>798c89cb1b59a010c4a4a9362a4bcb07</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>response_headers</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_response_headers_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:23</sys_updated_on>
         <url/>
@@ -7020,11 +7024,11 @@
         <sys_created_on>2020-12-29 19:55:22</sys_created_on>
         <sys_id>7d8c49cb1b59a010c4a4a9362a4bcbef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>count</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <url/>
@@ -7043,11 +7047,11 @@
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>868c89cb1b59a010c4a4a9362a4bcb19</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>error_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_error_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:23</sys_updated_on>
         <url/>
@@ -7066,11 +7070,11 @@
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>b98c89cb1b59a010c4a4a9362a4bcb01</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ds_output_page_variables</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_ds_output_page_variables_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:23</sys_updated_on>
         <url/>
@@ -7089,11 +7093,11 @@
         <sys_created_on>2020-12-29 19:55:22</sys_created_on>
         <sys_id>bd8c49cb1b59a010c4a4a9362a4bcbe9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Page Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_page_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <url/>
@@ -7112,11 +7116,11 @@
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>f58c89cb1b59a010c4a4a9362a4bcb13</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>status_code</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_status_code_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:23</sys_updated_on>
         <url/>
@@ -7135,11 +7139,11 @@
         <sys_created_on>2020-12-29 19:55:23</sys_created_on>
         <sys_id>f98c49cb1b59a010c4a4a9362a4bcbfb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>item</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_item_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:23</sys_updated_on>
         <url/>
@@ -7158,11 +7162,11 @@
         <sys_created_on>2020-12-29 19:55:22</sys_created_on>
         <sys_id>fd8c49cb1b59a010c4a4a9362a4bcbe3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Item Count</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_598c49cb1b59a010c4a4a9362a4bcb85_item_count_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2020-12-29 19:55:22</sys_updated_on>
         <url/>

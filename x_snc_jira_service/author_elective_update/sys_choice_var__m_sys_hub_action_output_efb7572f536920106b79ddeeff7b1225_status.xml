@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="status" table="var__m_sys_hub_action_output_efb7572f536920106b79ddeeff7b1225" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>var__m_sys_hub_action_output_efb7572f536920106b79ddeeff7b1225</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-13 05:36:17</sys_created_on>
+            <sys_id>f50064bf1be52c10c4a4a9362a4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-13 05:36:17</sys_updated_on>
+        </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>status</element>
@@ -9,7 +25,6 @@
             <language>en</language>
             <name>var__m_sys_hub_action_output_efb7572f536920106b79ddeeff7b1225</name>
             <sequence>0</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-01-13 05:36:17</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -29,7 +44,6 @@
             <language>en</language>
             <name>var__m_sys_hub_action_output_efb7572f536920106b79ddeeff7b1225</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2021-01-13 05:36:17</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -40,21 +54,5 @@
             <sys_updated_on>2021-01-13 05:36:17</sys_updated_on>
             <value>Error</value>
         </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>status</element>
-            <name>var__m_sys_hub_action_output_efb7572f536920106b79ddeeff7b1225</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-13 05:36:17</sys_created_on>
-            <sys_id>67b7572f536920106b79ddeeff7b1295</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
-            <sys_policy/>
-            <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-            <sys_update_name/>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-13 05:36:17</sys_updated_on>
-        </sys_choice_set>
     </sys_choice>
 </record_update>

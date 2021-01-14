@@ -19,7 +19,6 @@
         <outputs/>
         <remote_trigger_id/>
         <run_as>user</run_as>
-        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -46,8 +45,7 @@
     <sys_hub_flow_component action="delete_multiple" query="flow=3c7873eb53a920106b79ddeeff7b1265^sys_idNOT IN1d78b3eb53a920106b79ddeeff7b126e,2178f3eb53a920106b79ddeeff7b1214,2978b3eb53a920106b79ddeeff7b12d5,3978f3eb53a920106b79ddeeff7b124d,417873eb53a920106b79ddeeff7b12be,4a78f3eb53a920106b79ddeeff7b12da,5978b3eb53a920106b79ddeeff7b124a,6178f3eb53a920106b79ddeeff7b120f,7978f3eb53a920106b79ddeeff7b1248,7978f3eb53a920106b79ddeeff7b126d,7d78f3eb53a920106b79ddeeff7b1294,8178b3eb53a920106b79ddeeff7b1201,9d78b3eb53a920106b79ddeeff7b1292,b178f3eb53a920106b79ddeeff7b12b8,c978b3eb53a920106b79ddeeff7b1223,cd7873eb53a920106b79ddeeff7b12fa,e578b3eb53a920106b79ddeeff7b12da"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Comment Attachment">abaeb6e3532920106b79ddeeff7b126b</action_type>
+        <action_type display_value="">abaeb6e3532920106b79ddeeff7b126b</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>4f373d89531920106b79ddeeff7b12d6</compiled_snapshot>
@@ -66,19 +64,6 @@
         <ui_id>3ef2688e-07dc-4b5d-bea5-fadb2a643083</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1d78b3eb53a920106b79ddeeff7b126e"/>
-    <sys_element_mapping action="delete_multiple" query="id=1d78b3eb53a920106b79ddeeff7b126e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>1d78b3eb53a920106b79ddeeff7b126e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:12</sys_created_on>
-        <sys_id>9178b3eb53a920106b79ddeeff7b1270</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
-        <table>var__m_sys_hub_action_input_abaeb6e3532920106b79ddeeff7b126b</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -116,8 +101,7 @@
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Customer Request Comments">c42ebe63532920106b79ddeeff7b12d6</action_type>
+        <action_type display_value="">c42ebe63532920106b79ddeeff7b12d6</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>90750bb2531520106b79ddeeff7b12bb</compiled_snapshot>
@@ -136,19 +120,6 @@
         <ui_id>5a2d79be-1611-48a6-a1a5-2195e8f48f88</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2978b3eb53a920106b79ddeeff7b12d5"/>
-    <sys_element_mapping action="delete_multiple" query="id=2978b3eb53a920106b79ddeeff7b12d5"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>2978b3eb53a920106b79ddeeff7b12d5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:13</sys_created_on>
-        <sys_id>2178b3eb53a920106b79ddeeff7b12d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c42ebe63532920106b79ddeeff7b12d6</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -186,7 +157,7 @@
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Create Customer Request">ff8e72e3532920106b79ddeeff7b12f0</action_type>
+        <action_type display_value="">ff8e72e3532920106b79ddeeff7b12f0</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>6da759cd53d520106b79ddeeff7b1273</compiled_snapshot>
@@ -217,7 +188,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>5f994ab8b45b2e007447f1de</value>
-        <variable display_value="Request Participants">bb8e72e3532920106b79ddeeff7b12f3</variable>
+        <variable display_value="">bb8e72e3532920106b79ddeeff7b12f3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -231,7 +202,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>1</value>
-        <variable display_value="ServiceDesk  ID">4c9e72e3532920106b79ddeeff7b12f9</variable>
+        <variable display_value="">4c9e72e3532920106b79ddeeff7b12f9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -245,7 +216,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>flow snow</value>
-        <variable display_value="Description">c89eb2e3532920106b79ddeeff7b120a</variable>
+        <variable display_value="">c89eb2e3532920106b79ddeeff7b120a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -259,7 +230,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>snow</value>
-        <variable display_value="Summary">409eb2e3532920106b79ddeeff7b1205</variable>
+        <variable display_value="">409eb2e3532920106b79ddeeff7b1205</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -273,12 +244,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>5</value>
-        <variable display_value="Request Type ID">c49e72e3532920106b79ddeeff7b12ff</variable>
+        <variable display_value="">c49e72e3532920106b79ddeeff7b12ff</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Remove Customer Request Participates ">cb5d7223532920106b79ddeeff7b1213</action_type>
+        <action_type display_value="">cb5d7223532920106b79ddeeff7b1213</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>6a4148ad53e560106b79ddeeff7b12fa</compiled_snapshot>
@@ -309,37 +279,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:15</sys_updated_on>
         <value>{"complexObject":{"name$":"FDcf5d72233e2920102da08cda01970115","$COCollectionField":["5f994ab8b45b2e007447f1de"]},"complexObjectSchema":{"FlowDesigner:FDcf5d72233e2920102da08cda01970115":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDcf5d72233e2920102da08cda01970115.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Account IDs\",\"mandatory\":\"true\",\"child_name\":\"Account_ID\",\"uiUniqueId\":\"06e7f218-a56a-4e10-a535-daae219ef790\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDcf5d72233e2920102da08cda01970115\",\"child_label\":\"Account ID\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"83df1e70-bf34-406f-994b-1b128764eb0b\"}"}},"serializationFormat":"JSON","version":"1.0"}</value>
-        <variable display_value="Account IDs">4f5d7223532920106b79ddeeff7b1230</variable>
+        <variable display_value="">4f5d7223532920106b79ddeeff7b1230</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=4a78f3eb53a920106b79ddeeff7b12da"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>account_ids</field>
-        <id>4a78f3eb53a920106b79ddeeff7b12da</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:15</sys_created_on>
-        <sys_id>4278f3eb53a920106b79ddeeff7b12dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:15</sys_updated_on>
-        <table>var__m_sys_hub_action_input_cb5d7223532920106b79ddeeff7b1213</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>4a78f3eb53a920106b79ddeeff7b12da</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:15</sys_created_on>
-        <sys_id>0678f3eb53a920106b79ddeeff7b12dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:15</sys_updated_on>
-        <table>var__m_sys_hub_action_input_cb5d7223532920106b79ddeeff7b1213</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Temporary Attachment">665ebaa3532920106b79ddeeff7b124f</action_type>
+        <action_type display_value="">665ebaa3532920106b79ddeeff7b124f</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>d6a079c5531920106b79ddeeff7b1230</compiled_snapshot>
@@ -370,7 +314,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
         <value>{"complexObject":{"name$":"FDea5ebaa353292010352bf46498c77251","$COCollectionField":["5edff5cc-91a0-4a5c-8eae-2c7f38c29612"]},"complexObjectSchema":{"FlowDesigner:FDea5ebaa353292010352bf46498c77251":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDea5ebaa353292010352bf46498c77251.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Temporary Attachment  IDs\",\"mandatory\":\"true\",\"child_name\":\"Temporary_Attachment_ID\",\"uiUniqueId\":\"7e9a3a53-b115-44a8-920a-8a3eb0ff2f1c\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDea5ebaa353292010352bf46498c77251\",\"child_label\":\"Temporary Attachment  ID\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"84d51c7b-64d9-4bba-886e-112148855948\"}"}},"serializationFormat":"JSON","version":"1.0"}</value>
-        <variable display_value="Temporary Attachment  IDs">aa5ebaa3532920106b79ddeeff7b1253</variable>
+        <variable display_value="">aa5ebaa3532920106b79ddeeff7b1253</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -384,49 +328,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
         <value>none</value>
-        <variable display_value="Additional  Comment">7e5ebaa3532920106b79ddeeff7b125f</variable>
+        <variable display_value="">7e5ebaa3532920106b79ddeeff7b125f</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=5978b3eb53a920106b79ddeeff7b124a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>additional_comment</field>
-        <id>5978b3eb53a920106b79ddeeff7b124a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:12</sys_created_on>
-        <sys_id>9578b3eb53a920106b79ddeeff7b124c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
-        <table>var__m_sys_hub_action_input_665ebaa3532920106b79ddeeff7b124f</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>5978b3eb53a920106b79ddeeff7b124a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:12</sys_created_on>
-        <sys_id>d178b3eb53a920106b79ddeeff7b124c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
-        <table>var__m_sys_hub_action_input_665ebaa3532920106b79ddeeff7b124f</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>temporary_attachment_id</field>
-        <id>5978b3eb53a920106b79ddeeff7b124a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:12</sys_created_on>
-        <sys_id>5978b3eb53a920106b79ddeeff7b124c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
-        <table>var__m_sys_hub_action_input_665ebaa3532920106b79ddeeff7b124f</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Customer Request Status History">d90eb663532920106b79ddeeff7b1279</action_type>
+        <action_type display_value="">d90eb663532920106b79ddeeff7b1279</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>1cc1df3a531520106b79ddeeff7b1287</compiled_snapshot>
@@ -445,23 +351,9 @@
         <ui_id>7af0ac6b-f63b-44f9-975b-a2d39b4f0ce7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6178f3eb53a920106b79ddeeff7b120f"/>
-    <sys_element_mapping action="delete_multiple" query="id=6178f3eb53a920106b79ddeeff7b120f"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>6178f3eb53a920106b79ddeeff7b120f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>6978f3eb53a920106b79ddeeff7b1210</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d90eb663532920106b79ddeeff7b1279</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up SLA Information">a5edbe23532920106b79ddeeff7b126e</action_type>
+        <action_type display_value="">a5edbe23532920106b79ddeeff7b126e</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>fb561ffa531520106b79ddeeff7b1217</compiled_snapshot>
@@ -480,23 +372,9 @@
         <ui_id>9228e125-8cbc-45c5-8209-8273d7a78824</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7978f3eb53a920106b79ddeeff7b1248"/>
-    <sys_element_mapping action="delete_multiple" query="id=7978f3eb53a920106b79ddeeff7b1248"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>7978f3eb53a920106b79ddeeff7b1248</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>7178f3eb53a920106b79ddeeff7b124a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_a5edbe23532920106b79ddeeff7b126e</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Customer Request Comment">d27ebea3532920106b79ddeeff7b129f</action_type>
+        <action_type display_value="">d27ebea3532920106b79ddeeff7b129f</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>dd1ce34353a120106b79ddeeff7b122d</compiled_snapshot>
@@ -527,7 +405,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
         <value>1</value>
-        <variable display_value="Public">5a7ebea3532920106b79ddeeff7b12ad</variable>
+        <variable display_value="">5a7ebea3532920106b79ddeeff7b12ad</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -541,49 +419,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
         <value>escalating the issue</value>
-        <variable display_value="Body">d27ebea3532920106b79ddeeff7b12b3</variable>
+        <variable display_value="">d27ebea3532920106b79ddeeff7b12b3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=7978f3eb53a920106b79ddeeff7b126d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>body4</field>
-        <id>7978f3eb53a920106b79ddeeff7b126d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>3d78f3eb53a920106b79ddeeff7b126e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>7978f3eb53a920106b79ddeeff7b126d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>fd78f3eb53a920106b79ddeeff7b126e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>public</field>
-        <id>7978f3eb53a920106b79ddeeff7b126d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>b178f3eb53a920106b79ddeeff7b126f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Perform Customer Request Transition">41cdf623532920106b79ddeeff7b1209</action_type>
+        <action_type display_value="">41cdf623532920106b79ddeeff7b1209</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>d13dd61a535d20106b79ddeeff7b12a2</compiled_snapshot>
@@ -614,7 +454,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
         <value>past due </value>
-        <variable display_value="Additional Comments">41cdf623532920106b79ddeeff7b1224</variable>
+        <variable display_value="">41cdf623532920106b79ddeeff7b1224</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -628,45 +468,8 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
         <value>921</value>
-        <variable display_value="Trageted State">c5cdf623532920106b79ddeeff7b1217</variable>
+        <variable display_value="">c5cdf623532920106b79ddeeff7b1217</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=7d78f3eb53a920106b79ddeeff7b1294"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>additional_comments</field>
-        <id>7d78f3eb53a920106b79ddeeff7b1294</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>7d78f3eb53a920106b79ddeeff7b1296</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_41cdf623532920106b79ddeeff7b1209</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>id</field>
-        <id>7d78f3eb53a920106b79ddeeff7b1294</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>f578f3eb53a920106b79ddeeff7b1296</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_41cdf623532920106b79ddeeff7b1209</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>7d78f3eb53a920106b79ddeeff7b1294</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>b978f3eb53a920106b79ddeeff7b1296</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_41cdf623532920106b79ddeeff7b1209</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -704,8 +507,7 @@
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Customer Request Comment">d27ebea3532920106b79ddeeff7b129f</action_type>
+        <action_type display_value="">d27ebea3532920106b79ddeeff7b129f</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>dd1ce34353a120106b79ddeeff7b122d</compiled_snapshot>
@@ -736,7 +538,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
         <value>1</value>
-        <variable display_value="Public">5a7ebea3532920106b79ddeeff7b12ad</variable>
+        <variable display_value="">5a7ebea3532920106b79ddeeff7b12ad</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -750,49 +552,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
         <value>snow commect</value>
-        <variable display_value="Body">d27ebea3532920106b79ddeeff7b12b3</variable>
+        <variable display_value="">d27ebea3532920106b79ddeeff7b12b3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=9d78b3eb53a920106b79ddeeff7b1292"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>body4</field>
-        <id>9d78b3eb53a920106b79ddeeff7b1292</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:13</sys_created_on>
-        <sys_id>1978b3eb53a920106b79ddeeff7b1294</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>9d78b3eb53a920106b79ddeeff7b1292</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:13</sys_created_on>
-        <sys_id>d978b3eb53a920106b79ddeeff7b1294</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>public</field>
-        <id>9d78b3eb53a920106b79ddeeff7b1292</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:13</sys_created_on>
-        <sys_id>9d78b3eb53a920106b79ddeeff7b1294</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Subscribe Customer Request">0e4d7eef53e520106b79ddeeff7b1297</action_type>
+        <action_type display_value="">0e4d7eef53e520106b79ddeeff7b1297</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>94c10a12535d20106b79ddeeff7b12c6</compiled_snapshot>
@@ -811,22 +575,9 @@
         <ui_id>110ea78a-5989-4a37-b529-0fe89e5d98c7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b178f3eb53a920106b79ddeeff7b12b8"/>
-    <sys_element_mapping action="delete_multiple" query="id=b178f3eb53a920106b79ddeeff7b12b8"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>key</field>
-        <id>b178f3eb53a920106b79ddeeff7b12b8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:15</sys_created_on>
-        <sys_id>3978f3eb53a920106b79ddeeff7b12b9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:15</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0e4d7eef53e520106b79ddeeff7b1297</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Create Temporary File">564ef6a3532920106b79ddeeff7b1290</action_type>
+        <action_type display_value="">564ef6a3532920106b79ddeeff7b1290</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>312869e453ed20106b79ddeeff7b126b</compiled_snapshot>
@@ -857,7 +608,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
         <value>1</value>
-        <variable display_value="Service Desk ID">624ef6a3532920106b79ddeeff7b129c</variable>
+        <variable display_value="">624ef6a3532920106b79ddeeff7b129c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -871,12 +622,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
         <value>f5d469d74ff1120031577d2ca310c7c1</value>
-        <variable display_value="File">224ef6a3532920106b79ddeeff7b1293</variable>
+        <variable display_value="">224ef6a3532920106b79ddeeff7b1293</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add Customer Request Participants">ffbebae3532920106b79ddeeff7b1248</action_type>
+        <action_type display_value="">ffbebae3532920106b79ddeeff7b1248</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>f98a2f76535520106b79ddeeff7b1205</compiled_snapshot>
@@ -907,33 +657,8 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>{"complexObject":{"name$":"FDf3bebae3b8292010dc68247ccbcd8d4b","$COCollectionField":["5f994ab8b45b2e007447f1de"]},"complexObjectSchema":{"FlowDesigner:FDf3bebae3b8292010dc68247ccbcd8d4b":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDf3bebae3b8292010dc68247ccbcd8d4b.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Account IDs\",\"mandatory\":\"true\",\"child_name\":\"account_id\",\"uiUniqueId\":\"19617794-15b1-4b64-9a84-f7786457f0aa\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDf3bebae3b8292010dc68247ccbcd8d4b\",\"child_label\":\"Account ID\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"38c26ca1-9f9e-4212-9b34-97b227b56439\"}"}},"serializationFormat":"JSON","version":"1.0"}</value>
-        <variable display_value="Account IDs">77bebae3532920106b79ddeeff7b1253</variable>
+        <variable display_value="">77bebae3532920106b79ddeeff7b1253</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=cd7873eb53a920106b79ddeeff7b12fa"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>account_ids</field>
-        <id>cd7873eb53a920106b79ddeeff7b12fa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:11</sys_created_on>
-        <sys_id>497873eb53a920106b79ddeeff7b12fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ffbebae3532920106b79ddeeff7b1248</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>cd7873eb53a920106b79ddeeff7b12fa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:11</sys_created_on>
-        <sys_id>0d7873eb53a920106b79ddeeff7b12fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ffbebae3532920106b79ddeeff7b1248</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1001,7 +726,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:15</sys_updated_on>
         <value>1970-01-01 10:00:00</value>
-        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=3c7873eb53a920106b79ddeeff7b1265^sys_idNOT INb87873eb53a920106b79ddeeff7b1269"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -1018,8 +743,7 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=3c7873eb53a920106b79ddeeff7b1265^sys_idNOT IN1d78b3eb53a920106b79ddeeff7b126e,2178f3eb53a920106b79ddeeff7b1214,2978b3eb53a920106b79ddeeff7b12d5,3978f3eb53a920106b79ddeeff7b124d,417873eb53a920106b79ddeeff7b12be,4a78f3eb53a920106b79ddeeff7b12da,5978b3eb53a920106b79ddeeff7b124a,6178f3eb53a920106b79ddeeff7b120f,7978f3eb53a920106b79ddeeff7b1248,7978f3eb53a920106b79ddeeff7b126d,7d78f3eb53a920106b79ddeeff7b1294,8178b3eb53a920106b79ddeeff7b1201,9d78b3eb53a920106b79ddeeff7b1292,b178f3eb53a920106b79ddeeff7b12b8,c978b3eb53a920106b79ddeeff7b1223,cd7873eb53a920106b79ddeeff7b12fa,e578b3eb53a920106b79ddeeff7b12da"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Comment Attachment">abaeb6e3532920106b79ddeeff7b126b</action_type>
+        <action_type display_value="">abaeb6e3532920106b79ddeeff7b126b</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>4f373d89531920106b79ddeeff7b12d6</compiled_snapshot>
@@ -1038,19 +762,6 @@
         <ui_id>3ef2688e-07dc-4b5d-bea5-fadb2a643083</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1d78b3eb53a920106b79ddeeff7b126e"/>
-    <sys_element_mapping action="delete_multiple" query="id=1d78b3eb53a920106b79ddeeff7b126e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>1d78b3eb53a920106b79ddeeff7b126e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:12</sys_created_on>
-        <sys_id>9178b3eb53a920106b79ddeeff7b1270</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
-        <table>var__m_sys_hub_action_input_abaeb6e3532920106b79ddeeff7b126b</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1088,8 +799,7 @@
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Customer Request Comments">c42ebe63532920106b79ddeeff7b12d6</action_type>
+        <action_type display_value="">c42ebe63532920106b79ddeeff7b12d6</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>90750bb2531520106b79ddeeff7b12bb</compiled_snapshot>
@@ -1108,19 +818,6 @@
         <ui_id>5a2d79be-1611-48a6-a1a5-2195e8f48f88</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2978b3eb53a920106b79ddeeff7b12d5"/>
-    <sys_element_mapping action="delete_multiple" query="id=2978b3eb53a920106b79ddeeff7b12d5"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>2978b3eb53a920106b79ddeeff7b12d5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:13</sys_created_on>
-        <sys_id>2178b3eb53a920106b79ddeeff7b12d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
-        <table>var__m_sys_hub_action_input_c42ebe63532920106b79ddeeff7b12d6</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1158,7 +855,7 @@
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Create Customer Request">ff8e72e3532920106b79ddeeff7b12f0</action_type>
+        <action_type display_value="">ff8e72e3532920106b79ddeeff7b12f0</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>6da759cd53d520106b79ddeeff7b1273</compiled_snapshot>
@@ -1189,7 +886,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>5f994ab8b45b2e007447f1de</value>
-        <variable display_value="Request Participants">bb8e72e3532920106b79ddeeff7b12f3</variable>
+        <variable display_value="">bb8e72e3532920106b79ddeeff7b12f3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1203,7 +900,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>1</value>
-        <variable display_value="ServiceDesk  ID">4c9e72e3532920106b79ddeeff7b12f9</variable>
+        <variable display_value="">4c9e72e3532920106b79ddeeff7b12f9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1217,7 +914,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>flow snow</value>
-        <variable display_value="Description">c89eb2e3532920106b79ddeeff7b120a</variable>
+        <variable display_value="">c89eb2e3532920106b79ddeeff7b120a</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1231,7 +928,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>snow</value>
-        <variable display_value="Summary">409eb2e3532920106b79ddeeff7b1205</variable>
+        <variable display_value="">409eb2e3532920106b79ddeeff7b1205</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1245,12 +942,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>5</value>
-        <variable display_value="Request Type ID">c49e72e3532920106b79ddeeff7b12ff</variable>
+        <variable display_value="">c49e72e3532920106b79ddeeff7b12ff</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Remove Customer Request Participates ">cb5d7223532920106b79ddeeff7b1213</action_type>
+        <action_type display_value="">cb5d7223532920106b79ddeeff7b1213</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>6a4148ad53e560106b79ddeeff7b12fa</compiled_snapshot>
@@ -1281,37 +977,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:15</sys_updated_on>
         <value>{"complexObject":{"name$":"FDcf5d72233e2920102da08cda01970115","$COCollectionField":["5f994ab8b45b2e007447f1de"]},"complexObjectSchema":{"FlowDesigner:FDcf5d72233e2920102da08cda01970115":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDcf5d72233e2920102da08cda01970115.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Account IDs\",\"mandatory\":\"true\",\"child_name\":\"Account_ID\",\"uiUniqueId\":\"06e7f218-a56a-4e10-a535-daae219ef790\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDcf5d72233e2920102da08cda01970115\",\"child_label\":\"Account ID\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"83df1e70-bf34-406f-994b-1b128764eb0b\"}"}},"serializationFormat":"JSON","version":"1.0"}</value>
-        <variable display_value="Account IDs">4f5d7223532920106b79ddeeff7b1230</variable>
+        <variable display_value="">4f5d7223532920106b79ddeeff7b1230</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=4a78f3eb53a920106b79ddeeff7b12da"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>account_ids</field>
-        <id>4a78f3eb53a920106b79ddeeff7b12da</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:15</sys_created_on>
-        <sys_id>4278f3eb53a920106b79ddeeff7b12dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:15</sys_updated_on>
-        <table>var__m_sys_hub_action_input_cb5d7223532920106b79ddeeff7b1213</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>4a78f3eb53a920106b79ddeeff7b12da</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:15</sys_created_on>
-        <sys_id>0678f3eb53a920106b79ddeeff7b12dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:15</sys_updated_on>
-        <table>var__m_sys_hub_action_input_cb5d7223532920106b79ddeeff7b1213</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Temporary Attachment">665ebaa3532920106b79ddeeff7b124f</action_type>
+        <action_type display_value="">665ebaa3532920106b79ddeeff7b124f</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>d6a079c5531920106b79ddeeff7b1230</compiled_snapshot>
@@ -1342,7 +1012,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
         <value>{"complexObject":{"name$":"FDea5ebaa353292010352bf46498c77251","$COCollectionField":["5edff5cc-91a0-4a5c-8eae-2c7f38c29612"]},"complexObjectSchema":{"FlowDesigner:FDea5ebaa353292010352bf46498c77251":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDea5ebaa353292010352bf46498c77251.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Temporary Attachment  IDs\",\"mandatory\":\"true\",\"child_name\":\"Temporary_Attachment_ID\",\"uiUniqueId\":\"7e9a3a53-b115-44a8-920a-8a3eb0ff2f1c\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDea5ebaa353292010352bf46498c77251\",\"child_label\":\"Temporary Attachment  ID\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"84d51c7b-64d9-4bba-886e-112148855948\"}"}},"serializationFormat":"JSON","version":"1.0"}</value>
-        <variable display_value="Temporary Attachment  IDs">aa5ebaa3532920106b79ddeeff7b1253</variable>
+        <variable display_value="">aa5ebaa3532920106b79ddeeff7b1253</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1356,49 +1026,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
         <value>none</value>
-        <variable display_value="Additional  Comment">7e5ebaa3532920106b79ddeeff7b125f</variable>
+        <variable display_value="">7e5ebaa3532920106b79ddeeff7b125f</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=5978b3eb53a920106b79ddeeff7b124a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>additional_comment</field>
-        <id>5978b3eb53a920106b79ddeeff7b124a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:12</sys_created_on>
-        <sys_id>9578b3eb53a920106b79ddeeff7b124c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
-        <table>var__m_sys_hub_action_input_665ebaa3532920106b79ddeeff7b124f</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>5978b3eb53a920106b79ddeeff7b124a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:12</sys_created_on>
-        <sys_id>d178b3eb53a920106b79ddeeff7b124c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
-        <table>var__m_sys_hub_action_input_665ebaa3532920106b79ddeeff7b124f</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>temporary_attachment_id</field>
-        <id>5978b3eb53a920106b79ddeeff7b124a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:12</sys_created_on>
-        <sys_id>5978b3eb53a920106b79ddeeff7b124c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
-        <table>var__m_sys_hub_action_input_665ebaa3532920106b79ddeeff7b124f</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up Customer Request Status History">d90eb663532920106b79ddeeff7b1279</action_type>
+        <action_type display_value="">d90eb663532920106b79ddeeff7b1279</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>1cc1df3a531520106b79ddeeff7b1287</compiled_snapshot>
@@ -1417,23 +1049,9 @@
         <ui_id>7af0ac6b-f63b-44f9-975b-a2d39b4f0ce7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6178f3eb53a920106b79ddeeff7b120f"/>
-    <sys_element_mapping action="delete_multiple" query="id=6178f3eb53a920106b79ddeeff7b120f"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>6178f3eb53a920106b79ddeeff7b120f</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>6978f3eb53a920106b79ddeeff7b1210</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d90eb663532920106b79ddeeff7b1279</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Look up SLA Information">a5edbe23532920106b79ddeeff7b126e</action_type>
+        <action_type display_value="">a5edbe23532920106b79ddeeff7b126e</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>fb561ffa531520106b79ddeeff7b1217</compiled_snapshot>
@@ -1452,23 +1070,9 @@
         <ui_id>9228e125-8cbc-45c5-8209-8273d7a78824</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7978f3eb53a920106b79ddeeff7b1248"/>
-    <sys_element_mapping action="delete_multiple" query="id=7978f3eb53a920106b79ddeeff7b1248"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>7978f3eb53a920106b79ddeeff7b1248</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>7178f3eb53a920106b79ddeeff7b124a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_a5edbe23532920106b79ddeeff7b126e</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Customer Request Comment">d27ebea3532920106b79ddeeff7b129f</action_type>
+        <action_type display_value="">d27ebea3532920106b79ddeeff7b129f</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>dd1ce34353a120106b79ddeeff7b122d</compiled_snapshot>
@@ -1499,7 +1103,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
         <value>1</value>
-        <variable display_value="Public">5a7ebea3532920106b79ddeeff7b12ad</variable>
+        <variable display_value="">5a7ebea3532920106b79ddeeff7b12ad</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1513,49 +1117,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
         <value>escalating the issue</value>
-        <variable display_value="Body">d27ebea3532920106b79ddeeff7b12b3</variable>
+        <variable display_value="">d27ebea3532920106b79ddeeff7b12b3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=7978f3eb53a920106b79ddeeff7b126d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>body4</field>
-        <id>7978f3eb53a920106b79ddeeff7b126d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>3d78f3eb53a920106b79ddeeff7b126e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>7978f3eb53a920106b79ddeeff7b126d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>fd78f3eb53a920106b79ddeeff7b126e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>public</field>
-        <id>7978f3eb53a920106b79ddeeff7b126d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>b178f3eb53a920106b79ddeeff7b126f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Perform Customer Request Transition">41cdf623532920106b79ddeeff7b1209</action_type>
+        <action_type display_value="">41cdf623532920106b79ddeeff7b1209</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>d13dd61a535d20106b79ddeeff7b12a2</compiled_snapshot>
@@ -1586,7 +1152,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
         <value>past due </value>
-        <variable display_value="Additional Comments">41cdf623532920106b79ddeeff7b1224</variable>
+        <variable display_value="">41cdf623532920106b79ddeeff7b1224</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1600,45 +1166,8 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
         <value>921</value>
-        <variable display_value="Trageted State">c5cdf623532920106b79ddeeff7b1217</variable>
+        <variable display_value="">c5cdf623532920106b79ddeeff7b1217</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=7d78f3eb53a920106b79ddeeff7b1294"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>additional_comments</field>
-        <id>7d78f3eb53a920106b79ddeeff7b1294</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>7d78f3eb53a920106b79ddeeff7b1296</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_41cdf623532920106b79ddeeff7b1209</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>id</field>
-        <id>7d78f3eb53a920106b79ddeeff7b1294</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>f578f3eb53a920106b79ddeeff7b1296</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_41cdf623532920106b79ddeeff7b1209</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>7d78f3eb53a920106b79ddeeff7b1294</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:14</sys_created_on>
-        <sys_id>b978f3eb53a920106b79ddeeff7b1296</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_41cdf623532920106b79ddeeff7b1209</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1676,8 +1205,7 @@
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Customer Request Comment">d27ebea3532920106b79ddeeff7b129f</action_type>
+        <action_type display_value="">d27ebea3532920106b79ddeeff7b129f</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>dd1ce34353a120106b79ddeeff7b122d</compiled_snapshot>
@@ -1708,7 +1236,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
         <value>1</value>
-        <variable display_value="Public">5a7ebea3532920106b79ddeeff7b12ad</variable>
+        <variable display_value="">5a7ebea3532920106b79ddeeff7b12ad</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1722,49 +1250,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
         <value>snow commect</value>
-        <variable display_value="Body">d27ebea3532920106b79ddeeff7b12b3</variable>
+        <variable display_value="">d27ebea3532920106b79ddeeff7b12b3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=9d78b3eb53a920106b79ddeeff7b1292"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>body4</field>
-        <id>9d78b3eb53a920106b79ddeeff7b1292</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:13</sys_created_on>
-        <sys_id>1978b3eb53a920106b79ddeeff7b1294</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>9d78b3eb53a920106b79ddeeff7b1292</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:13</sys_created_on>
-        <sys_id>d978b3eb53a920106b79ddeeff7b1294</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>public</field>
-        <id>9d78b3eb53a920106b79ddeeff7b1292</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:13</sys_created_on>
-        <sys_id>9d78b3eb53a920106b79ddeeff7b1294</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:13</sys_updated_on>
-        <table>var__m_sys_hub_action_input_d27ebea3532920106b79ddeeff7b129f</table>
-        <value/>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Subscribe Customer Request">0e4d7eef53e520106b79ddeeff7b1297</action_type>
+        <action_type display_value="">0e4d7eef53e520106b79ddeeff7b1297</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>94c10a12535d20106b79ddeeff7b12c6</compiled_snapshot>
@@ -1783,22 +1273,9 @@
         <ui_id>110ea78a-5989-4a37-b529-0fe89e5d98c7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b178f3eb53a920106b79ddeeff7b12b8"/>
-    <sys_element_mapping action="delete_multiple" query="id=b178f3eb53a920106b79ddeeff7b12b8"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>key</field>
-        <id>b178f3eb53a920106b79ddeeff7b12b8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:15</sys_created_on>
-        <sys_id>3978f3eb53a920106b79ddeeff7b12b9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:15</sys_updated_on>
-        <table>var__m_sys_hub_action_input_0e4d7eef53e520106b79ddeeff7b1297</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Create Temporary File">564ef6a3532920106b79ddeeff7b1290</action_type>
+        <action_type display_value="">564ef6a3532920106b79ddeeff7b1290</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>312869e453ed20106b79ddeeff7b126b</compiled_snapshot>
@@ -1829,7 +1306,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
         <value>1</value>
-        <variable display_value="Service Desk ID">624ef6a3532920106b79ddeeff7b129c</variable>
+        <variable display_value="">624ef6a3532920106b79ddeeff7b129c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1843,12 +1320,11 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:12</sys_updated_on>
         <value>f5d469d74ff1120031577d2ca310c7c1</value>
-        <variable display_value="File">224ef6a3532920106b79ddeeff7b1293</variable>
+        <variable display_value="">224ef6a3532920106b79ddeeff7b1293</variable>
     </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Add Customer Request Participants">ffbebae3532920106b79ddeeff7b1248</action_type>
+        <action_type display_value="">ffbebae3532920106b79ddeeff7b1248</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot>f98a2f76535520106b79ddeeff7b1205</compiled_snapshot>
@@ -1879,33 +1355,8 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
         <value>{"complexObject":{"name$":"FDf3bebae3b8292010dc68247ccbcd8d4b","$COCollectionField":["5f994ab8b45b2e007447f1de"]},"complexObjectSchema":{"FlowDesigner:FDf3bebae3b8292010dc68247ccbcd8d4b":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDf3bebae3b8292010dc68247ccbcd8d4b.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Account IDs\",\"mandatory\":\"true\",\"child_name\":\"account_id\",\"uiUniqueId\":\"19617794-15b1-4b64-9a84-f7786457f0aa\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDf3bebae3b8292010dc68247ccbcd8d4b\",\"child_label\":\"Account ID\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"38c26ca1-9f9e-4212-9b34-97b227b56439\"}"}},"serializationFormat":"JSON","version":"1.0"}</value>
-        <variable display_value="Account IDs">77bebae3532920106b79ddeeff7b1253</variable>
+        <variable display_value="">77bebae3532920106b79ddeeff7b1253</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=cd7873eb53a920106b79ddeeff7b12fa"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>account_ids</field>
-        <id>cd7873eb53a920106b79ddeeff7b12fa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:11</sys_created_on>
-        <sys_id>497873eb53a920106b79ddeeff7b12fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ffbebae3532920106b79ddeeff7b1248</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>issue_id</field>
-        <id>cd7873eb53a920106b79ddeeff7b12fa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-13 07:59:11</sys_created_on>
-        <sys_id>0d7873eb53a920106b79ddeeff7b12fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-13 07:59:11</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ffbebae3532920106b79ddeeff7b1248</table>
-        <value>{{2df49e23-c8b4-416f-bf30-6354493506ec.request_object.issueId}}</value>
-    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>

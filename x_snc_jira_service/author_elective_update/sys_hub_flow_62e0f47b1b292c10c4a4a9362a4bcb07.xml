@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>organization_management</internal_name>
+        <label_cache>[{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.output.id","label":"7➛Organization➛ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.output.accountId","label":"4➛User➛Account ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"1a659a19-13ec-4990-9043-6a086e498b76.error_message","label":"9➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1e5dd590-89e5-43e0-bc62-79dcb4e29560"}},{"name":"1a659a19-13ec-4990-9043-6a086e498b76.status","label":"9➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6bbd3387-e08b-4627-86c9-ac397f0f0d79"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.output","label":"7➛Organization","reference_display":"Organization","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDdbf63632ae29a810713e6a7ecf27fb99","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8038f6a2-1cd4-4bc7-9f6b-3dcce1b6deae"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.ds_parsed_stream","label":"7➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.error_code","label":"7➛error_code","reference_display":"error_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.status_code","label":"7➛status_code","reference_display":"status_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.error_message","label":"7➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.response_headers","label":"7➛response_headers","reference_display":"response_headers","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.ds_output_page_variables","label":"7➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.item","label":"7➛item","reference_display":"item","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.ds_count","label":"7➛ds_count","reference_display":"ds_count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.count","label":"7➛count","reference_display":"count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.page_count","label":"7➛Page Count","reference_display":"Page Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.item_count","label":"7➛Item Count","reference_display":"Item Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9c99a77f-f36f-4f3c-b229-db4d1d66d873.error_message","label":"6➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"372945fe-b8be-478e-82a3-3e70e00aed6b"}},{"name":"9c99a77f-f36f-4f3c-b229-db4d1d66d873.status","label":"6➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f19825af-f5a6-4dac-9a79-a867252a05b4"}},{"name":"671bc785-61cf-44cf-8c15-1b353f1cbfea.error","label":"5➛Error","reference_display":"Error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"04c494cb-0961-47f2-8c6a-2951adfbe804"}},{"name":"671bc785-61cf-44cf-8c15-1b353f1cbfea.status","label":"5➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"af34bb05-012d-4ca9-b5b4-6d7f3a2af6b1"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.output","label":"4➛User","reference_display":"User","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FD90777e323b29a810aa3840d26eb2e545","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e93470cf-1378-403b-abc9-99a8bbd81a6e"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.ds_parsed_stream","label":"4➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.error_code","label":"4➛error_code","reference_display":"error_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.status_code","label":"4➛status_code","reference_display":"status_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.error_message","label":"4➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.response_headers","label":"4➛response_headers","reference_display":"response_headers","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.ds_output_page_variables","label":"4➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.item","label":"4➛item","reference_display":"item","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.ds_count","label":"4➛ds_count","reference_display":"ds_count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.count","label":"4➛count","reference_display":"count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.page_count","label":"4➛Page Count","reference_display":"Page Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.item_count","label":"4➛Item Count","reference_display":"Item Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7faf8019-b46d-4daf-9a43-73de79f0c58f.error","label":"3➛Error","reference_display":"Error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"04c494cb-0961-47f2-8c6a-2951adfbe804"}},{"name":"7faf8019-b46d-4daf-9a43-73de79f0c58f.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"af34bb05-012d-4ca9-b5b4-6d7f3a2af6b1"}},{"name":"b5fa934b-9164-47c3-9f12-6551524f254e.error_message","label":"8➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"78743f41-9b51-472d-9fb6-15f712e646aa"}},{"name":"b5fa934b-9164-47c3-9f12-6551524f254e.status","label":"8➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"cf4b75cd-4a3c-4138-bc2b-65d12ffdc798"}},{"name":"b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id","label":"8➛User Account ID","reference_display":"User Account ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"34aad31f-1b3f-4654-92f3-784481846670"}},{"name":"c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id","label":"1➛Organization ID","reference_display":"Organization ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"dd7ed9a4-dad1-4625-b00a-51529f179c44"}},{"name":"c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6bbd3387-e08b-4627-86c9-ac397f0f0d79"}},{"name":"c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1e5dd590-89e5-43e0-bc62-79dcb4e29560"}},{"name":"ef7eaae2-36a0-48b3-a205-ee7824a09c86.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f19825af-f5a6-4dac-9a79-a867252a05b4"}},{"name":"ef7eaae2-36a0-48b3-a205-ee7824a09c86.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"372945fe-b8be-478e-82a3-3e70e00aed6b"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Organization Management</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:05:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62e0f47b1b292c10c4a4a9362a4bcb07</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Organization Management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name>sys_hub_flow_62e0f47b1b292c10c4a4a9362a4bcb07</sys_update_name>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=62e0f47b1b292c10c4a4a9362a4bcb07"/>
+    <sys_variable_value action="DELETE" query="document_key=62e0f47b1b292c10c4a4a9362a4bcb07"/>
+    <sys_hub_flow_component action="DELETE" query="flow=62e0f47b1b292c10c4a4a9362a4bcb07^sys_idNOT IN1823343f1b292c10c4a4a9362a4bcbc6,5023343f1b292c10c4a4a9362a4bcbba,7712f0fb1b292c10c4a4a9362a4bcbe0,8c2238fb1b292c10c4a4a9362a4bcb9d,9023343f1b292c10c4a4a9362a4bcbc1,9823343f1b292c10c4a4a9362a4bcbd3,9c23343f1b292c10c4a4a9362a4bcbd8,d023343f1b292c10c4a4a9362a4bcbbd,d023343f1b292c10c4a4a9362a4bcbd1,d823343f1b292c10c4a4a9362a4bcbc9"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look up Users in Organization">194969991be1e410c4a4a9362a4bcbee</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>1823343f1b292c10c4a4a9362a4bcbc6</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>8e975b5d-fe4e-4846-9847-baa5226f9c46</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=1823343f1b292c10c4a4a9362a4bcbc6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1823343f1b292c10c4a4a9362a4bcbc6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:20:46</sys_created_on>
+        <sys_id>e854b07f1b292c10c4a4a9362a4bcbb2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:39:21</sys_updated_on>
+        <value/>
+        <variable display_value="">154969991be1e410c4a4a9362a4bcbf6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=1823343f1b292c10c4a4a9362a4bcbc6"/>
+    <sys_element_mapping action="DELETE">
+        <field>organization_id</field>
+        <id>1823343f1b292c10c4a4a9362a4bcbc6</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>f2e37c3f1b292c10c4a4a9362a4bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_194969991be1e410c4a4a9362a4bcbee</table>
+        <value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>page_size</field>
+        <id>1823343f1b292c10c4a4a9362a4bcbc6</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:20:46</sys_created_on>
+        <sys_id>6854b07f1b292c10c4a4a9362a4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:20:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_194969991be1e410c4a4a9362a4bcbee</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look up User Account ID">5fcf06a51b6de410c4a4a9362a4bcb4f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:32</sys_created_on>
+        <sys_id>5023343f1b292c10c4a4a9362a4bcbba</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>b5fa934b-9164-47c3-9f12-6551524f254e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=5023343f1b292c10c4a4a9362a4bcbba"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5023343f1b292c10c4a4a9362a4bcbba</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>3ae33c3f1b292c10c4a4a9362a4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <value>ihubtest02@gmail.com</value>
+        <variable display_value="">13cf06a51b6de410c4a4a9362a4bcb51</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Create Organization">21510d341b912810c4a4a9362a4bcb38</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:11:09</sys_created_on>
+        <sys_id>7712f0fb1b292c10c4a4a9362a4bcbe0</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=7712f0fb1b292c10c4a4a9362a4bcbe0"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7712f0fb1b292c10c4a4a9362a4bcbe0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>72e33c3f1b292c10c4a4a9362a4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <value>Test Org 4</value>
+        <variable display_value="">e9510d341b912810c4a4a9362a4bcb3f</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:11:09</sys_created_on>
+        <sys_id>8c2238fb1b292c10c4a4a9362a4bcb9d</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>ef7eaae2-36a0-48b3-a205-ee7824a09c86</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=8c2238fb1b292c10c4a4a9362a4bcb9d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8c2238fb1b292c10c4a4a9362a4bcb9d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>32e33c3f1b292c10c4a4a9362a4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <value>3</value>
+        <variable display_value="">49728cfa1bdd6010c4a4a9362a4bcb28</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=8c2238fb1b292c10c4a4a9362a4bcb9d"/>
+    <sys_element_mapping action="DELETE">
+        <field>organization_id</field>
+        <id>8c2238fb1b292c10c4a4a9362a4bcb9d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>bee33c3f1b292c10c4a4a9362a4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_49728cfa1bdd6010c4a4a9362a4bcb27</table>
+        <value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>service_desk_id</field>
+        <id>8c2238fb1b292c10c4a4a9362a4bcb9d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>fae33c3f1b292c10c4a4a9362a4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_49728cfa1bdd6010c4a4a9362a4bcb27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>4.1</order>
+        <parent_ui_id>8e975b5d-fe4e-4846-9847-baa5226f9c46</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>9023343f1b292c10c4a4a9362a4bcbc1</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>8cc509df-786c-47ec-9f43-0ee8a365a21f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=9023343f1b292c10c4a4a9362a4bcbc1"/>
+    <sys_element_mapping action="DELETE" query="id=9023343f1b292c10c4a4a9362a4bcbc1"/>
+    <sys_element_mapping action="DELETE">
+        <field>log_message</field>
+        <id>9023343f1b292c10c4a4a9362a4bcbc1</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:20:46</sys_created_on>
+        <sys_id>6454b07f1b292c10c4a4a9362a4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:20:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{8e975b5d-fe4e-4846-9847-baa5226f9c46.output.accountId}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>7.1</order>
+        <parent_ui_id>07f084b3-75d1-46e6-8c0e-8b28a918bf51</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>9823343f1b292c10c4a4a9362a4bcbd3</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>88df8086-020a-462f-86ee-1e8b9a9bb7dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=9823343f1b292c10c4a4a9362a4bcbd3"/>
+    <sys_element_mapping action="DELETE" query="id=9823343f1b292c10c4a4a9362a4bcbd3"/>
+    <sys_element_mapping action="DELETE">
+        <field>log_message</field>
+        <id>9823343f1b292c10c4a4a9362a4bcbd3</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:20:46</sys_created_on>
+        <sys_id>ec54b07f1b292c10c4a4a9362a4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:20:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{07f084b3-75d1-46e6-8c0e-8b28a918bf51.output.id}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look up Organizations">2e1625191be1e410c4a4a9362a4bcb66</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>9c23343f1b292c10c4a4a9362a4bcbd8</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>07f084b3-75d1-46e6-8c0e-8b28a918bf51</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=9c23343f1b292c10c4a4a9362a4bcbd8"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c23343f1b292c10c4a4a9362a4bcbd8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:20:46</sys_created_on>
+        <sys_id>b454b07f1b292c10c4a4a9362a4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:20:46</sys_updated_on>
+        <value>3</value>
+        <variable display_value="">ee1625191be1e410c4a4a9362a4bcb67</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:32</sys_created_on>
+        <sys_id>d023343f1b292c10c4a4a9362a4bcbbd</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>7faf8019-b46d-4daf-9a43-73de79f0c58f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d023343f1b292c10c4a4a9362a4bcbbd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d023343f1b292c10c4a4a9362a4bcbbd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>1023343f1b292c10c4a4a9362a4bcbbf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:19:26</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDd0b9c6a1df6de41041dd772d90e9ae96":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDd0b9c6a1df6de41041dd772d90e9ae96.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"User Accounts\",\"mandatory\":\"true\",\"child_name\":\"User_Account\",\"uiUniqueId\":\"8335f922-29ff-49e4-8163-5df056a21f4a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDd0b9c6a1df6de41041dd772d90e9ae96\",\"child_label\":\"User Account\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"e5b65797-2e12-46f9-81d7-c85181c836e7\"}"}},"complexObject":{"name$":"FDd0b9c6a1df6de41041dd772d90e9ae96","$COCollectionField":["5f994ab8b45b2e007447f1de","5f994ab8b45b2e007447f1de"]},"serializationFormat":"JSON"}</value>
+        <variable display_value="">fe7c99dd1ba1e410c4a4a9362a4bcb4a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d023343f1b292c10c4a4a9362a4bcbbd"/>
+    <sys_element_mapping action="DELETE">
+        <field>account_id</field>
+        <id>d023343f1b292c10c4a4a9362a4bcbbd</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>9823343f1b292c10c4a4a9362a4bcbbe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:19:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>organization_id</field>
+        <id>d023343f1b292c10c4a4a9362a4bcbbd</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>76e37c3f1b292c10c4a4a9362a4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</table>
+        <value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Remove Organization from Service Desk">94734c3e1bdd6010c4a4a9362a4bcb3e</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>d023343f1b292c10c4a4a9362a4bcbd1</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>9c99a77f-f36f-4f3c-b229-db4d1d66d873</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d023343f1b292c10c4a4a9362a4bcbd1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d023343f1b292c10c4a4a9362a4bcbd1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>8be37c3f1b292c10c4a4a9362a4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <value>3</value>
+        <variable display_value="">94734c3e1bdd6010c4a4a9362a4bcb3f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d023343f1b292c10c4a4a9362a4bcbd1"/>
+    <sys_element_mapping action="DELETE">
+        <field>organization_id</field>
+        <id>d023343f1b292c10c4a4a9362a4bcbd1</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>0be37c3f1b292c10c4a4a9362a4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94734c3e1bdd6010c4a4a9362a4bcb3e</table>
+        <value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>service_desk_id</field>
+        <id>d023343f1b292c10c4a4a9362a4bcbd1</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>47e37c3f1b292c10c4a4a9362a4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94734c3e1bdd6010c4a4a9362a4bcb3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Remove Users from Organization">af3125151be1e410c4a4a9362a4bcb41</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>d823343f1b292c10c4a4a9362a4bcbc9</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>671bc785-61cf-44cf-8c15-1b353f1cbfea</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d823343f1b292c10c4a4a9362a4bcbc9"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d823343f1b292c10c4a4a9362a4bcbc9</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>9023343f1b292c10c4a4a9362a4bcbcb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <value/>
+        <variable display_value="">6b3125151be1e410c4a4a9362a4bcb4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d823343f1b292c10c4a4a9362a4bcbc9"/>
+    <sys_element_mapping action="DELETE">
+        <field>account_id</field>
+        <id>d823343f1b292c10c4a4a9362a4bcbc9</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>1023343f1b292c10c4a4a9362a4bcbcb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af3125151be1e410c4a4a9362a4bcb41</table>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD46c5416b236de810306a4b2c036b49fb":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD46c5416b236de810306a4b2c036b49fb.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"User Account IDs\",\"mandatory\":\"true\",\"child_name\":\"User_Account\",\"uiUniqueId\":\"8335f922-29ff-49e4-8163-5df056a21f4a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD46c5416b236de810306a4b2c036b49fb\",\"child_label\":\"User Account\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{\\\"[0]\\\":\\\"{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}\\\",\\\"[1]\\\":\\\"{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}\\\"}\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"34303487-ce7d-4fa8-9836-bc99c4dd3a6f\"}"}},"complexObject":{"name$":"FD46c5416b236de810306a4b2c036b49fb","$COCollectionField":["{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}","{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}"]},"serializationFormat":"JSON"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>organization_id</field>
+        <id>d823343f1b292c10c4a4a9362a4bcbc9</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>cbe37c3f1b292c10c4a4a9362a4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af3125151be1e410c4a4a9362a4bcb41</table>
+        <value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="DELETE" query="flow=62e0f47b1b292c10c4a4a9362a4bcb07^sys_idNOT IN5a84747f1b292c10c4a4a9362a4bcbaf"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:21:41</sys_created_on>
+        <sys_id>5a84747f1b292c10c4a4a9362a4bcbaf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=5a84747f1b292c10c4a4a9362a4bcbaf"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>5a84747f1b292c10c4a4a9362a4bcbaf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:21:41</sys_created_on>
+        <sys_id>1a84747f1b292c10c4a4a9362a4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:21:41</sys_updated_on>
+        <value>1970-01-01 18:00:00</value>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=62e0f47b1b292c10c4a4a9362a4bcb07^sys_idNOT INe6e0f47b1b292c10c4a4a9362a4bcb08"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>62e0f47b1b292c10c4a4a9362a4bcb07</id>
+        <name>Organization Management</name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:05:52</sys_created_on>
+        <sys_id>e6e0f47b1b292c10c4a4a9362a4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:05:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="DELETE" query="flow=62e0f47b1b292c10c4a4a9362a4bcb07^sys_idNOT IN1823343f1b292c10c4a4a9362a4bcbc6,5023343f1b292c10c4a4a9362a4bcbba,7712f0fb1b292c10c4a4a9362a4bcbe0,8c2238fb1b292c10c4a4a9362a4bcb9d,9023343f1b292c10c4a4a9362a4bcbc1,9823343f1b292c10c4a4a9362a4bcbd3,9c23343f1b292c10c4a4a9362a4bcbd8,d023343f1b292c10c4a4a9362a4bcbbd,d023343f1b292c10c4a4a9362a4bcbd1,d823343f1b292c10c4a4a9362a4bcbc9"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look up Users in Organization">194969991be1e410c4a4a9362a4bcbee</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>1823343f1b292c10c4a4a9362a4bcbc6</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>8e975b5d-fe4e-4846-9847-baa5226f9c46</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=1823343f1b292c10c4a4a9362a4bcbc6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1823343f1b292c10c4a4a9362a4bcbc6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:20:46</sys_created_on>
+        <sys_id>e854b07f1b292c10c4a4a9362a4bcbb2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:39:21</sys_updated_on>
+        <value/>
+        <variable display_value="">154969991be1e410c4a4a9362a4bcbf6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=1823343f1b292c10c4a4a9362a4bcbc6"/>
+    <sys_element_mapping action="DELETE">
+        <field>organization_id</field>
+        <id>1823343f1b292c10c4a4a9362a4bcbc6</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>f2e37c3f1b292c10c4a4a9362a4bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_194969991be1e410c4a4a9362a4bcbee</table>
+        <value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>page_size</field>
+        <id>1823343f1b292c10c4a4a9362a4bcbc6</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:20:46</sys_created_on>
+        <sys_id>6854b07f1b292c10c4a4a9362a4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:20:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_194969991be1e410c4a4a9362a4bcbee</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look up User Account ID">5fcf06a51b6de410c4a4a9362a4bcb4f</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:32</sys_created_on>
+        <sys_id>5023343f1b292c10c4a4a9362a4bcbba</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>b5fa934b-9164-47c3-9f12-6551524f254e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=5023343f1b292c10c4a4a9362a4bcbba"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5023343f1b292c10c4a4a9362a4bcbba</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>3ae33c3f1b292c10c4a4a9362a4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <value>ihubtest02@gmail.com</value>
+        <variable display_value="">13cf06a51b6de410c4a4a9362a4bcb51</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Create Organization">21510d341b912810c4a4a9362a4bcb38</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:11:09</sys_created_on>
+        <sys_id>7712f0fb1b292c10c4a4a9362a4bcbe0</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=7712f0fb1b292c10c4a4a9362a4bcbe0"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7712f0fb1b292c10c4a4a9362a4bcbe0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>72e33c3f1b292c10c4a4a9362a4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <value>Test Org 4</value>
+        <variable display_value="">e9510d341b912810c4a4a9362a4bcb3f</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:11:09</sys_created_on>
+        <sys_id>8c2238fb1b292c10c4a4a9362a4bcb9d</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>ef7eaae2-36a0-48b3-a205-ee7824a09c86</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=8c2238fb1b292c10c4a4a9362a4bcb9d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8c2238fb1b292c10c4a4a9362a4bcb9d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>32e33c3f1b292c10c4a4a9362a4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <value>3</value>
+        <variable display_value="">49728cfa1bdd6010c4a4a9362a4bcb28</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=8c2238fb1b292c10c4a4a9362a4bcb9d"/>
+    <sys_element_mapping action="DELETE">
+        <field>organization_id</field>
+        <id>8c2238fb1b292c10c4a4a9362a4bcb9d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>bee33c3f1b292c10c4a4a9362a4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_49728cfa1bdd6010c4a4a9362a4bcb27</table>
+        <value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>service_desk_id</field>
+        <id>8c2238fb1b292c10c4a4a9362a4bcb9d</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>fae33c3f1b292c10c4a4a9362a4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_49728cfa1bdd6010c4a4a9362a4bcb27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>4.1</order>
+        <parent_ui_id>8e975b5d-fe4e-4846-9847-baa5226f9c46</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>9023343f1b292c10c4a4a9362a4bcbc1</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>8cc509df-786c-47ec-9f43-0ee8a365a21f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=9023343f1b292c10c4a4a9362a4bcbc1"/>
+    <sys_element_mapping action="DELETE" query="id=9023343f1b292c10c4a4a9362a4bcbc1"/>
+    <sys_element_mapping action="DELETE">
+        <field>log_message</field>
+        <id>9023343f1b292c10c4a4a9362a4bcbc1</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:20:46</sys_created_on>
+        <sys_id>6454b07f1b292c10c4a4a9362a4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:20:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{8e975b5d-fe4e-4846-9847-baa5226f9c46.output.accountId}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>7.1</order>
+        <parent_ui_id>07f084b3-75d1-46e6-8c0e-8b28a918bf51</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>9823343f1b292c10c4a4a9362a4bcbd3</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>88df8086-020a-462f-86ee-1e8b9a9bb7dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=9823343f1b292c10c4a4a9362a4bcbd3"/>
+    <sys_element_mapping action="DELETE" query="id=9823343f1b292c10c4a4a9362a4bcbd3"/>
+    <sys_element_mapping action="DELETE">
+        <field>log_message</field>
+        <id>9823343f1b292c10c4a4a9362a4bcbd3</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:20:46</sys_created_on>
+        <sys_id>ec54b07f1b292c10c4a4a9362a4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:20:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{07f084b3-75d1-46e6-8c0e-8b28a918bf51.output.id}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Look up Organizations">2e1625191be1e410c4a4a9362a4bcb66</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>9c23343f1b292c10c4a4a9362a4bcbd8</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>07f084b3-75d1-46e6-8c0e-8b28a918bf51</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=9c23343f1b292c10c4a4a9362a4bcbd8"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c23343f1b292c10c4a4a9362a4bcbd8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:20:46</sys_created_on>
+        <sys_id>b454b07f1b292c10c4a4a9362a4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:20:46</sys_updated_on>
+        <value>3</value>
+        <variable display_value="">ee1625191be1e410c4a4a9362a4bcb67</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:32</sys_created_on>
+        <sys_id>d023343f1b292c10c4a4a9362a4bcbbd</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>7faf8019-b46d-4daf-9a43-73de79f0c58f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d023343f1b292c10c4a4a9362a4bcbbd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d023343f1b292c10c4a4a9362a4bcbbd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>1023343f1b292c10c4a4a9362a4bcbbf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:19:26</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDd0b9c6a1df6de41041dd772d90e9ae96":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDd0b9c6a1df6de41041dd772d90e9ae96.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"User Accounts\",\"mandatory\":\"true\",\"child_name\":\"User_Account\",\"uiUniqueId\":\"8335f922-29ff-49e4-8163-5df056a21f4a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDd0b9c6a1df6de41041dd772d90e9ae96\",\"child_label\":\"User Account\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"e5b65797-2e12-46f9-81d7-c85181c836e7\"}"}},"complexObject":{"name$":"FDd0b9c6a1df6de41041dd772d90e9ae96","$COCollectionField":["5f994ab8b45b2e007447f1de","5f994ab8b45b2e007447f1de"]},"serializationFormat":"JSON"}</value>
+        <variable display_value="">fe7c99dd1ba1e410c4a4a9362a4bcb4a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d023343f1b292c10c4a4a9362a4bcbbd"/>
+    <sys_element_mapping action="DELETE">
+        <field>account_id</field>
+        <id>d023343f1b292c10c4a4a9362a4bcbbd</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>9823343f1b292c10c4a4a9362a4bcbbe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:19:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>organization_id</field>
+        <id>d023343f1b292c10c4a4a9362a4bcbbd</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>76e37c3f1b292c10c4a4a9362a4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</table>
+        <value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Remove Organization from Service Desk">94734c3e1bdd6010c4a4a9362a4bcb3e</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>d023343f1b292c10c4a4a9362a4bcbd1</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>9c99a77f-f36f-4f3c-b229-db4d1d66d873</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d023343f1b292c10c4a4a9362a4bcbd1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d023343f1b292c10c4a4a9362a4bcbd1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>8be37c3f1b292c10c4a4a9362a4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <value>3</value>
+        <variable display_value="">94734c3e1bdd6010c4a4a9362a4bcb3f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d023343f1b292c10c4a4a9362a4bcbd1"/>
+    <sys_element_mapping action="DELETE">
+        <field>organization_id</field>
+        <id>d023343f1b292c10c4a4a9362a4bcbd1</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>0be37c3f1b292c10c4a4a9362a4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94734c3e1bdd6010c4a4a9362a4bcb3e</table>
+        <value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>service_desk_id</field>
+        <id>d023343f1b292c10c4a4a9362a4bcbd1</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>47e37c3f1b292c10c4a4a9362a4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_94734c3e1bdd6010c4a4a9362a4bcb3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Remove Users from Organization">af3125151be1e410c4a4a9362a4bcb41</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>d823343f1b292c10c4a4a9362a4bcbc9</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:51</sys_updated_on>
+        <ui_id>671bc785-61cf-44cf-8c15-1b353f1cbfea</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=d823343f1b292c10c4a4a9362a4bcbc9"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d823343f1b292c10c4a4a9362a4bcbc9</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>9023343f1b292c10c4a4a9362a4bcbcb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <value/>
+        <variable display_value="">6b3125151be1e410c4a4a9362a4bcb4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d823343f1b292c10c4a4a9362a4bcbc9"/>
+    <sys_element_mapping action="DELETE">
+        <field>account_id</field>
+        <id>d823343f1b292c10c4a4a9362a4bcbc9</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:15:33</sys_created_on>
+        <sys_id>1023343f1b292c10c4a4a9362a4bcbcb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af3125151be1e410c4a4a9362a4bcb41</table>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD46c5416b236de810306a4b2c036b49fb":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD46c5416b236de810306a4b2c036b49fb.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"User Account IDs\",\"mandatory\":\"true\",\"child_name\":\"User_Account\",\"uiUniqueId\":\"8335f922-29ff-49e4-8163-5df056a21f4a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD46c5416b236de810306a4b2c036b49fb\",\"child_label\":\"User Account\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{\\\"[0]\\\":\\\"{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}\\\",\\\"[1]\\\":\\\"{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}\\\"}\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"34303487-ce7d-4fa8-9836-bc99c4dd3a6f\"}"}},"complexObject":{"name$":"FD46c5416b236de810306a4b2c036b49fb","$COCollectionField":["{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}","{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}"]},"serializationFormat":"JSON"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>organization_id</field>
+        <id>d823343f1b292c10c4a4a9362a4bcbc9</id>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-13 12:19:00</sys_created_on>
+        <sys_id>cbe37c3f1b292c10c4a4a9362a4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:19:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af3125151be1e410c4a4a9362a4bcb41</table>
+        <value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</application>
+        <file_path/>
+        <instance_id>a0b3731fdbb45014a667cac505961924</instance_id>
+        <instance_name>empankits</instance_name>
+        <name>sys_hub_flow_62e0f47b1b292c10c4a4a9362a4bcb07</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><internal_name>organization_management</internal_name><label_cache>[{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.output.id","label":"7➛Organization➛ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.output.accountId","label":"4➛User➛Account ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"1a659a19-13ec-4990-9043-6a086e498b76.error_message","label":"9➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1e5dd590-89e5-43e0-bc62-79dcb4e29560"}},{"name":"1a659a19-13ec-4990-9043-6a086e498b76.status","label":"9➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6bbd3387-e08b-4627-86c9-ac397f0f0d79"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.output","label":"7➛Organization","reference_display":"Organization","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDdbf63632ae29a810713e6a7ecf27fb99","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8038f6a2-1cd4-4bc7-9f6b-3dcce1b6deae"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.ds_parsed_stream","label":"7➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.error_code","label":"7➛error_code","reference_display":"error_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.status_code","label":"7➛status_code","reference_display":"status_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.error_message","label":"7➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.response_headers","label":"7➛response_headers","reference_display":"response_headers","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.ds_output_page_variables","label":"7➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.item","label":"7➛item","reference_display":"item","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.ds_count","label":"7➛ds_count","reference_display":"ds_count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.count","label":"7➛count","reference_display":"count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.page_count","label":"7➛Page Count","reference_display":"Page Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"07f084b3-75d1-46e6-8c0e-8b28a918bf51.item_count","label":"7➛Item Count","reference_display":"Item Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9c99a77f-f36f-4f3c-b229-db4d1d66d873.error_message","label":"6➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"372945fe-b8be-478e-82a3-3e70e00aed6b"}},{"name":"9c99a77f-f36f-4f3c-b229-db4d1d66d873.status","label":"6➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f19825af-f5a6-4dac-9a79-a867252a05b4"}},{"name":"671bc785-61cf-44cf-8c15-1b353f1cbfea.error","label":"5➛Error","reference_display":"Error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"04c494cb-0961-47f2-8c6a-2951adfbe804"}},{"name":"671bc785-61cf-44cf-8c15-1b353f1cbfea.status","label":"5➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"af34bb05-012d-4ca9-b5b4-6d7f3a2af6b1"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.output","label":"4➛User","reference_display":"User","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FD90777e323b29a810aa3840d26eb2e545","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e93470cf-1378-403b-abc9-99a8bbd81a6e"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.ds_parsed_stream","label":"4➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.error_code","label":"4➛error_code","reference_display":"error_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.status_code","label":"4➛status_code","reference_display":"status_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.error_message","label":"4➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.response_headers","label":"4➛response_headers","reference_display":"response_headers","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.ds_output_page_variables","label":"4➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.item","label":"4➛item","reference_display":"item","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.ds_count","label":"4➛ds_count","reference_display":"ds_count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.count","label":"4➛count","reference_display":"count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.page_count","label":"4➛Page Count","reference_display":"Page Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8e975b5d-fe4e-4846-9847-baa5226f9c46.item_count","label":"4➛Item Count","reference_display":"Item Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7faf8019-b46d-4daf-9a43-73de79f0c58f.error","label":"3➛Error","reference_display":"Error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"04c494cb-0961-47f2-8c6a-2951adfbe804"}},{"name":"7faf8019-b46d-4daf-9a43-73de79f0c58f.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"af34bb05-012d-4ca9-b5b4-6d7f3a2af6b1"}},{"name":"b5fa934b-9164-47c3-9f12-6551524f254e.error_message","label":"8➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"78743f41-9b51-472d-9fb6-15f712e646aa"}},{"name":"b5fa934b-9164-47c3-9f12-6551524f254e.status","label":"8➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"cf4b75cd-4a3c-4138-bc2b-65d12ffdc798"}},{"name":"b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id","label":"8➛User Account ID","reference_display":"User Account ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"34aad31f-1b3f-4654-92f3-784481846670"}},{"name":"c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id","label":"1➛Organization ID","reference_display":"Organization ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"dd7ed9a4-dad1-4625-b00a-51529f179c44"}},{"name":"c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6bbd3387-e08b-4627-86c9-ac397f0f0d79"}},{"name":"c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1e5dd590-89e5-43e0-bc62-79dcb4e29560"}},{"name":"ef7eaae2-36a0-48b3-a205-ee7824a09c86.status","label":"2➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f19825af-f5a6-4dac-9a79-a867252a05b4"}},{"name":"ef7eaae2-36a0-48b3-a205-ee7824a09c86.error_message","label":"2➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"372945fe-b8be-478e-82a3-3e70e00aed6b"}}]</label_cache><latest_snapshot/><master_snapshot/><name>Organization Management</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:05:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>62e0f47b1b292c10c4a4a9362a4bcb07</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Organization Management</sys_name><sys_overrides/><sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package><sys_policy/><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_update_name>sys_hub_flow_62e0f47b1b292c10c4a4a9362a4bcb07</sys_update_name><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=62e0f47b1b292c10c4a4a9362a4bcb07"/><sys_variable_value action="delete_multiple" query="document_key=62e0f47b1b292c10c4a4a9362a4bcb07"/><sys_hub_flow_component action="delete_multiple" query="flow=62e0f47b1b292c10c4a4a9362a4bcb07^sys_idNOT IN1823343f1b292c10c4a4a9362a4bcbc6,5023343f1b292c10c4a4a9362a4bcbba,7712f0fb1b292c10c4a4a9362a4bcbe0,8c2238fb1b292c10c4a4a9362a4bcb9d,9023343f1b292c10c4a4a9362a4bcbc1,9823343f1b292c10c4a4a9362a4bcbd3,9c23343f1b292c10c4a4a9362a4bcbd8,d023343f1b292c10c4a4a9362a4bcbbd,d023343f1b292c10c4a4a9362a4bcbd1,d823343f1b292c10c4a4a9362a4bcbc9"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Look up Users in Organization">194969991be1e410c4a4a9362a4bcbee</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>4</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>1823343f1b292c10c4a4a9362a4bcbc6</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>8e975b5d-fe4e-4846-9847-baa5226f9c46</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=1823343f1b292c10c4a4a9362a4bcbc6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>1823343f1b292c10c4a4a9362a4bcbc6</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:20:46</sys_created_on><sys_id>e854b07f1b292c10c4a4a9362a4bcbb2</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:39:21</sys_updated_on><value/><variable display_value="">154969991be1e410c4a4a9362a4bcbf6</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=1823343f1b292c10c4a4a9362a4bcbc6"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>organization_id</field><id>1823343f1b292c10c4a4a9362a4bcbc6</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>f2e37c3f1b292c10c4a4a9362a4bcb77</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_194969991be1e410c4a4a9362a4bcbee</table><value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>page_size</field><id>1823343f1b292c10c4a4a9362a4bcbc6</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:20:46</sys_created_on><sys_id>6854b07f1b292c10c4a4a9362a4bcbb2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:20:46</sys_updated_on><table>var__m_sys_hub_action_input_194969991be1e410c4a4a9362a4bcbee</table><value/></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Look up User Account ID">5fcf06a51b6de410c4a4a9362a4bcb4f</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>8</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:32</sys_created_on><sys_id>5023343f1b292c10c4a4a9362a4bcbba</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>b5fa934b-9164-47c3-9f12-6551524f254e</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=5023343f1b292c10c4a4a9362a4bcbba"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>5023343f1b292c10c4a4a9362a4bcbba</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>3ae33c3f1b292c10c4a4a9362a4bcb92</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><value>ihubtest02@gmail.com</value><variable display_value="">13cf06a51b6de410c4a4a9362a4bcb51</variable></sys_variable_value><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Create Organization">21510d341b912810c4a4a9362a4bcb38</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:11:09</sys_created_on><sys_id>7712f0fb1b292c10c4a4a9362a4bcbe0</sys_id><sys_mod_count>18</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=7712f0fb1b292c10c4a4a9362a4bcbe0"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>7712f0fb1b292c10c4a4a9362a4bcbe0</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>72e33c3f1b292c10c4a4a9362a4bcb8f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><value>Test Org 4</value><variable display_value="">e9510d341b912810c4a4a9362a4bcb3f</variable></sys_variable_value><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>2</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:11:09</sys_created_on><sys_id>8c2238fb1b292c10c4a4a9362a4bcb9d</sys_id><sys_mod_count>18</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>ef7eaae2-36a0-48b3-a205-ee7824a09c86</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=8c2238fb1b292c10c4a4a9362a4bcb9d"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>8c2238fb1b292c10c4a4a9362a4bcb9d</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>32e33c3f1b292c10c4a4a9362a4bcb91</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><value>3</value><variable display_value="">49728cfa1bdd6010c4a4a9362a4bcb28</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=8c2238fb1b292c10c4a4a9362a4bcb9d"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>organization_id</field><id>8c2238fb1b292c10c4a4a9362a4bcb9d</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>bee33c3f1b292c10c4a4a9362a4bcb90</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_49728cfa1bdd6010c4a4a9362a4bcb27</table><value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>service_desk_id</field><id>8c2238fb1b292c10c4a4a9362a4bcb9d</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>fae33c3f1b292c10c4a4a9362a4bcb90</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_49728cfa1bdd6010c4a4a9362a4bcb27</table><value/></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>4.1</order><parent_ui_id>8e975b5d-fe4e-4846-9847-baa5226f9c46</parent_ui_id><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>9023343f1b292c10c4a4a9362a4bcbc1</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>8cc509df-786c-47ec-9f43-0ee8a365a21f</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=9023343f1b292c10c4a4a9362a4bcbc1"/><sys_element_mapping action="delete_multiple" query="id=9023343f1b292c10c4a4a9362a4bcbc1"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>log_message</field><id>9023343f1b292c10c4a4a9362a4bcbc1</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:20:46</sys_created_on><sys_id>6454b07f1b292c10c4a4a9362a4bcbb1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:20:46</sys_updated_on><table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table><value>{{8e975b5d-fe4e-4846-9847-baa5226f9c46.output.accountId}}</value></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>7.1</order><parent_ui_id>07f084b3-75d1-46e6-8c0e-8b28a918bf51</parent_ui_id><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>9823343f1b292c10c4a4a9362a4bcbd3</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>88df8086-020a-462f-86ee-1e8b9a9bb7dd</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=9823343f1b292c10c4a4a9362a4bcbd3"/><sys_element_mapping action="delete_multiple" query="id=9823343f1b292c10c4a4a9362a4bcbd3"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>log_message</field><id>9823343f1b292c10c4a4a9362a4bcbd3</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:20:46</sys_created_on><sys_id>ec54b07f1b292c10c4a4a9362a4bcbb5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:20:46</sys_updated_on><table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table><value>{{07f084b3-75d1-46e6-8c0e-8b28a918bf51.output.id}}</value></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Look up Organizations">2e1625191be1e410c4a4a9362a4bcb66</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>7</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>9c23343f1b292c10c4a4a9362a4bcbd8</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>07f084b3-75d1-46e6-8c0e-8b28a918bf51</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=9c23343f1b292c10c4a4a9362a4bcbd8"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>9c23343f1b292c10c4a4a9362a4bcbd8</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:20:46</sys_created_on><sys_id>b454b07f1b292c10c4a4a9362a4bcbb7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:20:46</sys_updated_on><value>3</value><variable display_value="">ee1625191be1e410c4a4a9362a4bcb67</variable></sys_variable_value><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>3</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:32</sys_created_on><sys_id>d023343f1b292c10c4a4a9362a4bcbbd</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>7faf8019-b46d-4daf-9a43-73de79f0c58f</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=d023343f1b292c10c4a4a9362a4bcbbd"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>d023343f1b292c10c4a4a9362a4bcbbd</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>1023343f1b292c10c4a4a9362a4bcbbf</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:19:26</sys_updated_on><value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDd0b9c6a1df6de41041dd772d90e9ae96":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDd0b9c6a1df6de41041dd772d90e9ae96.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"User Accounts\",\"mandatory\":\"true\",\"child_name\":\"User_Account\",\"uiUniqueId\":\"8335f922-29ff-49e4-8163-5df056a21f4a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDd0b9c6a1df6de41041dd772d90e9ae96\",\"child_label\":\"User Account\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"e5b65797-2e12-46f9-81d7-c85181c836e7\"}"}},"complexObject":{"name$":"FDd0b9c6a1df6de41041dd772d90e9ae96","$COCollectionField":["5f994ab8b45b2e007447f1de","5f994ab8b45b2e007447f1de"]},"serializationFormat":"JSON"}</value><variable display_value="">fe7c99dd1ba1e410c4a4a9362a4bcb4a</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=d023343f1b292c10c4a4a9362a4bcbbd"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>account_id</field><id>d023343f1b292c10c4a4a9362a4bcbbd</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>9823343f1b292c10c4a4a9362a4bcbbe</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:19:26</sys_updated_on><table>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>organization_id</field><id>d023343f1b292c10c4a4a9362a4bcbbd</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>76e37c3f1b292c10c4a4a9362a4bcb74</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</table><value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Remove Organization from Service Desk">94734c3e1bdd6010c4a4a9362a4bcb3e</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>6</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>d023343f1b292c10c4a4a9362a4bcbd1</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>9c99a77f-f36f-4f3c-b229-db4d1d66d873</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=d023343f1b292c10c4a4a9362a4bcbd1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>d023343f1b292c10c4a4a9362a4bcbd1</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>8be37c3f1b292c10c4a4a9362a4bcb7a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><value>3</value><variable display_value="">94734c3e1bdd6010c4a4a9362a4bcb3f</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=d023343f1b292c10c4a4a9362a4bcbd1"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>organization_id</field><id>d023343f1b292c10c4a4a9362a4bcbd1</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>0be37c3f1b292c10c4a4a9362a4bcb7a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_94734c3e1bdd6010c4a4a9362a4bcb3e</table><value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>service_desk_id</field><id>d023343f1b292c10c4a4a9362a4bcbd1</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>47e37c3f1b292c10c4a4a9362a4bcb7a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_94734c3e1bdd6010c4a4a9362a4bcb3e</table><value/></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Remove Users from Organization">af3125151be1e410c4a4a9362a4bcb41</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>5</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>d823343f1b292c10c4a4a9362a4bcbc9</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>671bc785-61cf-44cf-8c15-1b353f1cbfea</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=d823343f1b292c10c4a4a9362a4bcbc9"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>d823343f1b292c10c4a4a9362a4bcbc9</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>9023343f1b292c10c4a4a9362a4bcbcb</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><value/><variable display_value="">6b3125151be1e410c4a4a9362a4bcb4b</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=d823343f1b292c10c4a4a9362a4bcbc9"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>account_id</field><id>d823343f1b292c10c4a4a9362a4bcbc9</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>1023343f1b292c10c4a4a9362a4bcbcb</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_af3125151be1e410c4a4a9362a4bcb41</table><value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD46c5416b236de810306a4b2c036b49fb":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD46c5416b236de810306a4b2c036b49fb.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"User Account IDs\",\"mandatory\":\"true\",\"child_name\":\"User_Account\",\"uiUniqueId\":\"8335f922-29ff-49e4-8163-5df056a21f4a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD46c5416b236de810306a4b2c036b49fb\",\"child_label\":\"User Account\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{\\\"[0]\\\":\\\"{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}\\\",\\\"[1]\\\":\\\"{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}\\\"}\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"34303487-ce7d-4fa8-9836-bc99c4dd3a6f\"}"}},"complexObject":{"name$":"FD46c5416b236de810306a4b2c036b49fb","$COCollectionField":["{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}","{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}"]},"serializationFormat":"JSON"}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>organization_id</field><id>d823343f1b292c10c4a4a9362a4bcbc9</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>cbe37c3f1b292c10c4a4a9362a4bcb78</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_af3125151be1e410c4a4a9362a4bcb41</table><value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value></sys_element_mapping><sys_hub_trigger_instance action="delete_multiple" query="flow=62e0f47b1b292c10c4a4a9362a4bcb07^sys_idNOT IN5a84747f1b292c10c4a4a9362a4bcbaf"/><sys_hub_trigger_instance action="INSERT_OR_UPDATE"><comment/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><name>Daily</name><remote_sys_id/><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:21:41</sys_created_on><sys_id>5a84747f1b292c10c4a4a9362a4bcbaf</sys_id><sys_mod_count>4</sys_mod_count><sys_scope/><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition><trigger_inputs/><trigger_outputs/><trigger_type>daily</trigger_type></sys_hub_trigger_instance><sys_variable_value action="delete_multiple" query="document_key=5a84747f1b292c10c4a4a9362a4bcbaf"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_trigger_instance</document><document_key>5a84747f1b292c10c4a4a9362a4bcbaf</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:21:41</sys_created_on><sys_id>1a84747f1b292c10c4a4a9362a4bcbb0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:21:41</sys_updated_on><value>1970-01-01 18:00:00</value><variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable></sys_variable_value><sys_flow_cat_variable_model action="delete_multiple" query="id=62e0f47b1b292c10c4a4a9362a4bcb07^sys_idNOT INe6e0f47b1b292c10c4a4a9362a4bcb08"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>62e0f47b1b292c10c4a4a9362a4bcb07</id><name>Organization Management</name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:05:52</sys_created_on><sys_id>e6e0f47b1b292c10c4a4a9362a4bcb08</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:05:52</sys_updated_on></sys_flow_cat_variable_model><sys_hub_action_instance action="delete_multiple" query="flow=62e0f47b1b292c10c4a4a9362a4bcb07^sys_idNOT IN1823343f1b292c10c4a4a9362a4bcbc6,5023343f1b292c10c4a4a9362a4bcbba,7712f0fb1b292c10c4a4a9362a4bcbe0,8c2238fb1b292c10c4a4a9362a4bcb9d,9023343f1b292c10c4a4a9362a4bcbc1,9823343f1b292c10c4a4a9362a4bcbd3,9c23343f1b292c10c4a4a9362a4bcbd8,d023343f1b292c10c4a4a9362a4bcbbd,d023343f1b292c10c4a4a9362a4bcbd1,d823343f1b292c10c4a4a9362a4bcbc9"/><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Look up Users in Organization">194969991be1e410c4a4a9362a4bcbee</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>4</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>1823343f1b292c10c4a4a9362a4bcbc6</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>8e975b5d-fe4e-4846-9847-baa5226f9c46</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=1823343f1b292c10c4a4a9362a4bcbc6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>1823343f1b292c10c4a4a9362a4bcbc6</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:20:46</sys_created_on><sys_id>e854b07f1b292c10c4a4a9362a4bcbb2</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:39:21</sys_updated_on><value/><variable display_value="">154969991be1e410c4a4a9362a4bcbf6</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=1823343f1b292c10c4a4a9362a4bcbc6"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>organization_id</field><id>1823343f1b292c10c4a4a9362a4bcbc6</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>f2e37c3f1b292c10c4a4a9362a4bcb77</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_194969991be1e410c4a4a9362a4bcbee</table><value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>page_size</field><id>1823343f1b292c10c4a4a9362a4bcbc6</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:20:46</sys_created_on><sys_id>6854b07f1b292c10c4a4a9362a4bcbb2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:20:46</sys_updated_on><table>var__m_sys_hub_action_input_194969991be1e410c4a4a9362a4bcbee</table><value/></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Look up User Account ID">5fcf06a51b6de410c4a4a9362a4bcb4f</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>8</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:32</sys_created_on><sys_id>5023343f1b292c10c4a4a9362a4bcbba</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>b5fa934b-9164-47c3-9f12-6551524f254e</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=5023343f1b292c10c4a4a9362a4bcbba"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>5023343f1b292c10c4a4a9362a4bcbba</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>3ae33c3f1b292c10c4a4a9362a4bcb92</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><value>ihubtest02@gmail.com</value><variable display_value="">13cf06a51b6de410c4a4a9362a4bcb51</variable></sys_variable_value><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Create Organization">21510d341b912810c4a4a9362a4bcb38</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:11:09</sys_created_on><sys_id>7712f0fb1b292c10c4a4a9362a4bcbe0</sys_id><sys_mod_count>18</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=7712f0fb1b292c10c4a4a9362a4bcbe0"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>7712f0fb1b292c10c4a4a9362a4bcbe0</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>72e33c3f1b292c10c4a4a9362a4bcb8f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><value>Test Org 4</value><variable display_value="">e9510d341b912810c4a4a9362a4bcb3f</variable></sys_variable_value><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Add Organization to Service Desk">49728cfa1bdd6010c4a4a9362a4bcb27</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>2</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:11:09</sys_created_on><sys_id>8c2238fb1b292c10c4a4a9362a4bcb9d</sys_id><sys_mod_count>18</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>ef7eaae2-36a0-48b3-a205-ee7824a09c86</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=8c2238fb1b292c10c4a4a9362a4bcb9d"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>8c2238fb1b292c10c4a4a9362a4bcb9d</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>32e33c3f1b292c10c4a4a9362a4bcb91</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><value>3</value><variable display_value="">49728cfa1bdd6010c4a4a9362a4bcb28</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=8c2238fb1b292c10c4a4a9362a4bcb9d"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>organization_id</field><id>8c2238fb1b292c10c4a4a9362a4bcb9d</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>bee33c3f1b292c10c4a4a9362a4bcb90</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_49728cfa1bdd6010c4a4a9362a4bcb27</table><value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>service_desk_id</field><id>8c2238fb1b292c10c4a4a9362a4bcb9d</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>fae33c3f1b292c10c4a4a9362a4bcb90</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_49728cfa1bdd6010c4a4a9362a4bcb27</table><value/></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>4.1</order><parent_ui_id>8e975b5d-fe4e-4846-9847-baa5226f9c46</parent_ui_id><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>9023343f1b292c10c4a4a9362a4bcbc1</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>8cc509df-786c-47ec-9f43-0ee8a365a21f</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=9023343f1b292c10c4a4a9362a4bcbc1"/><sys_element_mapping action="delete_multiple" query="id=9023343f1b292c10c4a4a9362a4bcbc1"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>log_message</field><id>9023343f1b292c10c4a4a9362a4bcbc1</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:20:46</sys_created_on><sys_id>6454b07f1b292c10c4a4a9362a4bcbb1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:20:46</sys_updated_on><table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table><value>{{8e975b5d-fe4e-4846-9847-baa5226f9c46.output.accountId}}</value></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>7.1</order><parent_ui_id>07f084b3-75d1-46e6-8c0e-8b28a918bf51</parent_ui_id><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>9823343f1b292c10c4a4a9362a4bcbd3</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>88df8086-020a-462f-86ee-1e8b9a9bb7dd</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=9823343f1b292c10c4a4a9362a4bcbd3"/><sys_element_mapping action="delete_multiple" query="id=9823343f1b292c10c4a4a9362a4bcbd3"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>log_message</field><id>9823343f1b292c10c4a4a9362a4bcbd3</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:20:46</sys_created_on><sys_id>ec54b07f1b292c10c4a4a9362a4bcbb5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:20:46</sys_updated_on><table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table><value>{{07f084b3-75d1-46e6-8c0e-8b28a918bf51.output.id}}</value></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_type display_value="Look up Organizations">2e1625191be1e410c4a4a9362a4bcb66</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>7</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>9c23343f1b292c10c4a4a9362a4bcbd8</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>07f084b3-75d1-46e6-8c0e-8b28a918bf51</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=9c23343f1b292c10c4a4a9362a4bcbd8"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>9c23343f1b292c10c4a4a9362a4bcbd8</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:20:46</sys_created_on><sys_id>b454b07f1b292c10c4a4a9362a4bcbb7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:20:46</sys_updated_on><value>3</value><variable display_value="">ee1625191be1e410c4a4a9362a4bcb67</variable></sys_variable_value><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Add Users to Organization">367c99dd1ba1e410c4a4a9362a4bcb41</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>3</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:32</sys_created_on><sys_id>d023343f1b292c10c4a4a9362a4bcbbd</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>7faf8019-b46d-4daf-9a43-73de79f0c58f</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=d023343f1b292c10c4a4a9362a4bcbbd"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>d023343f1b292c10c4a4a9362a4bcbbd</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>1023343f1b292c10c4a4a9362a4bcbbf</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:19:26</sys_updated_on><value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDd0b9c6a1df6de41041dd772d90e9ae96":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDd0b9c6a1df6de41041dd772d90e9ae96.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"User Accounts\",\"mandatory\":\"true\",\"child_name\":\"User_Account\",\"uiUniqueId\":\"8335f922-29ff-49e4-8163-5df056a21f4a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDd0b9c6a1df6de41041dd772d90e9ae96\",\"child_label\":\"User Account\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{}\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"e5b65797-2e12-46f9-81d7-c85181c836e7\"}"}},"complexObject":{"name$":"FDd0b9c6a1df6de41041dd772d90e9ae96","$COCollectionField":["5f994ab8b45b2e007447f1de","5f994ab8b45b2e007447f1de"]},"serializationFormat":"JSON"}</value><variable display_value="">fe7c99dd1ba1e410c4a4a9362a4bcb4a</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=d023343f1b292c10c4a4a9362a4bcbbd"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>account_id</field><id>d023343f1b292c10c4a4a9362a4bcbbd</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>9823343f1b292c10c4a4a9362a4bcbbe</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:19:26</sys_updated_on><table>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>organization_id</field><id>d023343f1b292c10c4a4a9362a4bcbbd</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>76e37c3f1b292c10c4a4a9362a4bcb74</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_367c99dd1ba1e410c4a4a9362a4bcb41</table><value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Remove Organization from Service Desk">94734c3e1bdd6010c4a4a9362a4bcb3e</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>6</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>d023343f1b292c10c4a4a9362a4bcbd1</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>9c99a77f-f36f-4f3c-b229-db4d1d66d873</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=d023343f1b292c10c4a4a9362a4bcbd1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>d023343f1b292c10c4a4a9362a4bcbd1</document_key><order>1</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>8be37c3f1b292c10c4a4a9362a4bcb7a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><value>3</value><variable display_value="">94734c3e1bdd6010c4a4a9362a4bcb3f</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=d023343f1b292c10c4a4a9362a4bcbd1"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>organization_id</field><id>d023343f1b292c10c4a4a9362a4bcbd1</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>0be37c3f1b292c10c4a4a9362a4bcb7a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_94734c3e1bdd6010c4a4a9362a4bcb3e</table><value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>service_desk_id</field><id>d023343f1b292c10c4a4a9362a4bcbd1</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>47e37c3f1b292c10c4a4a9362a4bcb7a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_94734c3e1bdd6010c4a4a9362a4bcb3e</table><value/></sys_element_mapping><sys_hub_action_instance action="INSERT_OR_UPDATE"><action_inputs/><action_inputs/><action_type display_value="Remove Users from Organization">af3125151be1e410c4a4a9362a4bcb41</action_type><action_type_parent/><comment/><compiled_snapshot/><display_text/><flow display_value="Organization Management">62e0f47b1b292c10c4a4a9362a4bcb07</flow><order>5</order><parent_ui_id/><sys_class_name>sys_hub_action_instance</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>d823343f1b292c10c4a4a9362a4bcbc9</sys_id><sys_mod_count>16</sys_mod_count><sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-14 18:21:51</sys_updated_on><ui_id>671bc785-61cf-44cf-8c15-1b353f1cbfea</ui_id></sys_hub_action_instance><sys_variable_value action="delete_multiple" query="document_key=d823343f1b292c10c4a4a9362a4bcbc9"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_action_instance</document><document_key>d823343f1b292c10c4a4a9362a4bcbc9</document_key><order>2</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>9023343f1b292c10c4a4a9362a4bcbcb</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><value/><variable display_value="">6b3125151be1e410c4a4a9362a4bcb4b</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=d823343f1b292c10c4a4a9362a4bcbc9"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>account_id</field><id>d823343f1b292c10c4a4a9362a4bcbc9</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:15:33</sys_created_on><sys_id>1023343f1b292c10c4a4a9362a4bcbcb</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_af3125151be1e410c4a4a9362a4bcb41</table><value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD46c5416b236de810306a4b2c036b49fb":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD46c5416b236de810306a4b2c036b49fb.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"User Account IDs\",\"mandatory\":\"true\",\"child_name\":\"User_Account\",\"uiUniqueId\":\"8335f922-29ff-49e4-8163-5df056a21f4a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD46c5416b236de810306a4b2c036b49fb\",\"child_label\":\"User Account\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"mapped\":\"{\\\"[0]\\\":\\\"{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}\\\",\\\"[1]\\\":\\\"{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}\\\"}\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"34303487-ce7d-4fa8-9836-bc99c4dd3a6f\"}"}},"complexObject":{"name$":"FD46c5416b236de810306a4b2c036b49fb","$COCollectionField":["{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}","{{b5fa934b-9164-47c3-9f12-6551524f254e.user_account_id}}"]},"serializationFormat":"JSON"}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>organization_id</field><id>d823343f1b292c10c4a4a9362a4bcbc9</id><sys_created_by>ankit.singh@snc</sys_created_by><sys_created_on>2021-01-13 12:19:00</sys_created_on><sys_id>cbe37c3f1b292c10c4a4a9362a4bcb78</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ankit.singh@snc</sys_updated_by><sys_updated_on>2021-01-13 12:19:00</sys_updated_on><table>var__m_sys_hub_action_input_af3125151be1e410c4a4a9362a4bcb41</table><value>{{c5cfbb3f-d541-40b5-a9b9-a04dbfae4ce3.organization_id}}</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>249175177</payload_hash>
+        <record_name>Organization Management</record_name>
+        <reverted_from/>
+        <source>c8d06c331b292c10c4a4a9362a4bcbe3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-14 18:21:52</sys_created_on>
+        <sys_id>4c9093001bb56c10c4a4a9362a4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1770221e8bf0000001</sys_recorded_at>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:21:52</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>4490930049b56c1074e8ae19b3c41245</update_guid>
+        <update_guid_history>4490930049b56c1074e8ae19b3c41245:249175177,b4001fccdc756c1089df4fd6351944ba:1564389718,d198b03324692c1014c9356f962c19f6:356653200,6a84b47faf292c104b45cd1dd591120c:496368278,c874347fd0292c1051ce8a4765590167:-1802907781,8954b07fa3292c10ba4e5378e016fdef:1522585448,1fe37c3f20292c10524ba3e7f4ef6ec7:-1224682674,2c23743f5a292c101c02cfa037994a25:299883135,442238fb1d292c106e327a37eef8cdad:-2113461758,2ee0f8bb52292c10e5024bb7d1e0b4d7:-414162348</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-14 19:06:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>a2d5a7c1265a42b08bbbd8fe6f3a9269</sys_id>
+        <sys_metadata>62e0f47b1b292c10c4a4a9362a4bcb07</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Organization Management</sys_name>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_scope_delete display_value="">8ec2ef24e9b5422f80331e97936011d1</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_62e0f47b1b292c10c4a4a9362a4bcb07</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_62e0f47b1b292c10c4a4a9362a4bcb07">4c9093001bb56c10c4a4a9362a4bcb45</sys_update_version>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-14 19:06:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

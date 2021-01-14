@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>add_customer</internal_name>
         <label_cache>[{"name":"{{action.organizationid}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action.organization_id}}","label":"action➛Organization ID","type":"action","ref":""},{"name":"{{action.account_id}}","label":"action➛User Account IDs","type":"action","ref":""},{"name":"{{action.Account_IDs}}","label":"action➛Account IDs","type":"action","ref":""},{"name":"{{action.Account_ID}}","label":"action➛Account ID","type":"action","ref":""},{"name":"{{action.account_id.Account}}","label":"action➛User Account IDs➛Account","type":"action","ref":""},{"name":"{{action.account_id.account}}","label":"action➛User Account IDs➛Account","type":"action","ref":""},{"name":"{{action.service_desk_id}}","label":"action➛Service Desk ID","type":"action","ref":""},{"name":"{{action.account_id.User_Account}}","label":"action➛User Account IDs➛User Account","type":"action","ref":""},{"name":"{{action.account_id.user_account}}","label":"action➛User Account IDs➛User Account","type":"action","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].organization_id}}","label":"step➛Pre Processing➛Organization ID","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].account_ids}}","label":"step➛Pre Processing➛Account IDs","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].status_code}}","label":"step➛Add Customer➛Status Code","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].error_message}}","label":"step➛Add Customer➛Error Message","type":"step","ref":""},{"name":"{{step[6469514e-3542-4fcd-b698-46d16bfeda89].response_body}}","label":"step➛Add Customer➛Response Body","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].variable}}","label":"step➛Handle Errors➛variable","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].status}}","label":"step➛Handle Errors➛Status","type":"step","ref":""},{"name":"{{step[ea19562f-b383-458e-9d42-a812b7aa0a8a].error}}","label":"step➛Handle Errors➛Error","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].account_ids.Account}}","label":"step➛Pre Processing➛Account IDs➛Account","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""},{"name":"{{step[f62e5d32-6441-4d62-9b3a-afcdb485f139].service_desk_id}}","label":"step➛Pre Processing➛Service Desk ID","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>5b94c9e71b6de810c4a4a9362a4bcb55</latest_snapshot>
+        <latest_snapshot>606b17c81bb56c10c4a4a9362a4bcb5b</latest_snapshot>
         <master_snapshot>91dd1d111be1e410c4a4a9362a4bcb4b</master_snapshot>
         <name>Add Customers</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ed9c1ddd1ba1e410c4a4a9362a4bcb10</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Add Customers</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ed9c1ddd1ba1e410c4a4a9362a4bcb10</sys_update_name>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-12 18:53:31</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:12</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -52,7 +52,7 @@
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:54</sys_updated_on>
         <value/>
-        <variable display_value="Status">469c1ddd1ba1e410c4a4a9362a4bcba7</variable>
+        <variable display_value="">469c1ddd1ba1e410c4a4a9362a4bcba7</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ed9c1ddd1ba1e410c4a4a9362a4bcb10"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -96,10 +96,10 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:51:52</sys_created_on>
         <sys_id>259c1ddd1ba1e410c4a4a9362a4bcb25</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:13</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=259c1ddd1ba1e410c4a4a9362a4bcb25"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -110,17 +110,17 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:51:53</sys_created_on>
         <sys_id>b59c1ddd1ba1e410c4a4a9362a4bcb44</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:55:11</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-outputs.service_desk_id = inputs.service_desk_id.trim();
+  outputs.service_desk_id = inputs.service_desk_id.trim();
   var payload= {};
   payload["accountIds"]= inputs.account_ids;
-outputs.payload = JSON.stringify(payload);
+  outputs.payload = JSON.stringify(payload);
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -134,7 +134,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=259c1ddd1ba1e410c4a4a9362a4bcb25"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -397,7 +397,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">259c1ddd1ba1e410c4a4a9362a4bcb25</model>
@@ -423,14 +423,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:55:11</sys_created_on>
         <sys_id>0a5d15111be1e410c4a4a9362a4bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:55:11</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -478,7 +478,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Payload</label>
+        <label>payload</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">259c1ddd1ba1e410c4a4a9362a4bcb25</model>
@@ -504,14 +504,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:51:53</sys_created_on>
         <sys_id>359c1ddd1ba1e410c4a4a9362a4bcb3b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:55:11</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -568,7 +568,7 @@ outputs.payload = JSON.stringify(payload);
         outputs.status = "Error";
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -582,7 +582,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:54</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b19c1ddd1ba1e410c4a4a9362a4bcb60"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -926,7 +926,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error</label>
+        <label>error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">b19c1ddd1ba1e410c4a4a9362a4bcb60</model>
@@ -952,14 +952,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:51:54</sys_created_on>
         <sys_id>469c1ddd1ba1e410c4a4a9362a4bcb9a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:51:54</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1007,7 +1007,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Handle Errors">b19c1ddd1ba1e410c4a4a9362a4bcb60</model>
@@ -1033,14 +1033,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:51:54</sys_created_on>
         <sys_id>869c1ddd1ba1e410c4a4a9362a4bcb75</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:51:54</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1086,7 +1086,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1100,7 +1100,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1114,7 +1114,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1128,7 +1128,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1142,7 +1142,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>post</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1156,7 +1156,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1170,7 +1170,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:55:52</sys_updated_on>
         <value/>
-        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1184,7 +1184,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1198,7 +1198,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=f99c1ddd1ba1e410c4a4a9362a4bcb47"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1408,7 +1408,7 @@ outputs.payload = JSON.stringify(payload);
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=User Account,child_name=user_account,child_type=string,child_type_label=String,child_uiUniqueId=c19b0eea-1889-466a-83aa-fb9444a6573e,co_type_name=FD3e8ec6d7d6d1e010a565d33ed78e2ebb,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=8335f922-29ff-49e4-8163-5df056a21f4a</attributes>
+        <attributes>child_label=User Account,child_name=user_account,child_type=string,child_type_label=String,child_uiUniqueId=731db2da-70f1-4095-8855-b8b250d968f6,co_type_name=FD3e8ec6d7d6d1e010a565d33ed78e2ebb,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=8335f922-29ff-49e4-8163-5df056a21f4a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1466,14 +1466,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:51:52</sys_created_on>
         <sys_id>699c1ddd1ba1e410c4a4a9362a4bcb1d</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-12 18:53:23</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1750,10 +1750,10 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:51:52</sys_created_on>
         <sys_id>259c1ddd1ba1e410c4a4a9362a4bcb25</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:13</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=259c1ddd1ba1e410c4a4a9362a4bcb25"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1764,17 +1764,17 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:51:53</sys_created_on>
         <sys_id>b59c1ddd1ba1e410c4a4a9362a4bcb44</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:55:11</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-outputs.service_desk_id = inputs.service_desk_id.trim();
+  outputs.service_desk_id = inputs.service_desk_id.trim();
   var payload= {};
   payload["accountIds"]= inputs.account_ids;
-outputs.payload = JSON.stringify(payload);
+  outputs.payload = JSON.stringify(payload);
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1788,7 +1788,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=259c1ddd1ba1e410c4a4a9362a4bcb25"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2051,7 +2051,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">259c1ddd1ba1e410c4a4a9362a4bcb25</model>
@@ -2077,14 +2077,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:55:11</sys_created_on>
         <sys_id>0a5d15111be1e410c4a4a9362a4bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:55:11</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2132,7 +2132,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Payload</label>
+        <label>payload</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">259c1ddd1ba1e410c4a4a9362a4bcb25</model>
@@ -2158,14 +2158,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:51:53</sys_created_on>
         <sys_id>359c1ddd1ba1e410c4a4a9362a4bcb3b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:55:11</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2222,7 +2222,7 @@ outputs.payload = JSON.stringify(payload);
         outputs.status = "Error";
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2236,7 +2236,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:54</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=b19c1ddd1ba1e410c4a4a9362a4bcb60"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -2580,7 +2580,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error</label>
+        <label>error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">b19c1ddd1ba1e410c4a4a9362a4bcb60</model>
@@ -2606,14 +2606,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:51:54</sys_created_on>
         <sys_id>469c1ddd1ba1e410c4a4a9362a4bcb9a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:51:54</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2661,7 +2661,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Handle Errors">b19c1ddd1ba1e410c4a4a9362a4bcb60</model>
@@ -2687,14 +2687,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:51:54</sys_created_on>
         <sys_id>869c1ddd1ba1e410c4a4a9362a4bcb75</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:51:54</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2740,7 +2740,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2754,7 +2754,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2768,7 +2768,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2782,7 +2782,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2796,7 +2796,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>post</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2810,7 +2810,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2824,7 +2824,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:55:52</sys_updated_on>
         <value/>
-        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2838,7 +2838,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2852,7 +2852,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:53</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=f99c1ddd1ba1e410c4a4a9362a4bcb47"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3071,11 +3071,11 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_on>2021-01-05 20:51:52</sys_created_on>
         <sys_id>299c1ddd1ba1e410c4a4a9362a4bcb22</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>User Account IDs</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ed9c1ddd1ba1e410c4a4a9362a4bcb10_account_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-12 18:52:02</sys_updated_on>
         <url/>
@@ -3094,11 +3094,11 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_on>2021-01-05 20:53:53</sys_created_on>
         <sys_id>4f0d51111be1e410c4a4a9362a4bcb79</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Desk ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ed9c1ddd1ba1e410c4a4a9362a4bcb10_service_desk_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:53:53</sys_updated_on>
         <url/>
@@ -3118,11 +3118,11 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_on>2021-01-05 20:51:54</sys_created_on>
         <sys_id>429c1ddd1ba1e410c4a4a9362a4bcbb2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ed9c1ddd1ba1e410c4a4a9362a4bcb10_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:54</sys_updated_on>
         <url/>
@@ -3141,11 +3141,11 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_on>2021-01-05 20:51:54</sys_created_on>
         <sys_id>829c1ddd1ba1e410c4a4a9362a4bcbb8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ed9c1ddd1ba1e410c4a4a9362a4bcb10_error_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:51:54</sys_updated_on>
         <url/>
@@ -3162,7 +3162,6 @@ outputs.payload = JSON.stringify(payload);
             <language>en</language>
             <name>var__m_sys_hub_action_output_ed9c1ddd1ba1e410c4a4a9362a4bcb10</name>
             <sequence>0</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-05 20:51:54</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3182,7 +3181,6 @@ outputs.payload = JSON.stringify(payload);
             <language>en</language>
             <name>var__m_sys_hub_action_output_ed9c1ddd1ba1e410c4a4a9362a4bcb10</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-05 20:51:54</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -3198,17 +3196,17 @@ outputs.payload = JSON.stringify(payload);
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Add Customers">ed9c1ddd1ba1e410c4a4a9362a4bcb10</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"66dd5d111be1e410c4a4a9362a4bcb9a","name":"plan"}}</plan>
-        <snapshot>5b94c9e71b6de810c4a4a9362a4bcb55</snapshot>
+        <snapshot>606b17c81bb56c10c4a4a9362a4bcb5b</snapshot>
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>66dd5d111be1e410c4a4a9362a4bcb9a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-12 18:53:34</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:15</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3260,7 +3258,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:21</sys_updated_on>
         <value/>
-        <variable display_value="Status">f5dd1d111be1e410c4a4a9362a4bcbc5</variable>
+        <variable display_value="">f5dd1d111be1e410c4a4a9362a4bcbc5</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=91dd1d111be1e410c4a4a9362a4bcb4b"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3304,10 +3302,10 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:18</sys_created_on>
         <sys_id>19dd1d111be1e410c4a4a9362a4bcb5c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:11</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=19dd1d111be1e410c4a4a9362a4bcb5c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3318,17 +3316,17 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:19</sys_created_on>
         <sys_id>19dd1d111be1e410c4a4a9362a4bcb7b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:11</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-outputs.service_desk_id = inputs.service_desk_id.trim();
+  outputs.service_desk_id = inputs.service_desk_id.trim();
   var payload= {};
   payload["accountIds"]= inputs.account_ids;
-outputs.payload = JSON.stringify(payload);
+  outputs.payload = JSON.stringify(payload);
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3342,7 +3340,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=19dd1d111be1e410c4a4a9362a4bcb5c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -3593,7 +3591,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Payload</label>
+        <label>payload</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">19dd1d111be1e410c4a4a9362a4bcb5c</model>
@@ -3619,14 +3617,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:19</sys_created_on>
         <sys_id>11dd1d111be1e410c4a4a9362a4bcb6c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3674,7 +3672,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">19dd1d111be1e410c4a4a9362a4bcb5c</model>
@@ -3700,14 +3698,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:19</sys_created_on>
         <sys_id>d9dd1d111be1e410c4a4a9362a4bcb72</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3753,7 +3751,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3767,7 +3765,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3781,7 +3779,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3795,7 +3793,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3809,7 +3807,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>post</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3823,7 +3821,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3837,7 +3835,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3851,7 +3849,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1ddd1d111be1e410c4a4a9362a4bcb7e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4090,7 +4088,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:20</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4115,7 +4113,7 @@ outputs.payload = JSON.stringify(payload);
         outputs.status = "Error";
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a1dd1d111be1e410c4a4a9362a4bcb97"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -4459,7 +4457,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Handle Errors">a1dd1d111be1e410c4a4a9362a4bcb97</model>
@@ -4485,14 +4483,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:20</sys_created_on>
         <sys_id>65dd1d111be1e410c4a4a9362a4bcbac</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:20</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4540,7 +4538,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error</label>
+        <label>error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">a1dd1d111be1e410c4a4a9362a4bcb97</model>
@@ -4566,14 +4564,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:20</sys_created_on>
         <sys_id>f5dd1d111be1e410c4a4a9362a4bcbb8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:20</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4671,7 +4669,7 @@ outputs.payload = JSON.stringify(payload);
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=User Account,child_name=user_account,child_type=string,child_type_label=String,child_uiUniqueId=c19b0eea-1889-466a-83aa-fb9444a6573e,co_type_name=FD33940de7896de8105b15a07b3cca2c0c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=8335f922-29ff-49e4-8163-5df056a21f4a</attributes>
+        <attributes>child_label=User Account,child_name=user_account,child_type=string,child_type_label=String,child_uiUniqueId=731db2da-70f1-4095-8855-b8b250d968f6,co_type_name=FDc56b57c8d4b56c10ce7123d86a6b7f36,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=8335f922-29ff-49e4-8163-5df056a21f4a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4729,14 +4727,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:18</sys_created_on>
         <sys_id>5ddd1d111be1e410c4a4a9362a4bcb54</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-12 18:53:30</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4932,10 +4930,10 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:18</sys_created_on>
         <sys_id>19dd1d111be1e410c4a4a9362a4bcb5c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:11</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=19dd1d111be1e410c4a4a9362a4bcb5c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4946,17 +4944,17 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:19</sys_created_on>
         <sys_id>19dd1d111be1e410c4a4a9362a4bcb7b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:11</sys_updated_on>
         <value>(function execute(inputs, outputs) {
-outputs.service_desk_id = inputs.service_desk_id.trim();
+  outputs.service_desk_id = inputs.service_desk_id.trim();
   var payload= {};
   payload["accountIds"]= inputs.account_ids;
-outputs.payload = JSON.stringify(payload);
+  outputs.payload = JSON.stringify(payload);
 })(inputs, outputs);
 </value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -4970,7 +4968,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=19dd1d111be1e410c4a4a9362a4bcb5c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5221,7 +5219,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Payload</label>
+        <label>payload</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">19dd1d111be1e410c4a4a9362a4bcb5c</model>
@@ -5247,14 +5245,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:19</sys_created_on>
         <sys_id>11dd1d111be1e410c4a4a9362a4bcb6c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5302,7 +5300,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Service Desk ID</label>
+        <label>service_desk_id</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre Processing">19dd1d111be1e410c4a4a9362a4bcb5c</model>
@@ -5328,14 +5326,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:19</sys_created_on>
         <sys_id>d9dd1d111be1e410c4a4a9362a4bcb72</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5381,7 +5379,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>{"type":"ADV_NV","value":[]}</value>
-        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5395,7 +5393,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
-        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5409,7 +5407,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5423,7 +5421,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>d3b336301b952810c4a4a9362a4bcb96</value>
-        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5437,7 +5435,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>post</value>
-        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5451,7 +5449,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>https://ihubtest023.atlassian.net/</value>
-        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5465,7 +5463,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>18409d8007482000dada43c0d1021e8f</value>
-        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5479,7 +5477,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:19</sys_updated_on>
         <value>ef751ff07301330025d71afe2ff6a7f9</value>
-        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1ddd1d111be1e410c4a4a9362a4bcb7e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -5718,7 +5716,7 @@ outputs.payload = JSON.stringify(payload);
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:20</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5743,7 +5741,7 @@ outputs.payload = JSON.stringify(payload);
         outputs.status = "Error";
     }
 })(inputs, outputs);</value>
-        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a1dd1d111be1e410c4a4a9362a4bcb97"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -6087,7 +6085,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Handle Errors">a1dd1d111be1e410c4a4a9362a4bcb97</model>
@@ -6113,14 +6111,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:20</sys_created_on>
         <sys_id>65dd1d111be1e410c4a4a9362a4bcbac</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:20</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6168,7 +6166,7 @@ outputs.payload = JSON.stringify(payload);
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error</label>
+        <label>error</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Handle Errors">a1dd1d111be1e410c4a4a9362a4bcb97</model>
@@ -6194,14 +6192,14 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2021-01-05 20:57:20</sys_created_on>
         <sys_id>f5dd1d111be1e410c4a4a9362a4bcbb8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-05 20:57:20</sys_updated_on>
+        <sys_updated_on>2021-01-14 19:09:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6227,11 +6225,11 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_on>2021-01-05 20:57:18</sys_created_on>
         <sys_id>95dd1d111be1e410c4a4a9362a4bcb53</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Desk ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_91dd1d111be1e410c4a4a9362a4bcb4b_service_desk_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:18</sys_updated_on>
         <url/>
@@ -6250,11 +6248,11 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_on>2021-01-05 20:57:18</sys_created_on>
         <sys_id>d9dd1d111be1e410c4a4a9362a4bcb59</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>User Account IDs</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_91dd1d111be1e410c4a4a9362a4bcb4b_account_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-12 18:52:09</sys_updated_on>
         <url/>
@@ -6274,11 +6272,11 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_on>2021-01-05 20:57:21</sys_created_on>
         <sys_id>b1dd1d111be1e410c4a4a9362a4bcbd0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91dd1d111be1e410c4a4a9362a4bcb4b_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:21</sys_updated_on>
         <url/>
@@ -6297,11 +6295,11 @@ outputs.payload = JSON.stringify(payload);
         <sys_created_on>2021-01-05 20:57:21</sys_created_on>
         <sys_id>b1dd1d111be1e410c4a4a9362a4bcbd6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error</sys_name>
+        <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91dd1d111be1e410c4a4a9362a4bcb4b_error_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 20:57:21</sys_updated_on>
         <url/>
@@ -6318,7 +6316,6 @@ outputs.payload = JSON.stringify(payload);
             <language>en</language>
             <name>var__m_sys_hub_action_output_91dd1d111be1e410c4a4a9362a4bcb4b</name>
             <sequence>0</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-05 20:57:20</sys_created_on>
             <sys_domain>global</sys_domain>
@@ -6338,7 +6335,6 @@ outputs.payload = JSON.stringify(payload);
             <language>en</language>
             <name>var__m_sys_hub_action_output_91dd1d111be1e410c4a4a9362a4bcb4b</name>
             <sequence>1</sequence>
-            <synonyms/>
             <sys_created_by>ankit.singh@snc</sys_created_by>
             <sys_created_on>2021-01-05 20:57:21</sys_created_on>
             <sys_domain>global</sys_domain>
