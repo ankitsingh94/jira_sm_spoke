@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD7f66ff5e2431a050db5ffc201f84f4a3</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>dc9a0a5c1bd1e410c4a4a9362a4bcb64</scope_name>
+        <serialized_content>{"FlowDesigner:FD7f66ff5e2431a050db5ffc201f84f4a3":{"$COCollectionField":[{"service_desk":{"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Service Desks\",\"mandatory\":\"false\",\"child_name\":\"service_desk\",\"uiUniqueId\":\"7bf2764f-f8fa-420c-97f0-37a63f25ea06\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD7f66ff5e2431a050db5ffc201f84f4a3\",\"child_label\":\"Service Desk\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"13\",\"max_length\":\"0\",\"child_uiUniqueId\":\"93b25a53-40ae-475e-8458-cf89414a9634\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD7f66ff5e2431a050db5ffc201f84f4a3.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Service Desks\",\"mandatory\":\"false\",\"child_name\":\"service_desk\",\"uiUniqueId\":\"7bf2764f-f8fa-420c-97f0-37a63f25ea06\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD7f66ff5e2431a050db5ffc201f84f4a3\",\"child_label\":\"Service Desk\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"13\",\"max_length\":\"0\",\"child_uiUniqueId\":\"93b25a53-40ae-475e-8458-cf89414a9634\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-01-21 20:53:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3366ff5e1b31a050c4a4a9362a4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD7f66ff5e2431a050db5ffc201f84f4a3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name>sys_complex_object_3366ff5e1b31a050c4a4a9362a4bcba4</sys_update_name>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-01-21 20:53:39</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>look_up_issues_in_queue</internal_name>
         <label_cache>[{"name":"{{action.service_desk_id}}","label":"action➛Service Desk ID","type":"action","ref":""},{"name":"{{action.queue_id}}","label":"action➛Queue ID","type":"action","ref":""},{"name":"{{action.limit}}","label":"action➛Page Size","type":"action","ref":""},{"name":"{{step[5ab63ed8-8591-4f03-b3aa-b383526fa390].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[5ab63ed8-8591-4f03-b3aa-b383526fa390].start}}","label":"step➛Script step➛Start","type":"step","ref":""},{"name":"{{step[543f5613-d971-412e-82a9-17539a1ac7bf].nextLink}}","label":"step➛Pagination Setup step➛nextLink","type":"step","ref":""},{"name":"{{step[543f5613-d971-412e-82a9-17539a1ac7bf].response}}","label":"step➛Pagination Setup step➛response","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>2f2c534c1bb56c10c4a4a9362a4bcb76</latest_snapshot>
+        <latest_snapshot>f70a91f91b06a010c4a4a9362a4bcb48</latest_snapshot>
         <master_snapshot>a78c86971bd1e010c4a4a9362a4bcb17</master_snapshot>
         <name>Look up Issues in Queue</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>985786931bd1e010c4a4a9362a4bcb6c</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>Look up Issues in Queue</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_985786931bd1e010c4a4a9362a4bcb6c</sys_update_name>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:43</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:17</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1119,12 +1119,12 @@
         <value>0</value>
         <variable display_value="">c9cda8d677032300efb691572b10611c</variable>
     </sys_variable_value>
-    <sys_hub_action_input action="delete_multiple" query="model=985786931bd1e010c4a4a9362a4bcb6c^sys_idNOT INa2874a931bd1e010c4a4a9362a4bcb62,aa874a931bd1e010c4a4a9362a4bcb6e,ea874a931bd1e010c4a4a9362a4bcb68"/>
+    <sys_hub_action_input action="delete_multiple" query="model=985786931bd1e010c4a4a9362a4bcb6c^sys_idNOT IN9e0a11f91b06a010c4a4a9362a4bcbd2,aa874a931bd1e010c4a4a9362a4bcb6e,ea874a931bd1e010c4a4a9362a4bcb68"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1dd3df6c-1e92-4f1e-8c13-833fc65228ab</attributes>
+        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1dd3df6c-1e92-4f1e-8c13-833fc65228ab</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1132,7 +1132,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label/>
@@ -1155,7 +1155,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <label>Service Desk ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
@@ -1180,8 +1180,8 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>ankit.singh@snc</sys_created_by>
-        <sys_created_on>2020-12-30 18:51:40</sys_created_on>
-        <sys_id>a2874a931bd1e010c4a4a9362a4bcb62</sys_id>
+        <sys_created_on>2021-02-01 06:29:05</sys_created_on>
+        <sys_id>9e0a11f91b06a010c4a4a9362a4bcbd2</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -1189,7 +1189,7 @@
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-30 18:53:16</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1201,6 +1201,19 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9e0a11f91b06a010c4a4a9362a4bcbd2^sys_idNOT IN5e0a11f91b06a010c4a4a9362a4bcbdb"/>
+    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
+        <action_input display_value="">9e0a11f91b06a010c4a4a9362a4bcbd2</action_input>
+        <action_inputs/>
+        <action_type display_value="Look Up Service Desk IDs (Metadata)">140aab8c1b066450c4a4a9362a4bcbee</action_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-02-01 06:29:05</sys_created_on>
+        <sys_id>5e0a11f91b06a010c4a4a9362a4bcbdb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-02-01 06:29:05</sys_updated_on>
+    </sys_hub_action_input_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5e0a11f91b06a010c4a4a9362a4bcbdb"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1428,14 +1441,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 18:50:57</sys_created_on>
         <sys_id>3757c6931bd1e010c4a4a9362a4bcb7f</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:33</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1594,14 +1607,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 18:50:57</sys_created_on>
         <sys_id>7357c6931bd1e010c4a4a9362a4bcb91</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:33</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1677,14 +1690,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 18:50:57</sys_created_on>
         <sys_id>7757c6931bd1e010c4a4a9362a4bcb79</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:33</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1843,14 +1856,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 18:50:57</sys_created_on>
         <sys_id>b357c6931bd1e010c4a4a9362a4bcb8b</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:33</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2258,14 +2271,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 18:50:57</sys_created_on>
         <sys_id>f357c6931bd1e010c4a4a9362a4bcb85</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:33</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3352,30 +3365,7 @@
         <value>0</value>
         <variable display_value="">c9cda8d677032300efb691572b10611c</variable>
     </sys_variable_value>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_985786931bd1e010c4a4a9362a4bcb6c^sys_idNOT IN26874a931bd1e010c4a4a9362a4bcb67,a2874a931bd1e010c4a4a9362a4bcb73,e2874a931bd1e010c4a4a9362a4bcb6d"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>service_desk_id</element>
-        <help/>
-        <hint/>
-        <label>Service Desk ID</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_985786931bd1e010c4a4a9362a4bcb6c</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>ankit.singh@snc</sys_created_by>
-        <sys_created_on>2020-12-30 18:51:41</sys_created_on>
-        <sys_id>26874a931bd1e010c4a4a9362a4bcb67</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-30 18:51:41</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_985786931bd1e010c4a4a9362a4bcb6c^sys_idNOT INa2874a931bd1e010c4a4a9362a4bcb73,d60a11f91b06a010c4a4a9362a4bcbda,e2874a931bd1e010c4a4a9362a4bcb6d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>limit</element>
         <help/>
@@ -3396,6 +3386,29 @@
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
         <sys_updated_on>2021-01-05 18:48:42</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>service_desk_id</element>
+        <help/>
+        <hint/>
+        <label>Service Desk ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_985786931bd1e010c4a4a9362a4bcb6c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-02-01 06:29:05</sys_created_on>
+        <sys_id>d60a11f91b06a010c4a4a9362a4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-02-01 06:29:05</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -3703,17 +3716,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Look up Issues in Queue">985786931bd1e010c4a4a9362a4bcb6c</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"359c0a971bd1e010c4a4a9362a4bcb0c","name":"plan"}}</plan>
-        <snapshot>2f2c534c1bb56c10c4a4a9362a4bcb76</snapshot>
+        <snapshot>f70a91f91b06a010c4a4a9362a4bcb48</snapshot>
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:13:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>359c0a971bd1e010c4a4a9362a4bcb0c</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:47</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:21</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3817,10 +3830,10 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:13:40</sys_created_on>
         <sys_id>e49cc6971bd1e010c4a4a9362a4bcb16</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:43</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD3c3c934c92b56c105965939b3ad396bc":{"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"fields":{"summary":"String","summary.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Summary\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"reporter":{"accountId":"String","accountId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Account ID\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"emailAddress":"String","emailAddress.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Email Address\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"displayName":"String","displayName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Display Name\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"accountType":"String","accountType.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Account Type\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"active":"String","active.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Active\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"self":"String","self.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Self\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"timeZone":"String","timeZone.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Time Zone\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"}},"reporter.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Reporter\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"status":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"self":"String","self.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Self\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"statusCategory":{"colorName":"String","colorName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Color Name\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"key":"String","key.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Key\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"statusCategory.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Status Category\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"}},"status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}},"fields.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Fields\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"key":"String","key.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Key\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD3c3c934c92b56c105965939b3ad396bc.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD3c3c934c92b56c105965939b3ad396bc\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Issues\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"425829f3-fe24-446a-8832-57603adfb705\"}"}},"complexObject":{"id":{"$cv":{"$c":"java.lang.String","$v":""}},"fields":{"name$":"fields","summary":{"$cv":{"$c":"java.lang.String","$v":""}},"reporter":{"name$":"reporter","accountId":{"$cv":{"$c":"java.lang.String","$v":""}},"emailAddress":{"$cv":{"$c":"java.lang.String","$v":""}},"displayName":{"$cv":{"$c":"java.lang.String","$v":""}},"accountType":{"$cv":{"$c":"java.lang.String","$v":""}},"active":{"$cv":{"$c":"java.lang.String","$v":""}},"self":{"$cv":{"$c":"java.lang.String","$v":""}},"timeZone":{"$cv":{"$c":"java.lang.String","$v":""}}},"status":{"name$":"status","name":{"$cv":{"$c":"java.lang.String","$v":""}},"description":{"$cv":{"$c":"java.lang.String","$v":""}},"self":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"statusCategory":{"name$":"statusCategory","colorName":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"key":{"$cv":{"$c":"java.lang.String","$v":""}}}}},"key":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_updated_on>2021-02-01 06:29:17</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD3c1ad1f93706a01057caf66262929d7c":{"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"fields":{"summary":"String","summary.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Summary\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"reporter":{"accountId":"String","accountId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Account ID\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"emailAddress":"String","emailAddress.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Email Address\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"displayName":"String","displayName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Display Name\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"accountType":"String","accountType.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Account Type\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"active":"String","active.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Active\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"self":"String","self.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Self\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"timeZone":"String","timeZone.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Time Zone\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"}},"reporter.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Reporter\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"status":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"self":"String","self.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Self\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"statusCategory":{"colorName":"String","colorName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Color Name\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ID\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"key":"String","key.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Key\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"statusCategory.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Status Category\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"}},"status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Status\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"}},"fields.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Fields\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"key":"String","key.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Key\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD3c1ad1f93706a01057caf66262929d7c.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD3c1ad1f93706a01057caf66262929d7c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Issues\",\"mandatory\":\"false\",\"order\":\"12\",\"max_length\":\"65000\",\"uiUniqueId\":\"425829f3-fe24-446a-8832-57603adfb705\"}"}},"complexObject":{"id":{"$cv":{"$c":"java.lang.String","$v":""}},"fields":{"name$":"fields","summary":{"$cv":{"$c":"java.lang.String","$v":""}},"reporter":{"name$":"reporter","accountId":{"$cv":{"$c":"java.lang.String","$v":""}},"emailAddress":{"$cv":{"$c":"java.lang.String","$v":""}},"displayName":{"$cv":{"$c":"java.lang.String","$v":""}},"accountType":{"$cv":{"$c":"java.lang.String","$v":""}},"active":{"$cv":{"$c":"java.lang.String","$v":""}},"self":{"$cv":{"$c":"java.lang.String","$v":""}},"timeZone":{"$cv":{"$c":"java.lang.String","$v":""}}},"status":{"name$":"status","name":{"$cv":{"$c":"java.lang.String","$v":""}},"description":{"$cv":{"$c":"java.lang.String","$v":""}},"self":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"statusCategory":{"name$":"statusCategory","colorName":{"$cv":{"$c":"java.lang.String","$v":""}},"name":{"$cv":{"$c":"java.lang.String","$v":""}},"id":{"$cv":{"$c":"java.lang.String","$v":""}},"key":{"$cv":{"$c":"java.lang.String","$v":""}}}}},"key":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
         <variable display_value="">909c86971bd1e010c4a4a9362a4bcbf4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=a78c86971bd1e010c4a4a9362a4bcb17"/>
@@ -4936,12 +4949,12 @@
         <value>rest_step</value>
         <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
-    <sys_hub_action_input action="delete_multiple" query="model=a78c86971bd1e010c4a4a9362a4bcb17^sys_idNOT INa78c86971bd1e010c4a4a9362a4bcb18,bf8c86971bd1e010c4a4a9362a4bcb24,ff8c86971bd1e010c4a4a9362a4bcb1e"/>
+    <sys_hub_action_input action="delete_multiple" query="model=a78c86971bd1e010c4a4a9362a4bcb17^sys_idNOT IN3c1ad1f91b06a010c4a4a9362a4bcb2f,bf8c86971bd1e010c4a4a9362a4bcb24,ff8c86971bd1e010c4a4a9362a4bcb1e"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1dd3df6c-1e92-4f1e-8c13-833fc65228ab</attributes>
+        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1dd3df6c-1e92-4f1e-8c13-833fc65228ab</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4949,7 +4962,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label/>
@@ -4972,7 +4985,7 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <label>Service Desk ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
@@ -4997,8 +5010,8 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_action_input</sys_class_name>
         <sys_created_by>ankit.singh@snc</sys_created_by>
-        <sys_created_on>2020-12-30 19:13:36</sys_created_on>
-        <sys_id>a78c86971bd1e010c4a4a9362a4bcb18</sys_id>
+        <sys_created_on>2021-02-01 06:29:15</sys_created_on>
+        <sys_id>3c1ad1f91b06a010c4a4a9362a4bcb2f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -5006,7 +5019,7 @@
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-30 19:13:36</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5018,6 +5031,19 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3c1ad1f91b06a010c4a4a9362a4bcb2f^sys_idNOT INb81ad1f91b06a010c4a4a9362a4bcb44"/>
+    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
+        <action_input display_value="">3c1ad1f91b06a010c4a4a9362a4bcb2f</action_input>
+        <action_inputs/>
+        <action_type display_value="Look Up Service Desk IDs (Metadata)">140aab8c1b066450c4a4a9362a4bcbee</action_type>
+        <sys_created_by>ankit.singh@snc</sys_created_by>
+        <sys_created_on>2021-02-01 06:29:15</sys_created_on>
+        <sys_id>b81ad1f91b06a010c4a4a9362a4bcb44</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>ankit.singh@snc</sys_updated_by>
+        <sys_updated_on>2021-02-01 06:29:15</sys_updated_on>
+    </sys_hub_action_input_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b81ad1f91b06a010c4a4a9362a4bcb44"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -5245,14 +5271,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:13:39</sys_created_on>
         <sys_id>149c86971bd1e010c4a4a9362a4bcbe8</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:43</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5494,14 +5520,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:13:39</sys_created_on>
         <sys_id>549c86971bd1e010c4a4a9362a4bcbe2</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:43</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5766,7 +5792,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD3c3c934c92b56c105965939b3ad396bc,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=425829f3-fe24-446a-8832-57603adfb705</attributes>
+        <attributes>co_type_name=FD3c1ad1f93706a01057caf66262929d7c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=425829f3-fe24-446a-8832-57603adfb705</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5826,14 +5852,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:13:39</sys_created_on>
         <sys_id>909c86971bd1e010c4a4a9362a4bcbf4</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:43</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5909,14 +5935,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:13:39</sys_created_on>
         <sys_id>949c86971bd1e010c4a4a9362a4bcbdc</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:43</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6075,14 +6101,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:13:39</sys_created_on>
         <sys_id>d09c86971bd1e010c4a4a9362a4bcbee</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:43</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6158,14 +6184,14 @@
         <sys_created_by>ankit.singh@snc</sys_created_by>
         <sys_created_on>2020-12-30 19:13:39</sys_created_on>
         <sys_id>d49c86971bd1e010c4a4a9362a4bcbd6</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2021-01-14 19:12:43</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7169,7 +7195,7 @@
         <value>rest_step</value>
         <variable display_value="">d61d64d677032300efb691572b10611a</variable>
     </sys_variable_value>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a78c86971bd1e010c4a4a9362a4bcb17^sys_idNOT IN3b8c86971bd1e010c4a4a9362a4bcb1d,b78c86971bd1e010c4a4a9362a4bcb29,f78c86971bd1e010c4a4a9362a4bcb23"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a78c86971bd1e010c4a4a9362a4bcb17^sys_idNOT IN7c1ad1f91b06a010c4a4a9362a4bcb36,b78c86971bd1e010c4a4a9362a4bcb29,f78c86971bd1e010c4a4a9362a4bcb23"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>service_desk_id</element>
         <help/>
@@ -7180,8 +7206,8 @@
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>ankit.singh@snc</sys_created_by>
-        <sys_created_on>2020-12-30 19:13:36</sys_created_on>
-        <sys_id>3b8c86971bd1e010c4a4a9362a4bcb1d</sys_id>
+        <sys_created_on>2021-02-01 06:29:15</sys_created_on>
+        <sys_id>7c1ad1f91b06a010c4a4a9362a4bcb36</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Jira Service Management Spoke" source="x_snc_jira_service">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_package>
@@ -7189,7 +7215,7 @@
         <sys_scope display_value="Jira Service Management Spoke">dc9a0a5c1bd1e410c4a4a9362a4bcb64</sys_scope>
         <sys_update_name/>
         <sys_updated_by>ankit.singh@snc</sys_updated_by>
-        <sys_updated_on>2020-12-30 19:13:36</sys_updated_on>
+        <sys_updated_on>2021-02-01 06:29:15</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -7239,6 +7265,28 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a78c86971bd1e010c4a4a9362a4bcb17^sys_idNOT IN381ad1f91b06a010c4a4a9362a4bcb33"/>
+    <sys_choice field="service_desk_id" table="var__m_sys_hub_action_input_a78c86971bd1e010c4a4a9362a4bcb17">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>service_desk_id</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_a78c86971bd1e010c4a4a9362a4bcb17</name>
+            <sequence>0</sequence>
+            <sys_created_by>ankit.singh@snc</sys_created_by>
+            <sys_created_on>2021-02-01 06:29:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>381ad1f91b06a010c4a4a9362a4bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ankit.singh@snc</sys_updated_by>
+            <sys_updated_on>2021-02-01 06:29:15</sys_updated_on>
+            <value/>
+        </sys_choice>
+    </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a78c86971bd1e010c4a4a9362a4bcb17^sys_idNOT IN109c86971bd1e010c4a4a9362a4bcbd5,1c9c86971bd1e010c4a4a9362a4bcbec,509c86971bd1e010c4a4a9362a4bcbcf,549c86971bd1e010c4a4a9362a4bcbaa,5c9c86971bd1e010c4a4a9362a4bcbe6,909c86971bd1e010c4a4a9362a4bcbc9,949c86971bd1e010c4a4a9362a4bcba4,9c9c86971bd1e010c4a4a9362a4bcbe0,c49c86971bd1e010c4a4a9362a4bcb9e,d89c86971bd1e010c4a4a9362a4bcbf2,d89c86971bd1e010c4a4a9362a4bcbf8,dc9c86971bd1e010c4a4a9362a4bcbda"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>ds_output_page_variables</element>
